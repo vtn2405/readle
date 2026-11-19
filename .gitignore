@@ -1,0 +1,20 @@
+.env
+.env.*
+!.env.example
+pipeline/.cache/
+# pipeline/out: chỉ commit file người duyệt sửa tay (nguồn), bỏ qua sản phẩm sinh ra
+pipeline/out/*/*
+!pipeline/out/*/normalized_sections.json
+!pipeline/out/*/overrides.json
+!pipeline/out/*/structure.json
+!pipeline/out/*/prompt_pin.json
+# sources: ảnh/PDF bài báo gốc có bản quyền, chỉ giữ trên máy; README liệt kê nguồn
+sources/*
+!sources/README.md
+__pycache__/
+*.pyc
+.venv/
+app/build/
+app/.dart_tool/
+supabase/.temp/
+app/env/*.json

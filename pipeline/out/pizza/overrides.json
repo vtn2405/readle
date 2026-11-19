@@ -1,0 +1,311 @@
+{
+  "required_items": [
+    "in moderation",
+    "high in",
+    "ingredient",
+    "inexpensive",
+    "crust",
+    "arrival",
+    "a variety of",
+    "preheat",
+    "be topped with",
+    "be popular with"
+  ],
+  "excluded_items": [
+    "serve",
+    "frozen",
+    "variety",
+    "preheat oven"
+  ],
+  "key_ideas": {
+    "2": "In 18th-century Italy, pizza was a cheap flat bread without toppings.",
+    "4": "Neapolitan pizza comes in two forms: the Marinara and the Margherita.",
+    "12": "You can make your own pizza at home with pita bread."
+  },
+  "quiz": {
+    "1": {
+      "type": "true_false",
+      "question": "Most Europeans thought tomatoes were poisonous.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0,
+      "explanation": "Bài viết nói rằng đa số người châu Âu nghĩ rằng cà chua có độc."
+    },
+    "2": {
+      "type": "multiple_choice",
+      "question": "Which of these is a traditional Neapolitan pizza?",
+      "options": [
+        "Marinara",
+        "Hawaiian",
+        "Chicago deep dish",
+        "Calzone"
+      ],
+      "answer_index": 0,
+      "explanation": "Bài viết nêu Marinara là một trong hai loại pizza Neapolitan truyền thống."
+    },
+    "3": {
+      "type": "true_false",
+      "question": "Pizza first came to North America in the 1950s.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1,
+      "explanation": "Bài viết nói pizza đến Bắc Mỹ cùng người nhập cư Ý vào cuối thế kỷ 19; những năm 1950 là lúc pizza trở nên phổ biến."
+    }
+  },
+  "lexicon": {
+    "crust": {
+      "extra_example": "I like the crust on this bread."
+    },
+    "be topped with": {
+      "extra_example": "The cake was topped with fresh fruit.",
+      "vi": "được phủ lên trên (bằng)"
+    }
+  },
+  "meanings": [
+    {
+      "section_order": 1,
+      "text": "been",
+      "vi": "đã"
+    },
+    {
+      "section_order": 1,
+      "text": "which",
+      "vi": "điều đó"
+    },
+    {
+      "section_order": 1,
+      "text": "were",
+      "vi": "được"
+    },
+    {
+      "section_order": 1,
+      "text": "Greeks",
+      "vi": "người Hy Lạp"
+    },
+    {
+      "section_order": 3,
+      "text": "caught",
+      "vi": "trở nên phổ biến"
+    },
+    {
+      "section_order": 3,
+      "text": "on",
+      "nth": 2,
+      "vi": "trở nên phổ biến"
+    },
+    {
+      "section_order": 2,
+      "text": "century",
+      "vi": "thế kỷ"
+    },
+    {
+      "section_order": 6,
+      "text": "just",
+      "vi": "chỉ"
+    },
+    {
+      "section_order": 6,
+      "text": "also",
+      "vi": "cũng"
+    },
+    {
+      "section_order": 6,
+      "text": "were",
+      "nth": 2,
+      "vi": "được"
+    },
+    {
+      "section_order": 7,
+      "text": "is",
+      "nth": 1,
+      "vi": "được"
+    },
+    {
+      "section_order": 7,
+      "text": "are",
+      "nth": 1,
+      "vi": "được"
+    },
+    {
+      "section_order": 9,
+      "text": "are",
+      "nth": 1,
+      "vi": "có"
+    },
+    {
+      "section_order": 9,
+      "text": "is",
+      "nth": 1,
+      "vi": "được"
+    },
+    {
+      "section_order": 9,
+      "text": "is",
+      "nth": 2,
+      "vi": "được"
+    },
+    {
+      "section_order": 9,
+      "text": "is",
+      "nth": 3,
+      "vi": "được"
+    },
+    {
+      "section_order": 9,
+      "text": "is",
+      "nth": 4,
+      "vi": "được"
+    },
+    {
+      "section_order": 9,
+      "text": "is",
+      "nth": 5,
+      "vi": "được"
+    },
+    {
+      "section_order": 9,
+      "text": "is",
+      "nth": 6,
+      "vi": "được"
+    },
+    {
+      "section_order": 5,
+      "text": "Italian",
+      "nth": 1,
+      "vi": "Ý"
+    },
+    {
+      "section_order": 5,
+      "text": "Italian",
+      "nth": 2,
+      "vi": "Ý"
+    },
+    {
+      "section_order": 8,
+      "text": "pepperoni",
+      "vi": "xúc xích pepperoni"
+    },
+    {
+      "section_order": 8,
+      "text": "anchovies",
+      "vi": "cá cơm"
+    },
+    {
+      "section_order": 8,
+      "text": "paneer",
+      "vi": "phô mai paneer"
+    },
+    {
+      "section_order": 8,
+      "text": "eel",
+      "vi": "lươn"
+    },
+    {
+      "section_order": 8,
+      "text": "squid",
+      "vi": "mực"
+    },
+    {
+      "section_order": 8,
+      "text": "sardines",
+      "vi": "cá mòi"
+    },
+    {
+      "section_order": 8,
+      "text": "tuna",
+      "vi": "cá ngừ"
+    },
+    {
+      "section_order": 8,
+      "text": "mackerel",
+      "vi": "cá thu"
+    },
+    {
+      "section_order": 8,
+      "text": "salmon",
+      "vi": "cá hồi"
+    },
+    {
+      "section_order": 8,
+      "text": "herring",
+      "vi": "cá trích"
+    },
+    {
+      "section_order": 8,
+      "text": "Curry",
+      "vi": "cà ri"
+    },
+    {
+      "section_order": 8,
+      "text": "Coconut",
+      "vi": "dừa"
+    },
+    {
+      "section_order": 9,
+      "text": "ripieno",
+      "vi": "nhồi nhân"
+    },
+    {
+      "section_order": 9,
+      "text": "dish",
+      "vi": "khay (bánh nướng khay sâu)"
+    },
+    {
+      "section_order": 9,
+      "text": "toppings",
+      "vi": "lớp phủ"
+    },
+    {
+      "section_order": 9,
+      "text": "does",
+      "vi": "không"
+    },
+    {
+      "section_order": 9,
+      "text": "Hawaiian",
+      "vi": "kiểu Hawaii"
+    },
+    {
+      "section_order": 11,
+      "text": "is",
+      "nth": 1,
+      "vi": "được"
+    },
+    {
+      "section_order": 11,
+      "text": "that",
+      "vi": "mà"
+    },
+    {
+      "section_order": 2,
+      "text": "toppings",
+      "vi": "lớp phủ"
+    },
+    {
+      "section_order": 8,
+      "text": "mockba",
+      "vi": "Mát-xcơ-va (tên pizza)"
+    },
+    {
+      "section_order": 10,
+      "text": "toppings",
+      "vi": "lớp phủ"
+    },
+    {
+      "section_order": 12,
+      "text": "toppings",
+      "nth": 1,
+      "vi": "lớp phủ"
+    },
+    {
+      "section_order": 12,
+      "text": "toppings",
+      "nth": 2,
+      "vi": "lớp phủ"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "_note": "IPA viết tay dùng chung mọi bài (BE-06e2): thắng CMUdict. Khóa = từ hoặc cụm viết thường (token tra theo lemma rồi theo chữ). Giọng Mỹ, không dấu dài. Nguồn: người dùng duyệt run #38.",
+  "entries": {
+    "cultivator": "/ˈkʌltəˌveɪtɚ/",
+    "emu": "/ˈimju/",
+    "emus": "/ˈimjuz/",
+    "unplanted": "/ʌnˈplæntɪd/",
+    "unworked": "/ʌnˈwɝkt/",
+    "reservoir": "/ˈrɛzɚˌvwɑr/",
+    "intelligence": "/ɪnˈtɛlədʒəns/",
+    "artificial intelligence": "/ˌɑrtəˈfɪʃəl ɪnˈtɛlədʒəns/",
+    "heavy-lift": "/ˈhɛviˌlɪft/",
+    "heavy-lift rocket": "/ˈhɛviˌlɪft ˈrɑkət/",
+    "chatbot": "/ˈtʃætˌbɑt/",
+    "chatbots": "/ˈtʃætˌbɑts/",
+    "preheat": "/ˌpriˈhit/",
+    "calzone": "/kælˈzoʊn/",
+    "marinara": "/ˌmɛrəˈnɛrə/",
+    "paneer": "/pəˈnɪr/"
+  }
+}

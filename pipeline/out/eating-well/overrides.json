@@ -1,0 +1,54 @@
+{
+  "required_items": [
+    "play a vital role in",
+    "in moderation",
+    "eat out",
+    "whole grains",
+    "reduce the risk of",
+    "good source of",
+    "high in",
+    "healthy eating habits",
+    "nutritional value",
+    "high blood pressure"
+  ],
+  "excluded_items": [
+    "saturated and trans fats",
+    "breakfast",
+    "fiber",
+    "antioxidants",
+    "an apple a day"
+  ],
+  "meanings": [
+    {
+      "section_order": 5,
+      "text": "Serve",
+      "vi": "dọn món, cho ăn"
+    },
+    {
+      "section_order": 5,
+      "text": "chicken",
+      "vi": "thịt gà"
+    },
+    {
+      "section_order": 5,
+      "text": "no",
+      "vi": "không có"
+    },
+    {
+      "section_order": 7,
+      "text": "glycogen",
+      "vi": "glycogen (chất dự trữ năng lượng trong cơ)"
+    }
+  ],
+  "lexicon": {
+    "whole grains": {
+      "definition_en": "grains that keep all parts of the seed, so they are healthier"
+    },
+    "high blood pressure": {
+      "definition_en": "a health problem when blood pushes too strongly through your body"
+    }
+  },
+  "drop_items": [
+    "nutritional value"
+  ]
+}

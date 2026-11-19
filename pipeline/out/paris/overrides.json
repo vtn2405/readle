@@ -1,0 +1,167 @@
+{
+  "required_items": [
+    "home to",
+    "trace one's roots to",
+    "be located",
+    "nickname",
+    "commute",
+    "cherish",
+    "fine dining",
+    "speak one's mind",
+    "fond of",
+    "accessible",
+    "make an effort",
+    "date back to"
+  ],
+  "excluded_items": [
+    "trace its roots to",
+    "locate",
+    "studio",
+    "electricity",
+    "dress down",
+    "fond",
+    "historic",
+    "tourist destination",
+    "repaint"
+  ],
+  "key_ideas": {
+    "1": "Paris got its name from old settlers and its nicknames from its lights and romance.",
+    "2": "Paris has 2.34 million people and very old symbols.",
+    "4": "The Eiffel Tower is tall and heavy, and it moves in the wind and sun.",
+    "6": "The Bastille fell in 1789, and Bastille Day is still celebrated."
+  },
+  "quiz": {
+    "1": {
+      "type": "true_false",
+      "question": "The Eiffel Tower was completed in 1889.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0,
+      "explanation": "Bài viết nói rằng việc xây dựng Tháp Eiffel bắt đầu năm 1887 và kết thúc năm 1889."
+    },
+    "2": {
+      "type": "true_false",
+      "question": "Parisians are sometimes thought to be rude because they say what they think.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0,
+      "explanation": "Bài viết: người Paris thích nói thẳng suy nghĩ (\"speak their minds\"), điều này đôi khi bị hiểu lầm là thô lỗ (\"misunderstood as rudeness\"), nên câu đúng (True)."
+    },
+    "3": {
+      "type": "true_false_ng",
+      "question": "Most Parisians own a car.",
+      "options": [
+        "True",
+        "False",
+        "Not Given"
+      ],
+      "answer_index": 2,
+      "explanation": "Bài viết không nói gì về tỉ lệ sở hữu ôtô giữa người Paris."
+    }
+  },
+  "meanings": [
+    {
+      "section_order": 1,
+      "text": "than",
+      "vi": "hơn"
+    },
+    {
+      "section_order": 3,
+      "text": "than",
+      "vi": "hơn"
+    },
+    {
+      "section_order": 3,
+      "text": "as",
+      "vi": "là"
+    },
+    {
+      "section_order": 3,
+      "text": "to",
+      "vi": "để",
+      "nth": 2
+    },
+    {
+      "section_order": 3,
+      "text": "be",
+      "vi": "được",
+      "nth": 2
+    },
+    {
+      "section_order": 4,
+      "text": "This",
+      "vi": "này"
+    },
+    {
+      "section_order": 4,
+      "text": "been",
+      "vi": "được"
+    },
+    {
+      "section_order": 4,
+      "text": "as",
+      "vi": "tới",
+      "nth": 1
+    },
+    {
+      "section_order": 4,
+      "text": "as",
+      "vi": "như",
+      "nth": 2
+    },
+    {
+      "section_order": 4,
+      "text": "by",
+      "vi": "bằng"
+    },
+    {
+      "section_order": 5,
+      "text": "de",
+      "vi": "của"
+    },
+    {
+      "section_order": 5,
+      "text": "distribute",
+      "vi": "phân tán"
+    },
+    {
+      "section_order": 7,
+      "text": "been",
+      "vi": "được"
+    },
+    {
+      "section_order": 7,
+      "text": "than",
+      "vi": "hơn"
+    },
+    {
+      "section_order": 7,
+      "text": "was",
+      "vi": "được"
+    },
+    {
+      "section_order": 8,
+      "text": "that",
+      "vi": "mà"
+    },
+    {
+      "section_order": 8,
+      "text": "did",
+      "vi": "không"
+    },
+    {
+      "section_order": 9,
+      "text": "been",
+      "vi": "đã"
+    }
+  ],
+  "lexicon": {
+    "home to": {
+      "definition_en": "the place where something exists or can be found"
+    }
+  }
+}

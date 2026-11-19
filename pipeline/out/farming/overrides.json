@@ -1,0 +1,42 @@
+{
+  "title": "Farming",
+  "required_items": [
+    "food supply",
+    "growing demand for",
+    "irrigation",
+    "cereal crops",
+    "plant crops",
+    "dairy farm",
+    "pest",
+    "fertilizer",
+    "arable farm",
+    "poultry farm",
+    "fresh produce",
+    "domesticate animals",
+    "crop failure"
+  ],
+  "excluded_items": [
+    "air transport",
+    "harvesting machine",
+    "no-till technique",
+    "subsistence farmer"
+  ],
+  "key_ideas": {
+    "2": "There are many types of farms, each growing or raising different things."
+  },
+  "meanings": [
+    {
+      "section_order": 1,
+      "text": "made",
+      "vi": "làm cho"
+    },
+    {
+      "section_order": 5,
+      "text": "response",
+      "vi": "đáp ứng"
+    }
+  ],
+  "drop_items": [
+    "poultry farm"
+  ]
+}

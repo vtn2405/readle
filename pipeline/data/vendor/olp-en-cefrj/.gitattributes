@@ -1,0 +1,2 @@
+# Giữ nguyên byte (sha256 trong SOURCE.md), không đổi LF → CRLF khi checkout.
+* -text

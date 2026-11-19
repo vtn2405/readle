@@ -1,0 +1,13 @@
+spacy>=3.7
+pydantic>=2
+instructor>=1.0
+openai>=1.0
+pymupdf>=1.24
+# OCR cuc bo: bat buoc cho `extract crosscheck` (ADR-011), cung dung cho fallback `extract ocr` (ADR-008/009)
+paddlepaddle>=3.0
+paddleocr[doc-parser]>=3.0
+python-dotenv>=1.0
+tenacity>=8.0
+supabase>=2.0
+pytest>=8.0
+cmudict>=1.0  # IPA bang code (ADR-010)

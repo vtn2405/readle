@@ -1,0 +1,85 @@
+{
+  "draft_contract_version": "1.5",
+  "samples": [
+    {
+      "case": "fresh",
+      "section_id": "local_3f6c2a1e-8b4d-4c7a-9e21-5d0b7a6c4f18_s0",
+      "token_i": 67,
+      "request": {
+        "sentence": "Libraries don't only lend books.",
+        "word": "lend",
+        "lemma": "lend",
+        "occurrence": 0
+      },
+      "response": {
+        "status": 200,
+        "body": {
+          "vi": "cho mượn",
+          "lemma": "lend",
+          "pos": "VERB",
+          "cached": false,
+          "lookup_key": "3f7448f790a873e279ed8682d208b6aabe0899e6cdcd327c18ce126e966b3623"
+        }
+      },
+      "event": {
+        "event_type": "lookup_requested",
+        "payload": {
+          "hit": "miss",
+          "result": "ok"
+        }
+      }
+    },
+    {
+      "case": "cached",
+      "section_id": "local_3f6c2a1e-8b4d-4c7a-9e21-5d0b7a6c4f18_s1",
+      "token_i": 30,
+      "request": {
+        "sentence": "She helps visitors fill in forms, find jobs and learn new skills — and she never asks them to pay.",
+        "word": "fill",
+        "lemma": "fill",
+        "occurrence": 0
+      },
+      "response": {
+        "status": 200,
+        "body": {
+          "vi": "điền (vào mẫu đơn)",
+          "lemma": "fill",
+          "pos": "VERB",
+          "cached": true,
+          "lookup_key": "080d1c54f5f602a8a1e16345c56ae1ddc94cd19156d9ae5365806fccff1b6032"
+        }
+      },
+      "event": {
+        "event_type": "lookup_requested",
+        "payload": {
+          "hit": "server",
+          "result": "ok"
+        }
+      }
+    },
+    {
+      "case": "capped_user",
+      "section_id": "local_3f6c2a1e-8b4d-4c7a-9e21-5d0b7a6c4f18_s1",
+      "token_i": 7,
+      "request": {
+        "sentence": "Librarians say the most important thing is trust.",
+        "word": "trust",
+        "lemma": "trust",
+        "occurrence": 0
+      },
+      "response": {
+        "status": 429,
+        "body": {
+          "error": "capped_user"
+        }
+      },
+      "event": {
+        "event_type": "lookup_requested",
+        "payload": {
+          "hit": "miss",
+          "result": "capped_user"
+        }
+      }
+    }
+  ]
+}

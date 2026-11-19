@@ -1,0 +1,1669 @@
+{
+  "contract_version": "1.4",
+  "article": {
+    "id": "art_eating_well",
+    "title": "Eating Well",
+    "category": "Health & Nutrition",
+    "cefr_level": "A2",
+    "source": {
+      "name": "World of Wonder",
+      "is_graded": false
+    },
+    "word_count": 95,
+    "section_count": 2
+  },
+  "sections": [
+    {
+      "id": "sec_ew_1",
+      "order_index": 0,
+      "title": "Eating well",
+      "icon_hint": "salad",
+      "tokens": [
+        {
+          "i": 0,
+          "text": "Eating",
+          "ws": " ",
+          "lemma": "eat",
+          "pos": "VERB",
+          "is_word": true,
+          "is_fn": false,
+          "vi": "việc ăn uống",
+          "ipa": "/it/"
+        },
+        {
+          "i": 1,
+          "text": "well",
+          "ws": " ",
+          "lemma": "well",
+          "pos": "ADV",
+          "is_word": true,
+          "is_fn": false,
+          "vi": "tốt, lành mạnh",
+          "ipa": "/wɛl/"
+        },
+        {
+          "i": 2,
+          "text": "plays",
+          "ws": " ",
+          "lemma": "play",
+          "pos": "VERB",
+          "is_word": true,
+          "is_fn": false,
+          "vi": "đóng (vai trò)",
+          "ipa": "/pleɪ/"
+        },
+        {
+          "i": 3,
+          "text": "a",
+          "ws": " ",
+          "lemma": "a",
+          "pos": "DET",
+          "is_word": true,
+          "is_fn": true,
+          "vi": "một",
+          "ipa": "/ə/"
+        },
+        {
+          "i": 4,
+          "text": "vital",
+          "ws": " ",
+          "lemma": "vital",
+          "pos": "ADJ",
+          "is_word": true,
+          "is_fn": false,
+          "vi": "quan trọng, thiết yếu",
+          "ipa": "/ˈvaɪtəl/"
+        },
+        {
+          "i": 5,
+          "text": "role",
+          "ws": " ",
+          "lemma": "role",
+          "pos": "NOUN",
+          "is_word": true,
+          "is_fn": false,
+          "vi": "vai trò",
+          "ipa": "/roʊl/"
+        },
+        {
+          "i": 6,
+          "text": "in",
+          "ws": " ",
+          "lemma": "in",
+          "pos": "ADP",
+          "is_word": true,
+          "is_fn": true,
+          "vi": "trong",
+          "ipa": "/ɪn/"
+        },
+        {
+          "i": 7,
+          "text": "good",
+          "ws": " ",
+          "lemma": "good",
+          "pos": "ADJ",
+          "is_word": true,
+          "is_fn": false,
+          "vi": "tốt",
+          "ipa": "/ɡʊd/"
+        },
+        {
+          "i": 8,
+          "text": "health",
+          "ws": " ",
+          "lemma": "health",
+          "pos": "NOUN",
+          "is_word": true,
+          "is_fn": false,
+          "vi": "sức khỏe",
+          "ipa": "/hɛlθ/"
+        },
+        {
+          "i": 9,
+          "text": "and",
+          "ws": " ",
+          "lemma": "and",
+          "pos": "CCONJ",
+          "is_word": true,
+          "is_fn": true,
+          "vi": "và",
+          "ipa": "/ənd/"
+        },
+        {
+          "i": 10,
+          "text": "disease",
+          "ws": " ",
+          "lemma": "disease",
+          "pos": "NOUN",
+          "is_word": true,
+          "is_fn": false,
+          "vi": "bệnh tật",
+          "ipa": "/dɪˈziz/"
+        },
+        {
+          "i": 11,
+          "text": "prevention",
+          "ws": "",
+          "lemma": "prevention",
+          "pos": "NOUN",
+          "is_word": true,
+          "is_fn": false,
+          "vi": "sự phòng ngừa",
+          "ipa": "/priˈvɛnʃən/"
+        },
+        {
+          "i": 12,
+          "text": ".",
+          "ws": " ",
+          "lemma": ".",
+          "pos": "PUNCT",
+          "is_word": false,
+          "is_fn": false,
+          "vi": null,
+          "ipa": null
+        },
+        {
+          "i": 13,
+          "text": "Eating",
+          "ws": " ",
+          "lemma": "eat",
+          "pos": "VERB",
+          "is_word": true,
+          "is_fn": false,
+          "vi": "ăn",
+          "ipa": "/it/"
+        },
+        {
+          "i": 14,
+          "text": "lots",
+          "ws": " ",
+          "lemma": "lot",
+          "pos": "NOUN",
+          "is_word": true,
+          "is_fn": false,
+          "vi": "nhiều",
+          "ipa": "/lɑt/"
+        },
+        {
+          "i": 15,
+          "text": "of",
+          "ws": " ",
+          "lemma": "of",
+          "pos": "ADP",
+          "is_word": true,
+          "is_fn": true,
+          "vi": "của",
+          "ipa": "/ʌv/"
+        },
+        {
+          "i": 16,
+          "text": "fruits",
+          "ws": " ",
+          "lemma": "fruit",
+          "pos": "NOUN",
+          "is_word": true,
+          "is_fn": false,
+          "vi": "trái cây",
+          "ipa": "/frut/"
+        },
+        {
+          "i": 17,
+          "text": "and",
+          "ws": " ",
+          "lemma": "and",
+          "pos": "CCONJ",
+          "is_word": true,
+          "is_fn": true,
+          "vi": "và",
+          "ipa": "/ənd/"
+        },
+        {
+          "i": 18,
+          "text": "vegetables",
+          "ws": " ",
+          "lemma": "vegetable",
+          "pos": "NOUN",
+          "is_word": true,
+          "is_fn": false,
+          "vi": "rau củ",
+          "ipa": "/ˈvɛdʒtəbəl/"
+        },
+        {
+          "i": 19,
+          "text": "is",
+          "ws": " ",
+          "lemma": "be",
+          "pos": "AUX",
+          "is_word": true,
+          "is_fn": true,
+          "vi": "là",
+          "ipa": "/bi/"
+        },
+        {
+          "i": 20,
+          "text": "one",
+          "ws": " ",
+          "lemma": "one",
+          "pos": "NUM",
+          "is_word": true,
+          "is_fn": false,
+          "vi": "một",
+          "ipa": "/wʌn/"
+        },
+        {
+          "i": 21,
+          "text": "of",
+          "ws": " ",
+          "lemma": "of",
+          "pos": "ADP",
+          "is_word": true,
+          "is_fn": true,
+          "vi": "trong số",
+          "ipa": "/ʌv/"
+        },
+        {
+          "i": 22,
+          "text": "the",
+          "ws": " ",
+          "lemma": "the",
+          "pos": "DET",
+          "is_word": true,
+          "is_fn": true,
+          "vi": "(mạo từ xác định)",
+          "ipa": "/ðə/"
+        },
+        {
+          "i": 23,
+          "text": "easiest",
+          "ws": " ",
+          "lemma": "easy",
+          "pos": "ADJ",
+          "is_word": true,
+          "is_fn": false,
+          "vi": "dễ nhất",
+          "ipa": "/ˈizi/"
+        },
+        {
+          "i": 24,
+          "text": "and",
+          "ws": " ",
+          "lemma": "and",
+          "pos": "CCONJ",
+          "is_word": true,
+          "is_fn": true,
+          "vi": "và",
+          "ipa": "/ənd/"
+        },
+        {
+          "i": 25,
+          "text": "most",
+          "ws": " ",
+          "lemma": "most",
+          "pos": "ADV",
+          "is_word": true,
+          "is_fn": false,
+          "vi": "nhất",
+          "ipa": "/moʊst/"
+        },
+        {
+          "i": 26,
+          "text": "delicious",
+          "ws": " ",
+          "lemma": "delicious",
+          "pos": "ADJ",
+          "is_word": true,
+          "is_fn": false,
+          "vi": "ngon",
+          "ipa": "/dɪˈlɪʃəs/"
+        },
+        {
+          "i": 27,
+          "text": "ways",
+          "ws": " ",
+          "lemma": "way",
+          "pos": "NOUN",
+          "is_word": true,
+          "is_fn": false,
+          "vi": "cách",
+          "ipa": "/weɪ/"
+        },
+        {
+          "i": 28,
+          "text": "to",
+          "ws": " ",
+          "lemma": "to",
+          "pos": "PART",
+          "is_word": true,
+          "is_fn": true,
+          "vi": "để",
+          "ipa": "/tu/"
+        },
+        {
+          "i": 29,
+          "text": "eat",
+          "ws": " ",
+          "lemma": "eat",
+          "pos": "VERB",
+          "is_word": true,
+          "is_fn": false,
+          "vi": "ăn",
+          "ipa": "/it/"
+        },
+        {
+          "i": 30,
+          "text": "healthy",
+          "ws": "",
+          "lemma": "healthy",
+          "pos": "ADJ",
+          "is_word": true,
+          "is_fn": false,
+          "vi": "lành mạnh",
+          "ipa": "/ˈhɛlθi/"
+        },
+        {
+          "i": 31,
+          "text": ".",
+          "ws": " ",
+          "lemma": ".",
+          "pos": "PUNCT",
+          "is_word": false,
+          "is_fn": false,
+          "vi": null,
+          "ipa": null
+        },
+        {
+          "i": 32,
+          "text": "Choosing",
+          "ws": " ",
+          "lemma": "choose",
+          "pos": "VERB",
+          "is_word": true,
+          "is_fn": false,
+          "vi": "việc chọn",
+          "ipa": "/tʃuz/"
+        },
+        {
+          "i": 33,
+          "text": "food",
+          "ws": " ",
+          "lemma": "food",
+          "pos": "NOUN",
+          "is_word": true,
+          "is_fn": false,
+          "vi": "thức ăn",
+          "ipa": "/fud/"
+        },
+        {
+          "i": 34,
+          "text": "that",
+          "ws": " ",
+          "lemma": "that",
+          "pos": "PRON",
+          "is_word": true,
+          "is_fn": true,
+          "vi": "mà",
+          "ipa": "/ðæt/"
+        },
+        {
+          "i": 35,
+          "text": "is",
+          "ws": " ",
+          "lemma": "be",
+          "pos": "AUX",
+          "is_word": true,
+          "is_fn": true,
+          "vi": "thì",
+          "ipa": "/bi/"
+        },
+        {
+          "i": 36,
+          "text": "close",
+          "ws": " ",
+          "lemma": "close",
+          "pos": "ADJ",
+          "is_word": true,
+          "is_fn": false,
+          "vi": "gần",
+          "ipa": "/kloʊs/"
+        },
+        {
+          "i": 37,
+          "text": "to",
+          "ws": " ",
+          "lemma": "to",
+          "pos": "ADP",
+          "is_word": true,
+          "is_fn": true,
+          "vi": "với",
+          "ipa": "/tu/"
+        },
+        {
+          "i": 38,
+          "text": "its",
+          "ws": " ",
+          "lemma": "its",
+          "pos": "PRON",
+          "is_word": true,
+          "is_fn": true,
+          "vi": "của nó",
+          "ipa": "/ɪts/"
+        },
+        {
+          "i": 39,
+          "text": "natural",
+          "ws": " ",
+          "lemma": "natural",
+          "pos": "ADJ",
+          "is_word": true,
+          "is_fn": false,
+          "vi": "tự nhiên",
+          "ipa": "/ˈnætʃərəl/"
+        },
+        {
+          "i": 40,
+          "text": "form",
+          "ws": " ",
+          "lemma": "form",
+          "pos": "NOUN",
+          "is_word": true,
+          "is_fn": false,
+          "vi": "dạng, hình thái",
+          "ipa": "/fɔrm/"
+        },
+        {
+          "i": 41,
+          "text": "and",
+          "ws": " ",
+          "lemma": "and",
+          "pos": "CCONJ",
+          "is_word": true,
+          "is_fn": true,
+          "vi": "và",
+          "ipa": "/ənd/"
+        },
+        {
+          "i": 42,
+          "text": "not",
+          "ws": " ",
+          "lemma": "not",
+          "pos": "PART",
+          "is_word": true,
+          "is_fn": true,
+          "vi": "không",
+          "ipa": "/nɑt/"
+        },
+        {
+          "i": 43,
+          "text": "overly",
+          "ws": " ",
+          "lemma": "overly",
+          "pos": "ADV",
+          "is_word": true,
+          "is_fn": false,
+          "vi": "quá mức",
+          "ipa": "/ˈoʊvɚli/"
+        },
+        {
+          "i": 44,
+          "text": "processed",
+          "ws": " ",
+          "lemma": "process",
+          "pos": "VERB",
+          "is_word": true,
+          "is_fn": false,
+          "vi": "được chế biến",
+          "ipa": "/ˈprɑˌsɛs/"
+        },
+        {
+          "i": 45,
+          "text": "is",
+          "ws": " ",
+          "lemma": "be",
+          "pos": "AUX",
+          "is_word": true,
+          "is_fn": true,
+          "vi": "là",
+          "ipa": "/bi/"
+        },
+        {
+          "i": 46,
+          "text": "best",
+          "ws": " ",
+          "lemma": "good",
+          "pos": "ADJ",
+          "is_word": true,
+          "is_fn": false,
+          "vi": "tốt nhất",
+          "ipa": "/ɡʊd/"
+        },
+        {
+          "i": 47,
+          "text": "practice",
+          "ws": "",
+          "lemma": "practice",
+          "pos": "NOUN",
+          "is_word": true,
+          "is_fn": false,
+          "vi": "cách làm, thói quen",
+          "ipa": "/ˈpræktəs/"
+        },
+        {
+          "i": 48,
+          "text": ".",
+          "ws": " ",
+          "lemma": ".",
+          "pos": "PUNCT",
+          "is_word": false,
+          "is_fn": false,
+          "vi": null,
+          "ipa": null
+        },
+        {
+          "i": 49,
+          "text": "Restaurant",
+          "ws": " ",
+          "lemma": "restaurant",
+          "pos": "NOUN",
+          "is_word": true,
+          "is_fn": false,
+          "vi": "nhà hàng",
+          "ipa": "/ˈrɛstəˌrɑnt/"
+        },
+        {
+          "i": 50,
+          "text": "and",
+          "ws": " ",
+          "lemma": "and",
+          "pos": "CCONJ",
+          "is_word": true,
+          "is_fn": true,
+          "vi": "và",
+          "ipa": "/ənd/"
+        },
+        {
+          "i": 51,
+          "text": "takeout",
+          "ws": " ",
+          "lemma": "takeout",
+          "pos": "ADJ",
+          "is_word": true,
+          "is_fn": false,
+          "vi": "mang đi",
+          "ipa": "/ˈteɪˌkaʊt/"
+        },
+        {
+          "i": 52,
+          "text": "meals",
+          "ws": " ",
+          "lemma": "meal",
+          "pos": "NOUN",
+          "is_word": true,
+          "is_fn": false,
+          "vi": "bữa ăn",
+          "ipa": "/mil/"
+        },
+        {
+          "i": 53,
+          "text": "tend",
+          "ws": " ",
+          "lemma": "tend",
+          "pos": "VERB",
+          "is_word": true,
+          "is_fn": false,
+          "vi": "có xu hướng",
+          "ipa": "/tɛnd/"
+        },
+        {
+          "i": 54,
+          "text": "to",
+          "ws": " ",
+          "lemma": "to",
+          "pos": "PART",
+          "is_word": true,
+          "is_fn": true,
+          "vi": "(đi với 'tend')",
+          "ipa": "/tu/"
+        },
+        {
+          "i": 55,
+          "text": "have",
+          "ws": " ",
+          "lemma": "have",
+          "pos": "VERB",
+          "is_word": true,
+          "is_fn": false,
+          "vi": "có",
+          "ipa": "/hæv/"
+        },
+        {
+          "i": 56,
+          "text": "more",
+          "ws": " ",
+          "lemma": "more",
+          "pos": "ADV",
+          "is_word": true,
+          "is_fn": false,
+          "vi": "nhiều hơn",
+          "ipa": "/mɔr/"
+        },
+        {
+          "i": 57,
+          "text": "added",
+          "ws": " ",
+          "lemma": "add",
+          "pos": "VERB",
+          "is_word": true,
+          "is_fn": false,
+          "vi": "được thêm vào",
+          "ipa": "/æd/"
+        },
+        {
+          "i": 58,
+          "text": "salt",
+          "ws": "",
+          "lemma": "salt",
+          "pos": "NOUN",
+          "is_word": true,
+          "is_fn": false,
+          "vi": "muối",
+          "ipa": "/sɔlt/"
+        },
+        {
+          "i": 59,
+          "text": ",",
+          "ws": " ",
+          "lemma": ",",
+          "pos": "PUNCT",
+          "is_word": false,
+          "is_fn": false,
+          "vi": null,
+          "ipa": null
+        },
+        {
+          "i": 60,
+          "text": "sugar",
+          "ws": " ",
+          "lemma": "sugar",
+          "pos": "NOUN",
+          "is_word": true,
+          "is_fn": false,
+          "vi": "đường",
+          "ipa": "/ˈʃʊɡɚ/"
+        },
+        {
+          "i": 61,
+          "text": "and",
+          "ws": " ",
+          "lemma": "and",
+          "pos": "CCONJ",
+          "is_word": true,
+          "is_fn": true,
+          "vi": "và",
+          "ipa": "/ənd/"
+        },
+        {
+          "i": 62,
+          "text": "fat",
+          "ws": "",
+          "lemma": "fat",
+          "pos": "NOUN",
+          "is_word": true,
+          "is_fn": false,
+          "vi": "chất béo",
+          "ipa": "/fæt/"
+        },
+        {
+          "i": 63,
+          "text": ",",
+          "ws": " ",
+          "lemma": ",",
+          "pos": "PUNCT",
+          "is_word": false,
+          "is_fn": false,
+          "vi": null,
+          "ipa": null
+        },
+        {
+          "i": 64,
+          "text": "so",
+          "ws": " ",
+          "lemma": "so",
+          "pos": "ADV",
+          "is_word": true,
+          "is_fn": false,
+          "vi": "vì vậy",
+          "ipa": "/soʊ/"
+        },
+        {
+          "i": 65,
+          "text": "eat",
+          "ws": " ",
+          "lemma": "eat",
+          "pos": "VERB",
+          "is_word": true,
+          "is_fn": false,
+          "vi": "ăn",
+          "ipa": "/it/"
+        },
+        {
+          "i": 66,
+          "text": "out",
+          "ws": " ",
+          "lemma": "out",
+          "pos": "ADP",
+          "is_word": true,
+          "is_fn": true,
+          "vi": "ra ngoài",
+          "ipa": "/aʊt/"
+        },
+        {
+          "i": 67,
+          "text": "in",
+          "ws": " ",
+          "lemma": "in",
+          "pos": "ADP",
+          "is_word": true,
+          "is_fn": true,
+          "vi": "trong",
+          "ipa": "/ɪn/"
+        },
+        {
+          "i": 68,
+          "text": "moderation",
+          "ws": "",
+          "lemma": "moderation",
+          "pos": "NOUN",
+          "is_word": true,
+          "is_fn": false,
+          "vi": "sự điều độ",
+          "ipa": "/ˌmɑdəˈreɪʃən/"
+        },
+        {
+          "i": 69,
+          "text": ".",
+          "ws": "",
+          "lemma": ".",
+          "pos": "PUNCT",
+          "is_word": false,
+          "is_fn": false,
+          "vi": null,
+          "ipa": null
+        }
+      ],
+      "key_idea": {
+        "text": "Healthy food helps your body, so eat restaurant food less often.",
+        "tokens": [
+          {
+            "i": 0,
+            "text": "Healthy",
+            "ws": " ",
+            "lemma": "healthy",
+            "pos": "ADJ",
+            "is_word": true,
+            "is_fn": false,
+            "vi": "lành mạnh",
+            "ipa": "/ˈhɛlθi/"
+          },
+          {
+            "i": 1,
+            "text": "food",
+            "ws": " ",
+            "lemma": "food",
+            "pos": "NOUN",
+            "is_word": true,
+            "is_fn": false,
+            "vi": "thức ăn",
+            "ipa": "/fud/"
+          },
+          {
+            "i": 2,
+            "text": "helps",
+            "ws": " ",
+            "lemma": "help",
+            "pos": "VERB",
+            "is_word": true,
+            "is_fn": false,
+            "vi": "giúp",
+            "ipa": "/hɛlp/"
+          },
+          {
+            "i": 3,
+            "text": "your",
+            "ws": " ",
+            "lemma": "your",
+            "pos": "PRON",
+            "is_word": true,
+            "is_fn": true,
+            "vi": "của bạn",
+            "ipa": "/jɔr/"
+          },
+          {
+            "i": 4,
+            "text": "body",
+            "ws": "",
+            "lemma": "body",
+            "pos": "NOUN",
+            "is_word": true,
+            "is_fn": false,
+            "vi": "cơ thể",
+            "ipa": "/ˈbɑdi/"
+          },
+          {
+            "i": 5,
+            "text": ",",
+            "ws": " ",
+            "lemma": ",",
+            "pos": "PUNCT",
+            "is_word": false,
+            "is_fn": false,
+            "vi": null,
+            "ipa": null
+          },
+          {
+            "i": 6,
+            "text": "so",
+            "ws": " ",
+            "lemma": "so",
+            "pos": "ADV",
+            "is_word": true,
+            "is_fn": false,
+            "vi": "vì vậy",
+            "ipa": "/soʊ/"
+          },
+          {
+            "i": 7,
+            "text": "eat",
+            "ws": " ",
+            "lemma": "eat",
+            "pos": "VERB",
+            "is_word": true,
+            "is_fn": false,
+            "vi": "ăn",
+            "ipa": "/it/"
+          },
+          {
+            "i": 8,
+            "text": "restaurant",
+            "ws": " ",
+            "lemma": "restaurant",
+            "pos": "NOUN",
+            "is_word": true,
+            "is_fn": false,
+            "vi": "nhà hàng",
+            "ipa": "/ˈrɛstəˌrɑnt/"
+          },
+          {
+            "i": 9,
+            "text": "food",
+            "ws": " ",
+            "lemma": "food",
+            "pos": "NOUN",
+            "is_word": true,
+            "is_fn": false,
+            "vi": "đồ ăn",
+            "ipa": "/fud/"
+          },
+          {
+            "i": 10,
+            "text": "less",
+            "ws": " ",
+            "lemma": "less",
+            "pos": "ADV",
+            "is_word": true,
+            "is_fn": false,
+            "vi": "ít hơn",
+            "ipa": "/lɛs/"
+          },
+          {
+            "i": 11,
+            "text": "often",
+            "ws": "",
+            "lemma": "often",
+            "pos": "ADV",
+            "is_word": true,
+            "is_fn": false,
+            "vi": "thường xuyên",
+            "ipa": "/ˈɔfən/"
+          },
+          {
+            "i": 12,
+            "text": ".",
+            "ws": "",
+            "lemma": ".",
+            "pos": "PUNCT",
+            "is_word": false,
+            "is_fn": false,
+            "vi": null,
+            "ipa": null
+          }
+        ]
+      },
+      "check": {
+        "question": "What kind of food does the text say is best to choose?",
+        "options": [
+          "Food close to its natural form",
+          "Food with more added salt",
+          "Takeout meals"
+        ],
+        "answer_index": 0,
+        "explanation": "Đoạn văn nói chọn thức ăn gần với dạng tự nhiên, không chế biến quá mức là tốt nhất."
+      }
+    },
+    {
+      "id": "sec_ew_2",
+      "order_index": 1,
+      "title": "Dark green veggies",
+      "icon_hint": "broccoli",
+      "tokens": [
+        {
+          "i": 0,
+          "text": "Broccoli",
+          "ws": " ",
+          "lemma": "Broccoli",
+          "pos": "NOUN",
+          "is_word": true,
+          "is_fn": false,
+          "vi": "bông cải xanh",
+          "ipa": "/ˈbrɑkəli/"
+        },
+        {
+          "i": 1,
+          "text": "and",
+          "ws": " ",
+          "lemma": "and",
+          "pos": "CCONJ",
+          "is_word": true,
+          "is_fn": true,
+          "vi": "và",
+          "ipa": "/ənd/"
+        },
+        {
+          "i": 2,
+          "text": "dark",
+          "ws": " ",
+          "lemma": "dark",
+          "pos": "ADJ",
+          "is_word": true,
+          "is_fn": false,
+          "vi": "sẫm, đậm",
+          "ipa": "/dɑrk/"
+        },
+        {
+          "i": 3,
+          "text": "green",
+          "ws": " ",
+          "lemma": "green",
+          "pos": "ADJ",
+          "is_word": true,
+          "is_fn": false,
+          "vi": "xanh lá",
+          "ipa": "/ɡrin/"
+        },
+        {
+          "i": 4,
+          "text": "leafy",
+          "ws": " ",
+          "lemma": "leafy",
+          "pos": "PROPN",
+          "is_word": true,
+          "is_fn": false,
+          "vi": "nhiều lá",
+          "ipa": "/ˈlifi/"
+        },
+        {
+          "i": 5,
+          "text": "vegetables",
+          "ws": "",
+          "lemma": "vegetable",
+          "pos": "NOUN",
+          "is_word": true,
+          "is_fn": false,
+          "vi": "rau",
+          "ipa": "/ˈvɛdʒtəbəl/"
+        },
+        {
+          "i": 6,
+          "text": ",",
+          "ws": " ",
+          "lemma": ",",
+          "pos": "PUNCT",
+          "is_word": false,
+          "is_fn": false,
+          "vi": null,
+          "ipa": null
+        },
+        {
+          "i": 7,
+          "text": "like",
+          "ws": " ",
+          "lemma": "like",
+          "pos": "ADP",
+          "is_word": true,
+          "is_fn": true,
+          "vi": "như",
+          "ipa": "/laɪk/"
+        },
+        {
+          "i": 8,
+          "text": "spinach",
+          "ws": " ",
+          "lemma": "spinach",
+          "pos": "NOUN",
+          "is_word": true,
+          "is_fn": false,
+          "vi": "rau chân vịt",
+          "ipa": "/ˈspɪnətʃ/"
+        },
+        {
+          "i": 9,
+          "text": "and",
+          "ws": " ",
+          "lemma": "and",
+          "pos": "CCONJ",
+          "is_word": true,
+          "is_fn": true,
+          "vi": "và",
+          "ipa": "/ənd/"
+        },
+        {
+          "i": 10,
+          "text": "kale",
+          "ws": "",
+          "lemma": "kale",
+          "pos": "NOUN",
+          "is_word": true,
+          "is_fn": false,
+          "vi": "cải xoăn",
+          "ipa": "/keɪl/"
+        },
+        {
+          "i": 11,
+          "text": ",",
+          "ws": " ",
+          "lemma": ",",
+          "pos": "PUNCT",
+          "is_word": false,
+          "is_fn": false,
+          "vi": null,
+          "ipa": null
+        },
+        {
+          "i": 12,
+          "text": "are",
+          "ws": " ",
+          "lemma": "be",
+          "pos": "AUX",
+          "is_word": true,
+          "is_fn": true,
+          "vi": "là",
+          "ipa": "/bi/"
+        },
+        {
+          "i": 13,
+          "text": "excellent",
+          "ws": " ",
+          "lemma": "excellent",
+          "pos": "ADJ",
+          "is_word": true,
+          "is_fn": false,
+          "vi": "tuyệt vời, rất tốt",
+          "ipa": "/ˈɛksələnt/"
+        },
+        {
+          "i": 14,
+          "text": "sources",
+          "ws": " ",
+          "lemma": "source",
+          "pos": "NOUN",
+          "is_word": true,
+          "is_fn": false,
+          "vi": "nguồn",
+          "ipa": "/sɔrs/"
+        },
+        {
+          "i": 15,
+          "text": "of",
+          "ws": " ",
+          "lemma": "of",
+          "pos": "ADP",
+          "is_word": true,
+          "is_fn": true,
+          "vi": "của",
+          "ipa": "/ʌv/"
+        },
+        {
+          "i": 16,
+          "text": "fiber",
+          "ws": "",
+          "lemma": "fiber",
+          "pos": "NOUN",
+          "is_word": true,
+          "is_fn": false,
+          "vi": "chất xơ",
+          "ipa": "/ˈfaɪbɚ/"
+        },
+        {
+          "i": 17,
+          "text": ",",
+          "ws": " ",
+          "lemma": ",",
+          "pos": "PUNCT",
+          "is_word": false,
+          "is_fn": false,
+          "vi": null,
+          "ipa": null
+        },
+        {
+          "i": 18,
+          "text": "folate",
+          "ws": " ",
+          "lemma": "folate",
+          "pos": "NOUN",
+          "is_word": true,
+          "is_fn": false,
+          "vi": "folate (một loại vitamin B)",
+          "ipa": null
+        },
+        {
+          "i": 19,
+          "text": "and",
+          "ws": " ",
+          "lemma": "and",
+          "pos": "CCONJ",
+          "is_word": true,
+          "is_fn": true,
+          "vi": "và",
+          "ipa": "/ənd/"
+        },
+        {
+          "i": 20,
+          "text": "carotenoids",
+          "ws": "",
+          "lemma": "carotenoid",
+          "pos": "NOUN",
+          "is_word": true,
+          "is_fn": false,
+          "vi": "carotenoid (chất tạo màu vàng/cam)",
+          "ipa": null
+        },
+        {
+          "i": 21,
+          "text": ".",
+          "ws": " ",
+          "lemma": ".",
+          "pos": "PUNCT",
+          "is_word": false,
+          "is_fn": false,
+          "vi": null,
+          "ipa": null
+        },
+        {
+          "i": 22,
+          "text": "These",
+          "ws": " ",
+          "lemma": "these",
+          "pos": "DET",
+          "is_word": true,
+          "is_fn": true,
+          "vi": "những ... này",
+          "ipa": "/ðiz/"
+        },
+        {
+          "i": 23,
+          "text": "vegetables",
+          "ws": " ",
+          "lemma": "vegetable",
+          "pos": "NOUN",
+          "is_word": true,
+          "is_fn": false,
+          "vi": "rau củ",
+          "ipa": "/ˈvɛdʒtəbəl/"
+        },
+        {
+          "i": 24,
+          "text": "also",
+          "ws": " ",
+          "lemma": "also",
+          "pos": "ADV",
+          "is_word": true,
+          "is_fn": false,
+          "vi": "cũng",
+          "ipa": "/ˈɔlsoʊ/"
+        },
+        {
+          "i": 25,
+          "text": "contain",
+          "ws": " ",
+          "lemma": "contain",
+          "pos": "VERB",
+          "is_word": true,
+          "is_fn": false,
+          "vi": "chứa",
+          "ipa": "/kənˈteɪn/"
+        },
+        {
+          "i": 26,
+          "text": "vitamins",
+          "ws": " ",
+          "lemma": "vitamin",
+          "pos": "NOUN",
+          "is_word": true,
+          "is_fn": false,
+          "vi": "vitamin",
+          "ipa": "/ˈvaɪtəmən/"
+        },
+        {
+          "i": 27,
+          "text": "C",
+          "ws": " ",
+          "lemma": "C",
+          "pos": "PROPN",
+          "is_word": true,
+          "is_fn": false,
+          "vi": "C",
+          "ipa": "/si/"
+        },
+        {
+          "i": 28,
+          "text": "and",
+          "ws": " ",
+          "lemma": "and",
+          "pos": "CCONJ",
+          "is_word": true,
+          "is_fn": true,
+          "vi": "và",
+          "ipa": "/ənd/"
+        },
+        {
+          "i": 29,
+          "text": "K",
+          "ws": " ",
+          "lemma": "K",
+          "pos": "PROPN",
+          "is_word": true,
+          "is_fn": false,
+          "vi": "K",
+          "ipa": "/keɪ/"
+        },
+        {
+          "i": 30,
+          "text": "and",
+          "ws": " ",
+          "lemma": "and",
+          "pos": "CCONJ",
+          "is_word": true,
+          "is_fn": true,
+          "vi": "và",
+          "ipa": "/ənd/"
+        },
+        {
+          "i": 31,
+          "text": "minerals",
+          "ws": " ",
+          "lemma": "mineral",
+          "pos": "NOUN",
+          "is_word": true,
+          "is_fn": false,
+          "vi": "khoáng chất",
+          "ipa": "/ˈmɪnərəl/"
+        },
+        {
+          "i": 32,
+          "text": "iron",
+          "ws": " ",
+          "lemma": "iron",
+          "pos": "NOUN",
+          "is_word": true,
+          "is_fn": false,
+          "vi": "sắt",
+          "ipa": "/ˈaɪɚn/"
+        },
+        {
+          "i": 33,
+          "text": "and",
+          "ws": " ",
+          "lemma": "and",
+          "pos": "CCONJ",
+          "is_word": true,
+          "is_fn": true,
+          "vi": "và",
+          "ipa": "/ənd/"
+        },
+        {
+          "i": 34,
+          "text": "calcium",
+          "ws": "",
+          "lemma": "calcium",
+          "pos": "NOUN",
+          "is_word": true,
+          "is_fn": false,
+          "vi": "canxi",
+          "ipa": "/ˈkælsiəm/"
+        },
+        {
+          "i": 35,
+          "text": ".",
+          "ws": "",
+          "lemma": ".",
+          "pos": "PUNCT",
+          "is_word": false,
+          "is_fn": false,
+          "vi": null,
+          "ipa": null
+        }
+      ],
+      "key_idea": {
+        "text": "Dark green vegetables give your body many good things.",
+        "tokens": [
+          {
+            "i": 0,
+            "text": "Dark",
+            "ws": " ",
+            "lemma": "dark",
+            "pos": "ADJ",
+            "is_word": true,
+            "is_fn": false,
+            "vi": "sẫm",
+            "ipa": "/dɑrk/"
+          },
+          {
+            "i": 1,
+            "text": "green",
+            "ws": " ",
+            "lemma": "green",
+            "pos": "ADJ",
+            "is_word": true,
+            "is_fn": false,
+            "vi": "xanh lá",
+            "ipa": "/ɡrin/"
+          },
+          {
+            "i": 2,
+            "text": "vegetables",
+            "ws": " ",
+            "lemma": "vegetable",
+            "pos": "NOUN",
+            "is_word": true,
+            "is_fn": false,
+            "vi": "rau",
+            "ipa": "/ˈvɛdʒtəbəl/"
+          },
+          {
+            "i": 3,
+            "text": "give",
+            "ws": " ",
+            "lemma": "give",
+            "pos": "VERB",
+            "is_word": true,
+            "is_fn": false,
+            "vi": "mang lại",
+            "ipa": "/ɡɪv/"
+          },
+          {
+            "i": 4,
+            "text": "your",
+            "ws": " ",
+            "lemma": "your",
+            "pos": "PRON",
+            "is_word": true,
+            "is_fn": true,
+            "vi": "của bạn",
+            "ipa": "/jɔr/"
+          },
+          {
+            "i": 5,
+            "text": "body",
+            "ws": " ",
+            "lemma": "body",
+            "pos": "NOUN",
+            "is_word": true,
+            "is_fn": false,
+            "vi": "cơ thể",
+            "ipa": "/ˈbɑdi/"
+          },
+          {
+            "i": 6,
+            "text": "many",
+            "ws": " ",
+            "lemma": "many",
+            "pos": "ADJ",
+            "is_word": true,
+            "is_fn": false,
+            "vi": "nhiều",
+            "ipa": "/ˈmɛni/"
+          },
+          {
+            "i": 7,
+            "text": "good",
+            "ws": " ",
+            "lemma": "good",
+            "pos": "ADJ",
+            "is_word": true,
+            "is_fn": false,
+            "vi": "tốt",
+            "ipa": "/ɡʊd/"
+          },
+          {
+            "i": 8,
+            "text": "things",
+            "ws": "",
+            "lemma": "thing",
+            "pos": "NOUN",
+            "is_word": true,
+            "is_fn": false,
+            "vi": "thứ",
+            "ipa": "/θɪŋ/"
+          },
+          {
+            "i": 9,
+            "text": ".",
+            "ws": "",
+            "lemma": ".",
+            "pos": "PUNCT",
+            "is_word": false,
+            "is_fn": false,
+            "vi": null,
+            "ipa": null
+          }
+        ]
+      },
+      "check": null
+    }
+  ],
+  "lexicon": [
+    {
+      "id": "lex_play_vital_role_in",
+      "canonical_form": "play a vital role in",
+      "lemma_key": "play a vital role in",
+      "type": "collocation",
+      "pos": "Verb phrase",
+      "cefr_level": "B1",
+      "ipa": "/pleɪ ə ˈvaɪtəl roʊl ɪn/",
+      "definition_en": "to be very important in making something happen",
+      "extra_example": "Sleep plays a vital role in memory.",
+      "audio_url": null
+    },
+    {
+      "id": "lex_vital_role",
+      "canonical_form": "vital role",
+      "lemma_key": "vital role",
+      "type": "collocation",
+      "pos": "Noun phrase",
+      "cefr_level": "B1",
+      "ipa": "/ˈvaɪtəl roʊl/",
+      "definition_en": "a very important part or function",
+      "extra_example": "Teachers have a vital role in our lives.",
+      "audio_url": null
+    },
+    {
+      "id": "lex_tend_to",
+      "canonical_form": "tend to",
+      "lemma_key": "tend to",
+      "type": "collocation",
+      "pos": "Verb phrase",
+      "cefr_level": "B1",
+      "ipa": "/tɛnd tu/",
+      "definition_en": "to usually do or be something",
+      "extra_example": "Children tend to sleep more in winter.",
+      "audio_url": null
+    },
+    {
+      "id": "lex_in_moderation",
+      "canonical_form": "in moderation",
+      "lemma_key": "in moderation",
+      "type": "collocation",
+      "pos": "Adverb phrase",
+      "cefr_level": "B1",
+      "ipa": "/ɪn ˌmɑdəˈreɪʃən/",
+      "definition_en": "in reasonable amounts, not too much",
+      "extra_example": "Coffee is fine in moderation.",
+      "audio_url": null
+    },
+    {
+      "id": "lex_excellent_source_of",
+      "canonical_form": "excellent source of",
+      "lemma_key": "excellent source of",
+      "type": "collocation",
+      "pos": "Noun phrase",
+      "cefr_level": "B1",
+      "ipa": "/ˈɛksələnt sɔrs əv/",
+      "definition_en": "something that gives you a lot of a useful thing",
+      "extra_example": "Eggs are an excellent source of protein.",
+      "audio_url": null
+    },
+    {
+      "id": "lex_carotenoid",
+      "canonical_form": "carotenoid",
+      "lemma_key": "carotenoid",
+      "type": "single_word",
+      "pos": "Noun",
+      "cefr_level": "B2",
+      "ipa": "/kəˈrɑtənɔɪd/",
+      "definition_en": "a natural substance that gives yellow, orange or red colour to plants",
+      "extra_example": "Carrots are rich in carotenoids.",
+      "audio_url": null
+    }
+  ],
+  "occurrences": [
+    {
+      "id": "occ_ew_1",
+      "lexicon_entry_id": "lex_play_vital_role_in",
+      "section_id": "sec_ew_1",
+      "token_start": 2,
+      "token_end": 6,
+      "vi": "đóng vai trò quan trọng trong",
+      "example_sentence": "Eating well plays a vital role in good health and disease prevention.",
+      "cloze": {
+        "text_before": "Eating well ",
+        "answer": "plays a vital role in",
+        "text_after": " good health and disease prevention."
+      }
+    },
+    {
+      "id": "occ_ew_2",
+      "lexicon_entry_id": "lex_vital_role",
+      "section_id": "sec_ew_1",
+      "token_start": 4,
+      "token_end": 5,
+      "vi": "vai trò thiết yếu",
+      "example_sentence": "Eating well plays a vital role in good health and disease prevention.",
+      "cloze": {
+        "text_before": "Eating well plays a ",
+        "answer": "vital role",
+        "text_after": " in good health and disease prevention."
+      }
+    },
+    {
+      "id": "occ_ew_3",
+      "lexicon_entry_id": "lex_tend_to",
+      "section_id": "sec_ew_1",
+      "token_start": 53,
+      "token_end": 54,
+      "vi": "có xu hướng",
+      "example_sentence": "Restaurant and takeout meals tend to have more added salt, sugar and fat, so eat out in moderation.",
+      "cloze": {
+        "text_before": "Restaurant and takeout meals ",
+        "answer": "tend to",
+        "text_after": " have more added salt, sugar and fat, so eat out in moderation."
+      }
+    },
+    {
+      "id": "occ_ew_4",
+      "lexicon_entry_id": "lex_in_moderation",
+      "section_id": "sec_ew_1",
+      "token_start": 67,
+      "token_end": 68,
+      "vi": "có chừng mực, vừa phải",
+      "example_sentence": "Restaurant and takeout meals tend to have more added salt, sugar and fat, so eat out in moderation.",
+      "cloze": {
+        "text_before": "Restaurant and takeout meals tend to have more added salt, sugar and fat, so eat out ",
+        "answer": "in moderation",
+        "text_after": "."
+      }
+    },
+    {
+      "id": "occ_ew_5",
+      "lexicon_entry_id": "lex_excellent_source_of",
+      "section_id": "sec_ew_2",
+      "token_start": 13,
+      "token_end": 15,
+      "vi": "nguồn cung cấp dồi dào",
+      "example_sentence": "Broccoli and dark green leafy vegetables, like spinach and kale, are excellent sources of fiber, folate and carotenoids.",
+      "cloze": {
+        "text_before": "Broccoli and dark green leafy vegetables, like spinach and kale, are ",
+        "answer": "excellent sources of",
+        "text_after": " fiber, folate and carotenoids."
+      }
+    },
+    {
+      "id": "occ_ew_6",
+      "lexicon_entry_id": "lex_carotenoid",
+      "section_id": "sec_ew_2",
+      "token_start": 20,
+      "token_end": 20,
+      "vi": "carotenoid (hợp chất tạo màu vàng/cam trong rau quả)",
+      "example_sentence": "Broccoli and dark green leafy vegetables, like spinach and kale, are excellent sources of fiber, folate and carotenoids.",
+      "cloze": {
+        "text_before": "Broccoli and dark green leafy vegetables, like spinach and kale, are excellent sources of fiber, folate and ",
+        "answer": "carotenoids",
+        "text_after": "."
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q_ew_1",
+      "type": "true_false",
+      "question": "Restaurant meals often have more added salt and sugar.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 0,
+      "explanation": "Đoạn 1 nói đồ ăn nhà hàng và mang đi thường nhiều muối, đường và chất béo hơn."
+    },
+    {
+      "id": "q_ew_2",
+      "type": "multiple_choice",
+      "question": "What does the text call 'best practice'?",
+      "options": [
+        "Eating only fruit",
+        "Choosing food that is not overly processed",
+        "Eating out every day"
+      ],
+      "answer_index": 1,
+      "explanation": "Chọn thức ăn gần dạng tự nhiên, không chế biến quá mức."
+    },
+    {
+      "id": "q_ew_3",
+      "type": "true_false",
+      "question": "Broccoli and kale have no vitamins.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_index": 1,
+      "explanation": "Đoạn 2 nói các loại rau này chứa vitamin C và K."
+    }
+  ]
+}

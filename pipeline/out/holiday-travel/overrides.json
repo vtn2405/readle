@@ -1,0 +1,177 @@
+{
+  "meanings": [
+    {
+      "section_order": 2,
+      "text": "than",
+      "nth": 1,
+      "vi": "hơn"
+    },
+    {
+      "section_order": 2,
+      "text": "that",
+      "nth": 1,
+      "vi": "mà"
+    },
+    {
+      "section_order": 2,
+      "text": "that",
+      "nth": 2,
+      "vi": "mà"
+    },
+    {
+      "section_order": 2,
+      "text": "that",
+      "nth": 3,
+      "vi": "rằng"
+    },
+    {
+      "section_order": 2,
+      "text": "than",
+      "nth": 2,
+      "vi": "hơn"
+    },
+    {
+      "section_order": 3,
+      "text": "you",
+      "nth": 1,
+      "vi": "bạn"
+    },
+    {
+      "section_order": 4,
+      "text": "than",
+      "nth": 1,
+      "vi": "ngoài"
+    },
+    {
+      "section_order": 4,
+      "text": "to",
+      "nth": 1,
+      "vi": "để"
+    },
+    {
+      "section_order": 4,
+      "text": "which",
+      "nth": 1,
+      "vi": "loại mà"
+    },
+    {
+      "section_order": 4,
+      "text": "which",
+      "nth": 2,
+      "vi": "việc mà"
+    },
+    {
+      "section_order": 5,
+      "text": "to",
+      "nth": 1,
+      "vi": "để"
+    },
+    {
+      "section_order": 5,
+      "text": "that",
+      "nth": 1,
+      "vi": "mà"
+    },
+    {
+      "section_order": 5,
+      "text": "that",
+      "nth": 2,
+      "vi": "rằng"
+    },
+    {
+      "section_order": 5,
+      "text": "this",
+      "nth": 1,
+      "vi": "này"
+    },
+    {
+      "section_order": 8,
+      "text": "which",
+      "nth": 1,
+      "vi": "điều mà"
+    },
+    {
+      "section_order": 8,
+      "text": "that",
+      "nth": 1,
+      "vi": "rằng"
+    },
+    {
+      "section_order": 9,
+      "text": "that",
+      "nth": 1,
+      "vi": "mà"
+    },
+    {
+      "section_order": 9,
+      "text": "that",
+      "nth": 2,
+      "vi": "đó"
+    },
+    {
+      "section_order": 4,
+      "text": "By",
+      "nth": 1,
+      "vi": "so với"
+    },
+    {
+      "section_order": 4,
+      "text": "stops",
+      "nth": 1,
+      "vi": "điểm dừng"
+    }
+  ],
+  "required_items": [
+    "surge",
+    "airfares",
+    "round-trip flights",
+    "connecting flight",
+    "flexible reservations",
+    "remain flexible",
+    "exchange rate",
+    "minimum stays",
+    "pay dividends",
+    "make concessions",
+    "at the expense of",
+    "attributed to",
+    "trade-off between",
+    "late in the game",
+    "all signs point to",
+    "without penalty"
+  ],
+  "excluded_items": [
+    "nonstop flights",
+    "one-way flights",
+    "gas prices",
+    "cost of driving",
+    "skip flying",
+    "low-price window",
+    "rebooking without penalty"
+  ],
+  "key_ideas": {
+    "0": "One big family saved a lot by booking a group rate.",
+    "5": "Buses and trains cost less but take longer, and their prices are rising too."
+  },
+  "lexicon": {
+    "surge": {
+      "pos": "verb",
+      "definition_en": "to increase suddenly and by a large amount",
+      "extra_example": "Hotel prices often surge in the weeks before Christmas."
+    },
+    "attributed to": {
+      "pos": "verb phrase"
+    }
+  },
+  "quick_checks": {
+    "0": {
+      "question": "Why did Ms. Cuomo call JetBlue?",
+      "options": [
+        "To get a group rate for her big family",
+        "To cancel the family trip",
+        "To ask for a cheaper hotel"
+      ],
+      "answer_index": 0,
+      "explanation": "Bà Cuomo thấy số điện thoại đặt giá vé nhóm của JetBlue (từ 10 người trở lên); gia đình bà 15 người nên mua được vé chỉ hơn 1.000 đô mỗi vé."
+    }
+  }
+}

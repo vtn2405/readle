@@ -1,0 +1,95 @@
+{
+  "_note": "Ghim đầu vào prompt bước 3 (chọn mục từ + quiz) của bài đã duyệt (BE-06g). Chạy lại enrich dùng đúng các danh sách này thay vì đọc lại bài trước / cefr.json, nên sửa CEFR hay mục từ ở chỗ khác không làm bài này trượt cache. CEFR cuối cùng trong bundle vẫn lấy cefr.json hiện tại. Không sửa tay.",
+  "items_prompt_version": "items-v2",
+  "section_prompt_version": "section-v1",
+  "run_args": {
+    "level": "B1",
+    "category": "Science & Technology",
+    "source_name": "World of Wonder",
+    "source_graded": false,
+    "title": null
+  },
+  "known_entries": [
+    {
+      "form": "play a vital role in",
+      "cefr": "C1",
+      "slug": "eating-well"
+    },
+    {
+      "form": "in moderation",
+      "cefr": "C1",
+      "slug": "eating-well"
+    },
+    {
+      "form": "eat out",
+      "cefr": "A2",
+      "slug": "eating-well"
+    },
+    {
+      "form": "whole grains",
+      "cefr": "B2",
+      "slug": "eating-well"
+    },
+    {
+      "form": "reduce the risk of",
+      "cefr": "B2",
+      "slug": "eating-well"
+    },
+    {
+      "form": "good source of",
+      "cefr": "B1",
+      "slug": "eating-well"
+    },
+    {
+      "form": "high in",
+      "cefr": "B1",
+      "slug": "eating-well"
+    },
+    {
+      "form": "healthy eating habits",
+      "cefr": "B1",
+      "slug": "eating-well"
+    },
+    {
+      "form": "nutritional value",
+      "cefr": "B2",
+      "slug": "eating-well",
+      "dropped": true
+    },
+    {
+      "form": "high blood pressure",
+      "cefr": "B2",
+      "slug": "eating-well"
+    }
+  ],
+  "known_cefr_levels": [
+    [
+      "cause unemployment",
+      "B2"
+    ],
+    [
+      "in its infancy",
+      "C2"
+    ],
+    [
+      "make decisions",
+      "B1"
+    ],
+    [
+      "nanobot",
+      "C1"
+    ],
+    [
+      "play a vital role in",
+      "C1"
+    ],
+    [
+      "robot",
+      "A2"
+    ],
+    [
+      "take over",
+      "B2"
+    ]
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "required_items": [
+    "hydroelectric power",
+    "hydropower",
+    "environmental impact",
+    "greenhouse gas emissions",
+    "irrigation",
+    "natural habitats",
+    "play a major role in",
+    "reservoir",
+    "flood control",
+    "power production",
+    "generate electricity",
+    "renewable source of energy"
+  ],
+  "excluded_items": [
+    "hydraulic turbine",
+    "rotor",
+    "shaft",
+    "hydropower facility"
+  ],
+  "key_ideas": {
+    "5": "A hydraulic turbine uses flowing water to turn a shaft that drives a generator."
+  },
+  "meanings": [
+    {
+      "section_order": 0,
+      "text": "been",
+      "vi": "đã và đang"
+    },
+    {
+      "section_order": 2,
+      "text": "been",
+      "vi": "đã và đang"
+    },
+    {
+      "section_order": 2,
+      "text": "references",
+      "vi": "sự nhắc đến, ghi chép"
+    },
+    {
+      "section_order": 0,
+      "text": "mills",
+      "vi": "cối xay"
+    },
+    {
+      "section_order": 10,
+      "text": "mills",
+      "vi": "cối xay",
+      "nth": 1
+    },
+    {
+      "section_order": 10,
+      "text": "mills",
+      "vi": "cối xay",
+      "nth": 2
+    },
+    {
+      "section_order": 10,
+      "text": "mills",
+      "vi": "cối xay",
+      "nth": 3
+    }
+  ]
+}

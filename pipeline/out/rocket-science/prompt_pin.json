@@ -1,0 +1,241 @@
+{
+  "_note": "Ghim đầu vào prompt bước 3 (chọn mục từ + quiz) của bài đã duyệt (BE-06g). Chạy lại enrich dùng đúng các danh sách này thay vì đọc lại bài trước / cefr.json, nên sửa CEFR hay mục từ ở chỗ khác không làm bài này trượt cache. CEFR cuối cùng trong bundle vẫn lấy cefr.json hiện tại. Không sửa tay.",
+  "items_prompt_version": "items-v2",
+  "section_prompt_version": "section-v1",
+  "run_args": {
+    "level": "B2",
+    "category": "Science & Technology",
+    "source_name": "World of Wonder",
+    "source_graded": false,
+    "title": null
+  },
+  "known_entries": [
+    {
+      "form": "play a vital role in",
+      "cefr": "C1",
+      "slug": "eating-well"
+    },
+    {
+      "form": "in moderation",
+      "cefr": "C1",
+      "slug": "eating-well"
+    },
+    {
+      "form": "eat out",
+      "cefr": "A2",
+      "slug": "eating-well"
+    },
+    {
+      "form": "whole grains",
+      "cefr": "B2",
+      "slug": "eating-well"
+    },
+    {
+      "form": "reduce the risk of",
+      "cefr": "B2",
+      "slug": "eating-well"
+    },
+    {
+      "form": "good source of",
+      "cefr": "B1",
+      "slug": "eating-well"
+    },
+    {
+      "form": "high in",
+      "cefr": "B1",
+      "slug": "eating-well"
+    },
+    {
+      "form": "healthy eating habits",
+      "cefr": "B1",
+      "slug": "eating-well"
+    },
+    {
+      "form": "nutritional value",
+      "cefr": "B2",
+      "slug": "eating-well",
+      "dropped": true
+    },
+    {
+      "form": "high blood pressure",
+      "cefr": "B2",
+      "slug": "eating-well"
+    },
+    {
+      "form": "cause unemployment",
+      "cefr": "B2",
+      "slug": "robots"
+    },
+    {
+      "form": "make decisions",
+      "cefr": "B1",
+      "slug": "robots"
+    },
+    {
+      "form": "take over",
+      "cefr": "B2",
+      "slug": "robots"
+    },
+    {
+      "form": "artificial intelligence",
+      "cefr": "B2",
+      "slug": "robots"
+    },
+    {
+      "form": "be programmed to",
+      "cefr": "B2",
+      "slug": "robots"
+    },
+    {
+      "form": "process information",
+      "cefr": "B2",
+      "slug": "robots"
+    },
+    {
+      "form": "navigate",
+      "cefr": "B2",
+      "slug": "robots"
+    },
+    {
+      "form": "perform surgery",
+      "cefr": "B2",
+      "slug": "robots"
+    },
+    {
+      "form": "affordable",
+      "cefr": "B1",
+      "slug": "robots"
+    },
+    {
+      "form": "respond to",
+      "cefr": "B1",
+      "slug": "robots"
+    },
+    {
+      "form": "repetitious work",
+      "cefr": "B2",
+      "slug": "robots",
+      "dropped": true
+    },
+    {
+      "form": "food supply",
+      "cefr": "B2",
+      "slug": "farming"
+    },
+    {
+      "form": "growing demand for",
+      "cefr": "B2",
+      "slug": "farming"
+    },
+    {
+      "form": "irrigation",
+      "cefr": "B2",
+      "slug": "farming"
+    },
+    {
+      "form": "cereal crops",
+      "cefr": "B2",
+      "slug": "farming"
+    },
+    {
+      "form": "plant crops",
+      "cefr": "B1",
+      "slug": "farming"
+    },
+    {
+      "form": "dairy farm",
+      "cefr": "B1",
+      "slug": "farming"
+    },
+    {
+      "form": "pest",
+      "cefr": "B2",
+      "slug": "farming"
+    },
+    {
+      "form": "fertilizer",
+      "cefr": "B2",
+      "slug": "farming"
+    },
+    {
+      "form": "arable farm",
+      "cefr": "C1",
+      "slug": "farming"
+    },
+    {
+      "form": "poultry farm",
+      "cefr": "B2",
+      "slug": "farming",
+      "dropped": true
+    },
+    {
+      "form": "fresh produce",
+      "cefr": "B2",
+      "slug": "farming"
+    },
+    {
+      "form": "domesticate animals",
+      "cefr": "C1",
+      "slug": "farming"
+    },
+    {
+      "form": "crop failure",
+      "cefr": "C1",
+      "slug": "farming"
+    }
+  ],
+  "known_cefr_levels": [
+    [
+      "chemical rocket",
+      "C1"
+    ],
+    [
+      "combustion chamber",
+      "C1"
+    ],
+    [
+      "equal and opposite reaction",
+      "C1"
+    ],
+    [
+      "heavy-lift rocket",
+      "C1"
+    ],
+    [
+      "liquid propellant",
+      "C1"
+    ],
+    [
+      "oxidizer",
+      "C1"
+    ],
+    [
+      "pick up speed",
+      "C1"
+    ],
+    [
+      "propel",
+      "C1"
+    ],
+    [
+      "result in",
+      "B2"
+    ],
+    [
+      "rocket science",
+      "C1"
+    ],
+    [
+      "solid propellant",
+      "C1"
+    ],
+    [
+      "stage",
+      "B2"
+    ],
+    [
+      "thrust",
+      "C1"
+    ]
+  ]
+}

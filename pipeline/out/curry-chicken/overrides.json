@@ -1,0 +1,84 @@
+{
+  "meanings": [
+    {
+      "section_order": 2,
+      "text": "that",
+      "nth": 1,
+      "vi": "rằng"
+    },
+    {
+      "section_order": 4,
+      "text": "that",
+      "nth": 1,
+      "vi": "rằng"
+    },
+    {
+      "section_order": 7,
+      "text": "ca",
+      "nth": 1,
+      "vi": "có thể"
+    },
+    {
+      "section_order": 4,
+      "text": "do",
+      "nth": 1,
+      "vi": "không",
+      "in_key_idea": true
+    },
+    {
+      "section_order": 6,
+      "text": "'s",
+      "nth": 1,
+      "vi": "là"
+    },
+    {
+      "section_order": 3,
+      "text": "Hole",
+      "nth": 1,
+      "vi": "cái lỗ"
+    }
+  ],
+  "required_items": [
+    "global influences",
+    "reinvention",
+    "origin story",
+    "oral tradition",
+    "pop-up kitchen",
+    "hole-in-the-wall",
+    "pull together",
+    "fuse with",
+    "cross-cultural",
+    "diaspora",
+    "hands-off",
+    "streamlined"
+  ],
+  "excluded_items": [
+    "hands-off technique",
+    "streamlined meal",
+    "Hong Kong-style",
+    "preservation of"
+  ],
+  "key_ideas": {
+    "0": "The writer recreates restaurant dishes at home.",
+    "3": "Cha chaan teng restaurants show many global food influences.",
+    "5": "Baking the rice in the oven makes the dish easier and less messy.",
+    "7": "The dish keeps mixing cultures, in Hong Kong and abroad."
+  },
+  "quiz": {
+    "3": {
+      "question": "The mixing of global cuisines seen in cha chaan teng also reaches home kitchens outside Hong Kong.",
+      "answer_index": 0,
+      "explanation": "Bài viết: \"That spirit extends to home kitchens in the diaspora.\" \"That spirit\" là sự pha trộn ẩm thực toàn cầu của cha chaan teng ở câu trước, nên câu đúng (True)."
+    }
+  },
+  "lexicon": {
+    "pop-up kitchen": {
+      "vi": "bếp/quán mở tạm thời"
+    },
+    "hole-in-the-wall": {
+      "vi": "quán nhỏ bình dân (thường ngon)",
+      "pos": "adjective",
+      "definition_en": "small and simple, often with surprisingly good food (about a restaurant or shop)"
+    }
+  }
+}

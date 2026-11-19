@@ -1,0 +1,173 @@
+{
+  "meanings": [
+    {
+      "section_order": 3,
+      "text": "That",
+      "nth": 1,
+      "vi": "điều đó"
+    },
+    {
+      "section_order": 3,
+      "text": "between",
+      "nth": 1,
+      "vi": "giữa"
+    },
+    {
+      "section_order": 4,
+      "text": "that",
+      "nth": 1,
+      "vi": "đó"
+    },
+    {
+      "section_order": 4,
+      "text": "that",
+      "nth": 2,
+      "vi": "mà"
+    },
+    {
+      "section_order": 4,
+      "text": "which",
+      "nth": 1,
+      "vi": "cái mà"
+    },
+    {
+      "section_order": 5,
+      "text": "that",
+      "nth": 1,
+      "vi": "rằng"
+    },
+    {
+      "section_order": 5,
+      "text": "as",
+      "nth": 1,
+      "vi": "như"
+    },
+    {
+      "section_order": 5,
+      "text": "which",
+      "nth": 1,
+      "vi": "điều đó"
+    },
+    {
+      "section_order": 5,
+      "text": "do",
+      "nth": 1,
+      "vi": "không"
+    },
+    {
+      "section_order": 5,
+      "text": "that",
+      "nth": 2,
+      "vi": "mà"
+    },
+    {
+      "section_order": 6,
+      "text": "that",
+      "nth": 1,
+      "vi": "mà"
+    },
+    {
+      "section_order": 6,
+      "text": "that",
+      "nth": 2,
+      "vi": "mà"
+    },
+    {
+      "section_order": 6,
+      "text": "that",
+      "nth": 3,
+      "vi": "rằng"
+    },
+    {
+      "section_order": 7,
+      "text": "do",
+      "nth": 1,
+      "vi": "không"
+    },
+    {
+      "section_order": 7,
+      "text": "do",
+      "nth": 2,
+      "vi": "không"
+    },
+    {
+      "section_order": 7,
+      "text": "does",
+      "nth": 1,
+      "vi": "không"
+    },
+    {
+      "section_order": 7,
+      "text": "do",
+      "nth": 3,
+      "vi": "không"
+    },
+    {
+      "section_order": 1,
+      "text": "defunct",
+      "nth": 1,
+      "vi": "đã ngừng hoạt động"
+    },
+    {
+      "section_order": 2,
+      "text": "produced",
+      "nth": 1,
+      "vi": "tạo ra"
+    }
+  ],
+  "required_items": [
+    "harness",
+    "chatbot",
+    "large language model",
+    "interface",
+    "application programming interface",
+    "plug in to",
+    "guard rails",
+    "chain of thought",
+    "launch",
+    "make the difference",
+    "get around",
+    "to some extent",
+    "interchangeable",
+    "break down",
+    "to the best of its ability",
+    "dismiss the importance of",
+    "on the other hand"
+  ],
+  "excluded_items": [
+    "search the internet",
+    "read documents",
+    "write computer code",
+    "control a computer",
+    "increase the power of",
+    "test score"
+  ],
+  "key_ideas": {
+    "0": "A chatbot is many programs, and the harness matters most.",
+    "3": "Safety checks in GPT-3.5 were the start of the harness.",
+    "7": "Harnesses get little attention because they are technical and seem boring."
+  },
+  "lexicon": {
+    "chain of thought": {
+      "extra_example": "The model shows its chain of thought before giving the final answer."
+    }
+  },
+  "quick_checks": {
+    "0": {
+      "options": [
+        "A \"complete product\"",
+        "An \"early demo\"",
+        "A \"revolution\""
+      ],
+      "answer_index": 1
+    },
+    "1": {
+      "options": [
+        "Adam King",
+        "OpenAI",
+        "Google"
+      ],
+      "answer_index": 0
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "required_items": [
+    "play a vital role in",
+    "cause unemployment",
+    "make decisions",
+    "take over",
+    "artificial intelligence",
+    "be programmed to",
+    "process information",
+    "navigate",
+    "perform surgery",
+    "affordable"
+  ],
+  "excluded_items": [
+    "robot",
+    "nanobot",
+    "robotic vacuum cleaners",
+    "learn"
+  ],
+  "key_ideas": {
+    "3": "Unimate, the first programmable robot, was bought by General Motors to lift hot metal parts."
+  },
+  "quick_checks": {
+    "9": {
+      "options": [
+        "HitchBOT",
+        "BigDog",
+        "ASIMO"
+      ],
+      "explanation": "Trong văn bản, người lạ giúp hitchBOT di chuyển trên hành trình của nó (\"Strangers helped hitchBOT travel...\"). BigDog là robot quân sự; ASIMO là robot hình người của Honda."
+    }
+  },
+  "drop_items": [
+    "repetitious work"
+  ]
+}

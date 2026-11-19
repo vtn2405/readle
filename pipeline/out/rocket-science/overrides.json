@@ -1,0 +1,76 @@
+{
+  "required_items": [
+    "rocket science",
+    "propel",
+    "result in",
+    "combustion chamber",
+    "thrust",
+    "oxidizer",
+    "solid propellant",
+    "liquid propellant",
+    "stage",
+    "pick up speed",
+    "heavy-lift rocket",
+    "leave the atmosphere",
+    "launch",
+    "equal and opposite reaction",
+    "chemical rocket"
+  ],
+  "excluded_items": [
+    "burn fuel",
+    "cone-shaped nozzle"
+  ],
+  "lexicon": {
+    "thrust": {
+      "original_contains": "The reaction is the thrust",
+      "extra_example": "The pilot increased thrust to climb above the clouds."
+    },
+    "equal and opposite reaction": {
+      "vi": "phản lực cân bằng, ngược chiều",
+      "definition_en": "a force of the same size that pushes in the other direction",
+      "extra_example": "When you jump off a boat, the boat moves back — an equal and opposite reaction."
+    },
+    "chemical rocket": {
+      "extra_example": "Most space rockets today are chemical rockets."
+    },
+    "launch": {
+      "definition_en": "to send a rocket into space, or to start offering a new product",
+      "extra_example": "The company will launch its new phone next month."
+    }
+  },
+  "quiz": {
+    "3": {
+      "question": "Wan Hu's flight attempt was watched by the emperor.",
+      "answer_index": 2,
+      "explanation": "Bài chỉ kể theo truyền thuyết Wan Hu buộc 47 tên lửa vào một chiếc ghế để thử bay, không nhắc ai chứng kiến, nên không đủ thông tin (Not Given)."
+    }
+  },
+  "exclude_occurrences": [
+    {
+      "item": "thrust",
+      "sentence_contains": "the balloon is thrust forward"
+    }
+  ],
+  "meanings": [
+    {
+      "section_order": 3,
+      "text": "back",
+      "vi": "phía sau"
+    },
+    {
+      "section_order": 2,
+      "text": "opposite",
+      "vi": "ngược chiều"
+    },
+    {
+      "section_order": 5,
+      "text": "opposite",
+      "vi": "ngược chiều"
+    },
+    {
+      "section_order": 11,
+      "text": "to",
+      "vi": "từng"
+    }
+  ]
+}

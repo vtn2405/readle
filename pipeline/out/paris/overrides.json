@@ -157,11 +157,24 @@
       "section_order": 9,
       "text": "been",
       "vi": "đã"
+    },
+    {
+      "section_order": 10,
+      "text": "droit",
+      "nth": 1,
+      "vi": "droit (phải)"
+    },
+    {
+      "section_order": 10,
+      "text": "gauche",
+      "nth": 1,
+      "vi": "gauche (trái)"
     }
   ],
   "lexicon": {
     "home to": {
       "definition_en": "the place where something exists or can be found"
     }
-  }
+  },
+  "cover": {"source": "sources/paris.jpg", "box": [272, 829, 492, 966]}
 }

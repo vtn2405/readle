@@ -11,7 +11,7 @@ import sys
 ROOT = pathlib.Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
 sys.path.insert(0, str(ROOT))
-from tokenize_and_match import tokenize, locate, lemma_key, sentence_cloze  # noqa: E402
+from tokenize_and_match import tokenize, locate, lemma_key, sentence_cloze, article_excerpt  # noqa: E402
 from contract_models import ArticleBundle, CONTRACT_VERSION  # noqa: E402
 from pipeline.ipa import add_token_ipa, phrase_ipa  # noqa: E402
 
@@ -108,7 +108,9 @@ bundle = {
     "article": {"id": "art_eating_well", "title": "Eating Well", "category": "Health & Nutrition",
                 "cefr_level": "A2", "source": {"name": "World of Wonder", "is_graded": False},
                 "word_count": sum(t["is_word"] for s in sections for t in s["tokens"]),
-                "section_count": len(sections)},
+                "section_count": len(sections),
+                # 1.5 (ADR-024): fixture không có ảnh bìa → app hiện bìa chủ đề; đoạn trích = câu đầu card đầu.
+                "cover_url": None, "excerpt": article_excerpt(sections[0]["tokens"])},
     "sections": sections,
     "lexicon": lexicon,
     "occurrences": occurrences,

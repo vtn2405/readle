@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "slug": "eating-well",
+  "title": "EATING WELL",
+  "sections": [
+    {
+      "order": 0,
+      "title": "Introduction",
+      "body": "Eating well plays a vital role in good health and disease prevention. Eating lots of fruits and vegetables is one of the easiest and most delicious ways to eat healthy. Choosing food that is close to its natural form and not overly processed is best practice. Restaurant and takeout meals tend to have more added salt, sugar and fat, so eat out in moderation.",
+      "icon_hint": "plate"
+    },
+    {
+      "order": 1,
+      "title": "Dark green veggies",
+      "body": "Broccoli and dark green leafy vegetables, like spinach and kale, are excellent sources of fiber, folate and carotenoids. These vegetables also contain vitamins C and K and the minerals iron and calcium. These foods are famous for acting as antioxidants in the body. Diets high in fiber promote digestive health and can help lower cholesterol.",
+      "icon_hint": "broccoli"
+    },
+    {
+      "order": 2,
+      "title": "The most important meal of the day",
+      "body": "Studies show that eating breakfast feeds your brain — improving focus and concentration. Children who eat a good breakfast get better grades and tend to be more active and healthy. Any breakfast is better than no breakfast, but doughnuts and pastries are high in sugar and low in nutrients. Eating a breakfast high in quality protein — from enriched cereal, yogurt, milk, cheese, eggs, meat or fish — can even help teenagers lose weight. How about some hot oatmeal with nuts and maple syrup, or some avocado spread on rye toast?",
+      "icon_hint": "meal"
+    },
+    {
+      "order": 3,
+      "title": "Tips for eating well",
+      "body": "Eat more foods from plants (fruits, vegetables, beans, whole grains, and nuts). If you fill half your plate with fruits and vegetables, you are on your way to a healthy diet.\n\nAvoid foods high in saturated and trans fats Butter, ice cream, cheese, chocolate and processed meat should be eaten in moderation.\n\nLimit refined grains White bread, white rice and white pasta act just like sugar in your body — choose whole grains instead.\n\nHealthy snacks Nibble on celery and carrots, or bite into some fruit instead of chips or cookies. Other good snacks include low-fat yogurt, peanut butter and celery, or whole-grain crackers and cheese.",
+      "icon_hint": "list"
+    },
+    {
+      "order": 4,
+      "title": "The MyPlate app",
+      "body": "The MyPlate app, developed by the U.S. Department of Agriculture, can help you build healthy eating habits.",
+      "icon_hint": "app"
+    },
+    {
+      "order": 5,
+      "title": "Eat more fish!",
+      "body": "Limit how much red meat (beef, pork and lamb) and processed meat (bacon, hot dogs, bologna, etc.) you eat — they can be bad for the heart. Serve good sources of protein like chicken (no skin), fish, eggs, beans and nuts.",
+      "icon_hint": "fish"
+    },
+    {
+      "order": 6,
+      "title": "An apple a day",
+      "body": "There is some truth in the old saying “an apple a day keeps the doctor away.” Apples (and other fruits) are very good for you — helping to reduce the risk of diabetes, high blood pressure and many types of cancer.\n\nApples are low in calories and high in nutritional value. They also serve as a natural toothbrush, cleaning teeth and killing bacteria in the mouth.",
+      "icon_hint": "apple"
+    },
+    {
+      "order": 7,
+      "title": "Almost perfect",
+      "body": "Some consider bananas the perfect food because they are affordable, delicious and nutritious. Bananas have no fat, cholesterol or sodium, and they are loaded with vitamins.\n\nJust two bananas provide enough energy for a strenuous 90-minute workout. They also replenish carbohydrates, glycogen and bodily fluids burned during exercise.",
+      "icon_hint": "banana"
+    },
+    {
+      "order": 8,
+      "title": "Tomatoes are fruit",
+      "body": "The tomato is a juicy, nutritious fruit usually eaten as a vegetable. It is a close relative of the eggplant, red pepper, potato and the highly poisonous belladonna. Native to Central America, the tomato was grown by the Aztecs long before Spanish explorers discovered it. Today there are thousands of tomato varieties.\n\nTomatoes have just 18 calories per 3.5-ounce serving. They are also very low in fat and have no cholesterol. They are an excellent source of antioxidants, dietary fiber, minerals and vitamins.",
+      "icon_hint": "tomato"
+    }
+  ]
+}

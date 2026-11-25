@@ -1,6 +1,6 @@
 """
-Sinh fixture cho bài người dùng tự tải (ADR-021, bản nháp Contract 1.5 — CHƯA ÁP DỤNG):
-  fixtures/user_article_sample.json   UserArticleRecord (bundle 1.5 nháp + metadata Hive)
+Sinh fixture cho bài người dùng tự tải (ADR-021, bản nháp Contract 1.6 — CHƯA ÁP DỤNG):
+  fixtures/user_article_sample.json   UserArticleRecord (bundle 1.6 nháp + metadata Hive)
   fixtures/lookup_samples.json        ví dụ request/response của Edge Function `lookup`
 
 Không đụng fixture chính `fixtures/article_eating_well.json` và CONTRACT_VERSION.
@@ -117,7 +117,7 @@ def main() -> None:
     (out / "user_article_sample.json").write_text(
         json.dumps(record, ensure_ascii=False, indent=2), encoding="utf-8")
     (out / "lookup_samples.json").write_text(
-        json.dumps({"draft_contract_version": "1.5", "samples": samples}, ensure_ascii=False, indent=2),
+        json.dumps({"draft_contract_version": "1.6", "samples": samples}, ensure_ascii=False, indent=2),
         encoding="utf-8")
     print("OK ->", out / "user_article_sample.json", "| cards:",
           [sum(t["is_word"] for t in s["tokens"]) for s in bundle["sections"]],

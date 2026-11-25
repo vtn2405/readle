@@ -30,6 +30,7 @@ from dotenv import load_dotenv
 from supabase import Client, create_client
 
 from pipeline.audio import fill_audio_urls
+from pipeline.cover import COVER_FILE, upload_cover
 from pipeline.reference.contract_models import ArticleBundle
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
@@ -97,7 +98,8 @@ def plan_rows(b: dict, source_type: str) -> SeedRows:
         source={"id": src_id, "name": a["source"]["name"], "type": source_type,
                 "is_graded": a["source"]["is_graded"]},
         article={"id": art_id, "title": a["title"], "source_id": src_id, "category": a["category"],
-                 "cefr_level": a["cefr_level"], "word_count": a["word_count"]},
+                 "cefr_level": a["cefr_level"], "word_count": a["word_count"],
+                 "cover_url": a.get("cover_url"), "excerpt": a.get("excerpt")},
         sections=[{
             "id": sec[s["id"]], "article_id": art_id, "order_index": s["order_index"],
             "title": s["title"], "icon_hint": s["icon_hint"], "tokens": s["tokens"],
@@ -138,9 +140,12 @@ def _delete_stale(db: Client, table: str, article_id: str, keep_ids: list[str]) 
 
 
 def seed_bundle(db: Client, bundle: dict, source_type: str = "infographic",
-                processing_order: int | None = None, update_shared_lexicon: bool = False) -> SeedResult:
+                processing_order: int | None = None, update_shared_lexicon: bool = False,
+                cover_path: pathlib.Path | None = None) -> SeedResult:
     ArticleBundle.model_validate(bundle)
     fill_audio_urls(db, bundle)  # BE-06d: URL của đúng nơi đang seed (sửa bundle tại chỗ)
+    # BE-17: bìa tải lên bucket `covers` của đúng nơi đang seed; không có cover.webp → null (bìa chủ đề).
+    bundle["article"]["cover_url"] = upload_cover(db, bundle["article"]["id"], cover_path)
     r = plan_rows(bundle, source_type)
 
     if processing_order is None:
@@ -211,11 +216,12 @@ def main() -> None:
     env = local_env() if args.local else remote_env()
     print(f"Seed {path} → {env['url']}")
     res = seed_bundle(create_client(env["url"], env["service"]), bundle, args.source_type,
-                      args.processing_order, args.update_shared_lexicon)
+                      args.processing_order, args.update_shared_lexicon,
+                      cover_path=path.parent / COVER_FILE)
     r = res.rows
     print(f"OK  {bundle['article']['id']} → {r.article_id} (processing_order {res.processing_order}): "
           f"{len(r.sections)} section, {len(r.occurrences)} occurrence, {len(r.quiz)} quiz, "
-          f"lexicon ghi {res.lexicon_written}/{len(r.lexicon)}")
+          f"lexicon ghi {res.lexicon_written}/{len(r.lexicon)}, bìa: {r.article['cover_url'] or 'không'}")
     if res.lexicon_kept:
         print("CẢNH BÁO  mục từ đang được bài khác dùng, giữ bản trong DB (thêm --update-shared-lexicon để ghi đè): "
               + ", ".join(res.lexicon_kept))

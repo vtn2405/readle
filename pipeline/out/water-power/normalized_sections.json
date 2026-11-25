@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "slug": "water-power",
+  "title": "WATER POWER",
+  "sections": [
+    {
+      "order": 0,
+      "title": "Introduction",
+      "body": "When flowing water is used to create electricity, it is called hydroelectric power. People have been using the force of fast-moving water to power mills since ancient times. In the late 19th century, hydropower became a popular way to generate electricity.",
+      "icon_hint": "water"
+    },
+    {
+      "order": 1,
+      "title": "Niagara Falls",
+      "body": "The first hydroelectric power plant was built at Niagara Falls in 1879. The city's street lamps were powered by hydropower in 1881.",
+      "icon_hint": "plant"
+    },
+    {
+      "order": 2,
+      "title": "A great idea",
+      "body": "People have been harnessing the power of water with wheels for thousands of years. Water wheels were likely the first way of creating mechanical energy to replace the work of humans and animals. They were used for crop irrigation, for grinding grains, and to supply drinking water to villages. They drove sawmills, pumps, forge bellows, trip hammers and textile mills.\n\nThere are references to what may have been a water wheel in ancient Mesopotamia (10000 B.C.). The Chinese of the Han Dynasty in the first century A.D. were using water wheels to crush grain in mills and to power the piston bellows in forging iron ore into cast iron.\n\nBy 4000 B.C., the ancient Romans were using water-powered mills to grind grain and saw timber. Colonists in the New World were quick to use the power of water. During the Industrial Revolution, water was the main source of power for many new inventions, although steam power eventually outpaced water power.",
+      "icon_hint": "wheel"
+    },
+    {
+      "order": 3,
+      "title": "Did you know?",
+      "body": "The first commercial hydropower facility in the United States was built in 1882 in Appleton, Wisconsin - providing electricity for a paper mill and many homes.\n\nThe largest hydroelectric power station in the world is the Three Gorges Dam in China.\n\nHydropower provides about 10 percent of the electricity in the United States.\n\nNorway produces more than 99 percent of its electricity with hydropower. New Zealand uses hydropower for 75 percent of its electricity.",
+      "icon_hint": "fact"
+    },
+    {
+      "order": 4,
+      "title": "The Grand Coulee Dam",
+      "body": "The Grand Coulee Dam is located on the Columbia River in Central Washington. Built between 1933 and 1942, the dam is 5,223 feet (1.59 km) long and reaches 550 feet (168 m) above bedrock. It has three important functions: irrigation, power production and flood control. An engineering wonder, the Grand Coulee Dam is the largest hydropower producer in the United States, generating more than 20 billion kilowatt-hours of electricity each year. The reservoir created by the dam is called Franklin Delano Roosevelt Lake.",
+      "icon_hint": "dam"
+    },
+    {
+      "order": 5,
+      "title": "The Hydraulic Turbine",
+      "body": "The hydraulic turbine is based on the same principles as the water wheel. It's a rotary engine that uses the flow of fluid, either gas or liquid, to turn a shaft that drives machinery.\n\nHydraulic turbines are used in hydroelectric power stations. Flowing or falling water strikes a series of blades or buckets attached around a shaft. The shaft then rotates, and the motion drives the rotor of an electric generator.",
+      "icon_hint": "turbine"
+    },
+    {
+      "order": 6,
+      "title": "Hydro power plant",
+      "body": "When the water stored behind a dam is released and piped through a valve, the force of the water turns the blades of a turbine. The turbine drives a generator, creating electrical power.",
+      "icon_hint": "plant"
+    },
+    {
+      "order": 7,
+      "title": "Hydropower and nature",
+      "body": "Although hydropower facilities are inexpensive to run and do not pollute the water or air, they can have a huge environmental impact by changing the environment and affecting land use, homes, and natural habitats near the dam.\n\nSome hydroelectric reservoirs allow fishing and boating.",
+      "icon_hint": "lake"
+    },
+    {
+      "order": 8,
+      "title": "Hydroelectricity",
+      "body": "Today, hydropower is a vital and widely used renewable source of energy. Hydropower creates much less pollution than fuel-burning energy sources and plays a major role in reducing greenhouse gas emissions.\n\nHydropower represents about 20 percent of the world's total electricity production. China is the largest producer of hydroelectricity, followed by Canada, Brazil and the United States. Untapped hydro resources are still abundant in Latin America, Central Africa, India and China.",
+      "icon_hint": "electricity"
+    },
+    {
+      "order": 9,
+      "title": "Angel Falls",
+      "body": "Angel Falls empties into the Churún River in eastern Venezuela. A few miles downstream is the nation's biggest power station at Guri Dam.",
+      "icon_hint": "falls"
+    },
+    {
+      "order": 10,
+      "title": "Water wheel types",
+      "body": "Water wheels were most often used to power different types of mills. A water wheel and mill combination is called a watermill. One way to classify watermills is by wheel orientation (vertical or horizontal). The horizontal water wheel uses water flowing from an aqueduct. The forward action of the water turns the wheel.\n\nThere are a variety of vertical water wheels, defined largely by where the water hits the wheel paddles. Undershot, overshot, breastshot and pitchback are all types of vertical water wheels. Another way to classify watermills\n\nis by where they are located. Tide mills use the movement of the tide. Ship mills are watermills onboard a ship.",
+      "icon_hint": "mill"
+    },
+    {
+      "order": 11,
+      "title": "The water wheel",
+      "body": "The water wheel uses the force of flowing or falling water to create power. The water moves the wheel by means of paddles or buckets mounted around a wheel. As the wheel turns, it can power a mill or machine.",
+      "icon_hint": "wheel"
+    }
+  ]
+}

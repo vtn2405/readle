@@ -1,0 +1,255 @@
+{
+ "title_lines": [
+  "L007",
+  "L008"
+ ],
+ "sections": [
+  {
+   "title_lines": [],
+   "body_lines": [
+    "L009",
+    "L010",
+    "L011",
+    "L033",
+    "L034",
+    "L035",
+    "L036",
+    "L037",
+    "L038",
+    "L039",
+    "L040"
+   ],
+   "paragraph_starts": [
+    "L033"
+   ],
+   "icon_hint": "chat"
+  },
+  {
+   "title_lines": [],
+   "body_lines": [
+    "L043",
+    "L044",
+    "L045",
+    "L046",
+    "L047",
+    "L048",
+    "L049",
+    "L050",
+    "L051",
+    "L052",
+    "L053"
+   ],
+   "paragraph_starts": [],
+   "icon_hint": "code"
+  },
+  {
+   "title_lines": [],
+   "body_lines": [
+    "L054",
+    "L055",
+    "L056",
+    "L057",
+    "L058",
+    "L059",
+    "L060",
+    "L061",
+    "L066",
+    "L067"
+   ],
+   "paragraph_starts": [],
+   "icon_hint": "terminal"
+  },
+  {
+   "title_lines": [],
+   "body_lines": [
+    "L069",
+    "L070",
+    "L071",
+    "L072",
+    "L073",
+    "L074",
+    "L075",
+    "L076",
+    "L077",
+    "L078",
+    "L079"
+   ],
+   "paragraph_starts": [
+    "L074"
+   ],
+   "icon_hint": "shield"
+  },
+  {
+   "title_lines": [],
+   "body_lines": [
+    "L080",
+    "L081",
+    "L082",
+    "L083",
+    "L084",
+    "L085"
+   ],
+   "paragraph_starts": [],
+   "icon_hint": "phone"
+  },
+  {
+   "title_lines": [],
+   "body_lines": [
+    "L086",
+    "L087",
+    "L088",
+    "L089",
+    "L090",
+    "L091",
+    "L092",
+    "L097",
+    "L098",
+    "L099",
+    "L100",
+    "L101",
+    "L102",
+    "L103"
+   ],
+   "paragraph_starts": [
+    "L097"
+   ],
+   "icon_hint": "layers"
+  },
+  {
+   "title_lines": [],
+   "body_lines": [
+    "L106",
+    "L107",
+    "L108",
+    "L109",
+    "L110",
+    "L111",
+    "L112",
+    "L113"
+   ],
+   "paragraph_starts": [],
+   "icon_hint": "chart"
+  },
+  {
+   "title_lines": [],
+   "body_lines": [
+    "L114",
+    "L115",
+    "L116",
+    "L117",
+    "L118",
+    "L119",
+    "L120",
+    "L121",
+    "L122",
+    "L123"
+   ],
+   "paragraph_starts": [],
+   "icon_hint": "question"
+  },
+  {
+   "title_lines": [],
+   "body_lines": [
+    "L124",
+    "L125",
+    "L126",
+    "L127",
+    "L132",
+    "L133",
+    "L134",
+    "L135",
+    "L136"
+   ],
+   "paragraph_starts": [],
+   "icon_hint": "robot"
+  }
+ ],
+ "ignore": [
+  "L000",
+  "L001",
+  "L002",
+  "L003",
+  "L004",
+  "L005",
+  "L006",
+  "L012",
+  "L013",
+  "L014",
+  "L015",
+  "L016",
+  "L017",
+  "L018",
+  "L019",
+  "L020",
+  "L021",
+  "L022",
+  "L023",
+  "L024",
+  "L025",
+  "L026",
+  "L027",
+  "L028",
+  "L029",
+  "L030",
+  "L031",
+  "L032",
+  "L041",
+  "L042",
+  "L062",
+  "L063",
+  "L064",
+  "L065",
+  "L068",
+  "L093",
+  "L094",
+  "L095",
+  "L096",
+  "L104",
+  "L105",
+  "L128",
+  "L129",
+  "L130",
+  "L131",
+  "L137",
+  "L138",
+  "L139",
+  "L140",
+  "L141",
+  "L142",
+  "L143",
+  "L144",
+  "L145",
+  "L146",
+  "L147",
+  "L148",
+  "L149",
+  "L150",
+  "L151",
+  "L152",
+  "L153",
+  "L154",
+  "L155",
+  "L156",
+  "L157",
+  "L158",
+  "L159",
+  "L160"
+ ],
+ "line_fixes": {
+  "L009": "AI firms can increase the power of their chatbots without updating to new models. Columnist Jacob Aron",
+  "L010": "explains how a simple bit of software can give AI a boost – and whether AI will soon be able to rewrite that",
+  "L054": "In 2020, OpenAI released GPT-3 and, for the first time, allowed people to access it",
+  "L111": "scores jumped by as much as 80 percentage points when using the provider adapter"
+ },
+ "section_titles": {
+  "0": "The hidden part of chatbots",
+  "1": "The first interfaces",
+  "2": "Raw model output",
+  "3": "The first guard rails",
+  "4": "ChatGPT today",
+  "5": "Why the harness matters",
+  "6": "Better test scores",
+  "7": "Why we rarely hear about it",
+  "8": "Can AI improve its own harness?"
+ }
+}

@@ -21,14 +21,17 @@ from typing import Literal, Optional
 from dotenv import load_dotenv
 from pydantic import BaseModel, Field, ValidationInfo, field_validator, model_validator
 
+from pipeline.cover import CoverSpec
 from pipeline.glossary import normalize_glossary
 from pipeline.ipa import add_token_ipa, phrase_ipa
 from pipeline.reference.contract_models import (
     CONTRACT_VERSION,
     DEFINITION_MAX_WORDS,
+    EXCERPT_MAX_CHARS,
     ArticleBundle,
 )
 from pipeline.reference.tokenize_and_match import (
+    article_excerpt,
     get_nlp,
     lemma_key,
     locate,
@@ -45,8 +48,16 @@ CACHE = pathlib.Path("pipeline/.cache")
 PROMPT_VERSION = "enrich-v1"
 # Version riêng cho bước chọn mục từ (BE-06e1): đổi prompt bước 3 không làm mất cache
 # nghĩa token / Key idea / Quick Check đã duyệt của bước 1-2.
-ITEMS_PROMPT_VERSION = "items-v3"   # bài mới (BE-06g); bài đã duyệt ghim version trong prompt_pin.json
+ITEMS_PROMPT_VERSION = "items-v4"   # bài mới (BE-06i); bài đã duyệt ghim version trong prompt_pin.json
 ITEMS_PROMPT_V2 = "items-v2"
+ITEMS_VERSION_V3 = "items-v3"       # BE-06g (pizza, paris)
+ITEMS_VERSIONS = (ITEMS_PROMPT_V2, ITEMS_VERSION_V3, ITEMS_PROMPT_VERSION)
+# Prompt bước 4b (thẻ mục từ). v1 = PROMPT_VERSION cũ (10 bài đã duyệt; pin thiếu trường = v1);
+# v2 (BE-06i mục 6): ví dụ chỉ dùng từ ≤ cấp bài, có validator theo từ điển CEFR.
+DETAILS_PROMPT_V1 = PROMPT_VERSION
+DETAILS_PROMPT_VERSION = "details-v2"
+# BE-06i mục 7 (ADR-017 bổ sung run #93): chỉ tự ép chọn lại mục bài trước khi cấp ≤ cấp bài + 2.
+REUSE_MAX_STEPS_ABOVE = 2
 # Prompt bước 1 (Key idea + nghĩa token). Bài đã duyệt ghim version trong prompt_pin.json
 # (thiếu trường = section-v1); đổi chữ prompt v1 sẽ sinh lại Key idea + nghĩa của 9 bài đã duyệt.
 SECTION_PROMPT_V1 = "section-v1"
@@ -181,7 +192,32 @@ class EntryDetail(BaseModel):
         originals = (info.context or {}).get("originals", {})
         if norm_sentence(self.extra_example) == norm_sentence(originals.get(self.canonical_form, "")):
             raise ValueError(f"{self.canonical_form}: extra_example copies the article sentence")
+        # details-v2 (BE-06i mục 6): từ nội dung trong ví dụ (trừ chính mục từ) không khó hơn cấp bài.
+        ctx = info.context or {}
+        if ctx.get("example_level") and ctx.get("example_look"):
+            hard = example_words_above(self.extra_example, self.canonical_form,
+                                       ctx["example_level"], ctx["example_look"])
+            if hard:
+                raise ValueError(
+                    f"{self.canonical_form}: extra_example uses words above {ctx['example_level']}: "
+                    f"{', '.join(f'{w} ({c})' for w, c in hard)}. Rewrite it with simpler words "
+                    f"(only the item itself may be harder than {ctx['example_level']}).")
         return self
+
+
+def example_words_above(sentence: str, form: str, level: str, look) -> list[tuple[str, str]]:
+    """Từ nội dung của câu ví dụ có cấp từ điển (cefr.json > CEFR-J > Octanove) cao hơn `level`,
+    bỏ qua các token thuộc chính mục từ; từ không có trong từ điển thì bỏ qua."""
+    toks = tokenize(sentence)
+    inside = {i for s, e in locate(toks, form) for i in range(s, e + 1)}
+    out: list[tuple[str, str]] = []
+    for t in toks:
+        if not t["is_word"] or t["i"] in inside or t["pos"] not in CONTENT_UPOS:
+            continue
+        got = look(norm(t["lemma"]), t["pos"], t["text"])
+        if got and CEFR_ORDER.index(got[0]) > CEFR_ORDER.index(level) and (t["text"], got[0]) not in out:
+            out.append((t["text"], got[0]))
+    return out
 
 
 class EntryDetails(BaseModel):
@@ -334,7 +370,8 @@ class ArticleItems(BaseModel):  # items-v2
                 if lvl in allowed or key in req_keys:
                     continue
                 if (src == "known" and dict_level
-                        and CEFR_ORDER.index(lvl) > CEFR_ORDER.index(allowed[1])):
+                        and CEFR_ORDER.index(lvl) > CEFR_ORDER.index(allowed[1])
+                        and not above_ceiling(lvl, ctx.get("exempt_ceiling"))):  # v4: tối đa cấp bài + 2
                     continue
                 off.append(f"{it.canonical_form} ({lvl}{', dictionary' if src == 'dictionary' else ''})")
             if off:
@@ -370,6 +407,43 @@ class ArticleItems(BaseModel):  # items-v2
 
 class ArticleItemsV3(ArticleItems):
     quiz: list[QuizItemV3] = Field(min_length=3, max_length=3)
+
+
+MIN_COLLOCATION_SHARE = 0.4  # BE-06i mục 5 (Q-029): pizza v3 chọn 8/10 từ đơn
+
+
+def quiz_has_negative(quiz, level: str) -> bool:
+    """Có ≥ 1 câu đáp án False (true_false / true_false_ng); bài B1+ được thay bằng 1 câu Not Given."""
+    for q in quiz:
+        ans = q.options[q.answer_index]
+        if q.type in ("true_false", "true_false_ng") and ans == "False":
+            return True
+        if level != "A2" and q.type == "true_false_ng" and ans == "Not Given":
+            return True
+    return False
+
+
+class ArticleItemsV4(ArticleItemsV3):
+    """items-v4 (BE-06i): ≥ 40% mục là cụm; quiz không được toàn đáp án True."""
+
+    @model_validator(mode="after")
+    def _v4_rules(self, info: ValidationInfo):
+        ctx = info.context or {}
+        n = len(self.items)
+        coll = sum(1 for it in self.items if it.type == "collocation")
+        need = -(-int(MIN_COLLOCATION_SHARE * 10 * n) // 10)  # ceil(0.4 × n) không lệch số thực
+        if coll < need:
+            raise ValueError(
+                f"Only {coll} of {n} items are collocations; at least {need} must be fixed phrases "
+                "(type \"collocation\"). Replace some single words with fixed phrases from the text — "
+                "the REPEATED PHRASES list is a good place to look.")
+        if not quiz_has_negative(self.quiz, ctx.get("level", "B1")):
+            extra = " (or one true_false_ng question whose answer is \"Not Given\")" \
+                if ctx.get("level", "A2") != "A2" else ""
+            raise ValueError(
+                "At least one true/false question must have the answer \"False\": a statement that a "
+                f"sentence in the text directly contradicts{extra}. Do not make every statement true.")
+        return self
 
 
 # ── Human overrides (pipeline/out/<slug>/overrides.json) ────────
@@ -441,6 +515,11 @@ class Overrides(BaseModel):
         default_factory=list,
         description="canonical_forms bỏ SAU các bước LLM (không đổi prompt → cache hit, nội dung đã duyệt "
                     "giữ nguyên). Dùng khi bài đã duyệt; bài mới dùng excluded_items")
+    excerpt: Optional[str] = Field(
+        default=None, min_length=1, max_length=EXCERPT_MAX_CHARS,
+        description="đoạn trích sửa tay (ADR-024); mặc định câu đầu card đầu, chép nguyên văn")
+    cover: Optional[CoverSpec] = Field(
+        default=None, description="vùng cắt ảnh bìa (pipeline.cover); không có → bìa chủ đề")
 
     @field_validator("key_ideas")
     @classmethod
@@ -470,7 +549,7 @@ def apply_key_idea_overrides(sections_data: list[dict], overrides: "Overrides") 
             raise ValueError(f"override key_ideas: section {order} không tồn tại")
         applied.append(f"sec {order}: \"{sd['key_idea_text']}\" → \"{text}\"")
         sd["key_idea_text"] = text
-        sd["key_idea_tokens"] = tokenize(text)
+        sd["key_idea_tokens"] = tokenize(text, with_tags=True)
     return applied
 
 
@@ -624,9 +703,17 @@ def pinned_section_version(pin: Optional[dict]) -> str:
     return pin.get("section_prompt_version", SECTION_PROMPT_V1)
 
 
+def pinned_details_version(pin: Optional[dict]) -> str:
+    """Version prompt bước 4b: bài có pin mà thiếu trường = v1 (ghim trước BE-06i)."""
+    if pin is None:
+        return DETAILS_PROMPT_VERSION
+    return pin.get("details_prompt_version", DETAILS_PROMPT_V1)
+
+
 def write_pin(slug: str, version: str, run_args: dict, known_entries: list[dict],
               known_levels: list[tuple[str, str]], out_dir: pathlib.Path = OUT,
-              section_version: str = SECTION_PROMPT_VERSION) -> pathlib.Path:
+              section_version: str = SECTION_PROMPT_VERSION,
+              details_version: str = DETAILS_PROMPT_VERSION) -> pathlib.Path:
     pin = {
         "_note": "Ghim đầu vào prompt bước 3 (chọn mục từ + quiz) của bài đã duyệt (BE-06g) "
                  "và version prompt bước 1 (Key idea + nghĩa token, BE-06h). "
@@ -635,6 +722,7 @@ def write_pin(slug: str, version: str, run_args: dict, known_entries: list[dict]
                  "CEFR cuối cùng trong bundle vẫn lấy cefr.json hiện tại. Không sửa tay.",
         "items_prompt_version": version,
         "section_prompt_version": section_version,
+        "details_prompt_version": details_version,
         "run_args": run_args,
         "known_entries": [{k: e[k] for k in ("form", "cefr", "slug", "dropped") if k in e}
                           for e in known_entries],
@@ -1052,8 +1140,72 @@ QUIZ — Write exactly 3 questions about the article:
 - Do not make a statement more general than the text: do not add words like "often", "usually", "always", "most" or "never" unless the text itself says so.
 - Do not ask anything whose answer can only be inferred from the writer's tone, a joke, or a legend / story that the text does not present as fact.""")
 
+# items-v4 (BE-06i mục 5): v3 + ưu tiên cụm lặp trong bài, ≥ 40% cụm, quiz có câu False.
+# Dựng bằng replace trên v3 để chữ của v3 (2 bài đã ghim) không đổi.
+_V3_RULE3_END = "If a free combination contains one useful word, select that word as a single_word instead."
+_V3_QUIZ_END = ("- Do not ask anything whose answer can only be inferred from the writer's tone, a joke, "
+                "or a legend / story that the text does not present as fact.")
+ITEMS_PROMPT_V4 = ITEMS_PROMPT_V3.replace(
+    _V3_RULE3_END,
+    _V3_RULE3_END + " PREFER fixed phrases that the text uses MORE THAN ONCE (see REPEATED PHRASES, "
+    "counted in the text by code; it is only a list of candidates — still skip the free combinations "
+    "in it). At least 40% of the items (so at least {coll_min}) must be collocations.",
+).replace(
+    _V3_QUIZ_END,
+    _V3_QUIZ_END + "\n- At least one true/false statement must be FALSE (a sentence in the text directly "
+    "contradicts it){ng_false_note}. Do not make all statements true.",
+)
+
 # UPOS của token có thể là mục từ đơn (danh/động/tính/trạng từ).
 CONTENT_UPOS = {"NOUN", "VERB", "ADJ", "ADV"}
+# Cụm lặp: biên trái/phải không được là các loại này (bỏ "of pizza", "in the city", "is often").
+_REPEAT_START_BAD = {"ADP", "DET", "CCONJ", "SCONJ", "PRON", "NUM", "PROPN", "PART", "PUNCT", "SYM", "X"}
+_REPEAT_END_BAD = {"DET", "CCONJ", "SCONJ", "PRON", "NUM", "PROPN", "AUX", "PART", "ADV", "PUNCT", "SYM", "X"}
+_REPEAT_GLUE = {"ADP", "PART", "DET"}
+
+
+def repeated_phrases(sections_data: list[dict], min_count: int = 2, limit: int = 12,
+                     sizes: tuple[int, ...] = (2, 3, 4)) -> list[tuple[str, int]]:
+    """Cụm 2-4 từ lặp ≥ `min_count` lần trong bài (khóa = lemma, "be" gộp is/was/are), không vắt qua
+    dấu câu, có ≥ 1 từ nội dung. Bỏ cụm con chỉ xuất hiện bên trong cụm dài hơn (cùng số lần).
+    Trả [(dạng hiển thị phổ biến nhất, số lần)] theo số lần giảm dần — chỉ là gợi ý cho prompt v4."""
+    from collections import Counter, defaultdict
+    counts: Counter = Counter()
+    shown: dict[str, Counter] = defaultdict(Counter)
+    for sd in sections_data:
+        runs, cur = [], []
+        for t in sd["tokens"]:
+            if t["is_word"]:
+                cur.append(t)
+            elif cur:
+                runs.append(cur)
+                cur = []
+        if cur:
+            runs.append(cur)
+        for run in runs:
+            for n in sizes:
+                for k in range(len(run) - n + 1):
+                    g = run[k:k + n]
+                    if g[0]["pos"] in _REPEAT_START_BAD or g[-1]["pos"] in _REPEAT_END_BAD:
+                        continue
+                    if g[0]["pos"] == "AUX" and norm(g[0]["lemma"]) != "be":
+                        continue
+                    if not any(t["pos"] in CONTENT_UPOS for t in g):
+                        continue
+                    # Cần ≥ 1 từ chức năng ("topped with", "make a decision"): cụm toàn từ nội dung
+                    # ("baked flat bread", "extra cheese", "last year") thường là ghép tự do và kéo LLM
+                    # chọn sai luật 3 (thử trên pizza run #98).
+                    if not any(t["pos"] in _REPEAT_GLUE for t in g):
+                        continue
+                    key = " ".join(norm(t["lemma"]) for t in g)
+                    counts[key] += 1
+                    shown[key][" ".join("be" if norm(t["lemma"]) == "be" else norm(t["text"])
+                                        for t in g)] += 1
+    rep = {k: c for k, c in counts.items() if c >= min_count}
+    keep = [(k, c) for k, c in rep.items()
+            if not any(k2 != k and f" {k} " in f" {k2} " and c2 >= c for k2, c2 in rep.items())]
+    keep.sort(key=lambda x: (-x[1], -len(x[0].split()), x[0]))
+    return [(shown[k].most_common(1)[0][0], c) for k, c in keep[:limit]]
 
 
 def single_word_levels(sections_data: list[dict], look, cefr_dict: dict,
@@ -1107,11 +1259,23 @@ def found_in(sections_data: list[dict], form: str) -> bool:
     return any(locate(sd["tokens"], form) for sd in sections_data)
 
 
+def reuse_ceiling(level: str) -> str:
+    """Cấp cao nhất được tự ép chọn lại: cấp bài + 2 bậc (A2 → B2, B1 → C1, B2 → C2 = không giới hạn)."""
+    k = CEFR_ORDER.index(level)
+    return CEFR_ORDER[min(k + REUSE_MAX_STEPS_ABOVE, len(CEFR_ORDER) - 1)]
+
+
+def above_ceiling(cefr: Optional[str], ceiling: Optional[str]) -> bool:
+    return bool(ceiling and cefr in CEFR_ORDER and CEFR_ORDER.index(cefr) > CEFR_ORDER.index(ceiling))
+
+
 def plan_reuse(sections_data, known_entries: list[dict], excluded_items=(),
-               required_items=(), cap: int = 4, level: Optional[str] = None) -> list[str]:
+               required_items=(), cap: int = 4, level: Optional[str] = None,
+               ceiling: Optional[str] = None) -> list[str]:
     """Mục từ của bài trước có mặt trong bài này → bắt buộc chọn lại (tối đa `cap`, theo thứ tự
-    bài trước), trừ mục người duyệt loại bỏ, đã có trong required_items, hoặc DỄ HƠN cấp bài
-    (chọn lại "learn" A1 ở bài B1 không giúp gì; mục khó hơn thì được miễn i+1)."""
+    bài trước), trừ mục người duyệt loại bỏ, đã có trong required_items, DỄ HƠN cấp bài
+    (chọn lại "learn" A1 ở bài B1 không giúp gì), hoặc KHÓ HƠN `ceiling` (items-v4: cấp bài + 2,
+    vd không ép `in moderation` C1 ở bài A2). Mục khó hơn trong khoảng thì được miễn i+1."""
     skip = {lemma_key(e) for e in (*excluded_items, *required_items)}
     floor = CEFR_ORDER.index(level) if level else 0
     out = []
@@ -1121,6 +1285,8 @@ def plan_reuse(sections_data, known_entries: list[dict], excluded_items=(),
         if e.get("dropped") or lemma_key(e["form"]) in skip:
             continue
         if e.get("cefr") in CEFR_ORDER and CEFR_ORDER.index(e["cefr"]) < floor:
+            continue
+        if above_ceiling(e.get("cefr"), ceiling):
             continue
         if found_in(sections_data, e["form"]):
             out.append(e["form"])
@@ -1141,8 +1307,12 @@ def select_items_and_quiz(client, deployment, sections_data,
     )
     words = sum(len(sd["body"].split()) for sd in sections_data)
     count_lo, count_hi = item_count_range(level, words)
+    v4 = version == ITEMS_PROMPT_VERSION
+    ceiling = reuse_ceiling(level) if v4 else None
+    if v4:  # mục bài trước khó hơn cấp bài + 2 không gợi ý, không ép chọn (ADR-017 bổ sung run #93)
+        known_entries = [e for e in known_entries if not above_ceiling(e.get("cefr"), ceiling)]
     reused = plan_reuse(sections_data, known_entries, excluded_items, required_items,
-                        cap=max(1, count_hi // 3), level=level)
+                        cap=max(1, count_hi // 3), level=level, ceiling=ceiling)
     must = list(required_items) + reused
     # Muc bat buoc + tai su dung luon duoc giu: nang tran neu can.
     count_hi = max(count_hi, len(must))
@@ -1182,6 +1352,13 @@ def select_items_and_quiz(client, deployment, sections_data,
                 f"text at {cefr_a}/{cefr_b}:\n" + ", ".join(f"{w} ({c})" for w, c in sw))
         extra_ctx = {"dict_level": item_dict_level(look),
                      "full_text": "\n".join(sd["body"] for sd in sections_data)}
+    if v4:
+        extra_ctx["exempt_ceiling"] = ceiling
+        rep = repeated_phrases(sections_data)
+        if rep:
+            known_block += (
+                "\n\nREPEATED PHRASES (word sequences used more than once in this text, counted by code; "
+                "candidates only):\n" + "\n".join(f"- {p} (×{c})" for p, c in rep))
     if levels_here:
         known_block += (
             "\n\nKNOWN CEFR LEVELS (shared dictionary — use exactly these levels):\n"
@@ -1202,19 +1379,25 @@ def select_items_and_quiz(client, deployment, sections_data,
         )
 
     ng_note = ', "true_false_ng"' if level != "A2" else ""
+    v4_fmt = {}
+    if v4:
+        v4_fmt = {"coll_min": -(-4 * count_lo // 10),
+                  "ng_false_note": (' (for a true_false_ng question, an answer of "Not Given" also counts)'
+                                    if level != "A2" else "")}
 
-    prompt = (ITEMS_PROMPT_V3 if v3 else ITEMS_PROMPT).format(
+    template = ITEMS_PROMPT_V4 if v4 else ITEMS_PROMPT_V3 if v3 else ITEMS_PROMPT
+    prompt = template.format(
         title=article_title,
         category=category,
         level=level,
         combined=combined,
         known_block=known_block,
         ng_note=ng_note,
-        count_lo=count_lo, count_hi=count_hi, cefr_a=cefr_a, cefr_b=cefr_b,
+        count_lo=count_lo, count_hi=count_hi, cefr_a=cefr_a, cefr_b=cefr_b, **v4_fmt,
     )
     all_toks = [sd["tokens"] for sd in sections_data]
     res = cached_create(
-        client, deployment, ArticleItemsV3 if v3 else ArticleItems,
+        client, deployment, ArticleItemsV4 if v4 else ArticleItemsV3 if v3 else ArticleItems,
         [{"role": "user", "content": prompt}],
         context={"locate": locate, "section_tokens": all_toks, "level": level,
                  "count_range": (count_lo, count_hi), "allowed_cefr": (cefr_a, cefr_b),
@@ -1248,19 +1431,35 @@ max {max_def} words, simpler words than the item itself, same sense as in the ar
 itself (inflection allowed), shows typical usage, uses the SAME sense as in the article, \
 is on a DIFFERENT topic, and is no harder than {level} level. Must not reuse the article sentence.\
 """)
+# details-v2 (BE-06i mục 6, Q-029: `crust` "soft interior" ở bài A2): nói rõ từng từ của ví dụ.
+_DETAILS_V1_EX = "is no harder than {level} level."
+DETAILS_PROMPT_V2 = DETAILS_PROMPT.replace(
+    _DETAILS_V1_EX,
+    "uses ONLY words at or below {level} level apart from the item itself (no harder synonyms, "
+    "no technical or literary words).")
+DETAILS_PROMPTS = {DETAILS_PROMPT_V1: DETAILS_PROMPT, DETAILS_PROMPT_VERSION: DETAILS_PROMPT_V2}
 
 
-def describe_entries(client, deployment, items, originals: dict[str, str], level: str):
+def describe_entries(client, deployment, items, originals: dict[str, str], level: str,
+                     version: str = DETAILS_PROMPT_V1, look=None):
+    """Bước 4b. v1 giữ đúng prompt + khóa cache cũ (10 bài đã duyệt); v2 thêm luật từ ≤ cấp bài +
+    validator `example_words_above` (cần `look`, mặc định từ điển CEFR dùng chung)."""
     lines = "\n".join(
         f"- {it.canonical_form} — {it.type} — {it.vi} — \"{originals.get(it.canonical_form, '')}\""
         for it in items
     )
-    prompt = DETAILS_PROMPT.format(level=level, lines=lines,
-                                   max_def=DEFINITION_MAX_WORDS, max_ex=EXAMPLE_MAX_WORDS)
+    prompt = DETAILS_PROMPTS[version].format(level=level, lines=lines,
+                                             max_def=DEFINITION_MAX_WORDS, max_ex=EXAMPLE_MAX_WORDS)
+    context = {"forms": [it.canonical_form for it in items], "originals": originals}
+    if version != DETAILS_PROMPT_V1:
+        if look is None:
+            from pipeline.cefr_lexicon import default_lookup
+            look = default_lookup()
+        context.update(example_level=level, example_look=look)
     return cached_create(
         client, deployment, EntryDetails,
         [{"role": "user", "content": prompt}],
-        context={"forms": [it.canonical_form for it in items], "originals": originals},
+        context=context, version=version,
     )
 
 
@@ -1384,8 +1583,27 @@ def locate_items(items: list[SelectedItem], sections_data: list[dict]):
 
 # ── Step 5: assemble bundle ─────────────────────────────────────
 
+def collocation_word_ipas(items, details: dict) -> dict[str, str]:
+    """{từ viết thường: "/ipa/"} lấy từ thẻ cụm khi số từ của dạng chuẩn bằng số đoạn IPA.
+    Bỏ chỗ trống sở hữu (`one's`) và cụm lệch số đoạn (không đoán)."""
+    out: dict[str, str] = {}
+    for it in items:
+        d = details[it.canonical_form]
+        ipa = (d.get("ipa") or "").strip().strip("/").strip()
+        if d.get("type", it.type) != "collocation" or not ipa:
+            continue
+        words, parts = it.canonical_form.lower().split(), ipa.split()
+        if len(words) != len(parts):
+            continue
+        for w, p in zip(words, parts):
+            if w != "one's" and w.isalpha():
+                out.setdefault(w, f"/{p}/")
+    return out
+
+
 def build_bundle(slug, title, category, level, source_name, source_graded,
-                 sections_data, items, quiz_responses, occurrences, details: dict):
+                 sections_data, items, quiz_responses, occurrences, details: dict,
+                 excerpt: Optional[str] = None):
     slug_under = slug.replace("-", "_")
 
     sections = []
@@ -1406,6 +1624,9 @@ def build_bundle(slug, title, category, level, source_name, source_graded,
     card_ipa = {lemma_key(it.canonical_form): details[it.canonical_form]["ipa"] for it in items
                 if details[it.canonical_form].get("type", it.type) == "single_word"
                 and details[it.canonical_form].get("ipa")}
+    # Thẻ cụm (BE-06i, vd "preheat oven" /ˌpriˈhit ˈʌvən/): số từ khớp số đoạn IPA → IPA từng từ.
+    for word, ipa in collocation_word_ipas(items, details).items():
+        card_ipa.setdefault(word, ipa)
     for sec in sections:
         for t in sec["tokens"] + sec["key_idea"]["tokens"]:
             if t["is_word"] and not t.get("ipa"):
@@ -1455,6 +1676,10 @@ def build_bundle(slug, title, category, level, source_name, source_graded,
             "source": {"name": source_name, "is_graded": source_graded},
             "word_count": total_words,
             "section_count": len(sections),
+            # cover_url: bundle giữ null như audio_url; pipeline.seed điền URL của đúng nơi đang seed.
+            "cover_url": None,
+            "excerpt": excerpt if excerpt is not None else (
+                article_excerpt(min(sections, key=lambda s: s["order_index"])["tokens"]) if sections else None),
         },
         "sections": sections,
         "lexicon": lexicon,
@@ -1473,10 +1698,14 @@ def write_review(path: pathlib.Path, slug: str, bundle: ArticleBundle,
                  glossary_report: Optional[dict] = None, extra_applied: list[str] = (),
                  items_version: str = ITEMS_PROMPT_VERSION,
                  quiz_evidence: Optional[list] = None, quiz_edited=frozenset(),
-                 section_version: str = SECTION_PROMPT_VERSION):
+                 section_version: str = SECTION_PROMPT_VERSION,
+                 details_version: str = DETAILS_PROMPT_V1):
+    coll = sum(1 for e in bundle.lexicon if e.type == "collocation")
     lines = [
         f"# Duyệt: {slug} ({bundle.article.cefr_level}, {bundle.article.category})"
-        f" — prompt {section_version} / {items_version}",
+        f" — prompt {section_version} / {items_version}"
+        + (f" / {details_version} · cụm {coll}/{len(bundle.lexicon)}"
+           if details_version != DETAILS_PROMPT_V1 else ""),
         "",
         "## 1. CẦN XỬ LÝ TAY",
     ]
@@ -1629,6 +1858,7 @@ def cmd_run(args):
     pin = None if args.write_pin else old_pin
     # Ghim lại bài cũ (--write-pin) giữ version bước 1 của pin cũ; bài mới dùng bản hiện tại.
     section_version = pinned_section_version(old_pin)
+    details_version = pinned_details_version(old_pin)
     # Bài đã ghim: tham số chạy lấy từ pin khi không truyền trên dòng lệnh.
     for k in RUN_ARG_KEYS:
         if getattr(args, k) is None and pin:
@@ -1662,7 +1892,8 @@ def cmd_run(args):
         known_entries = collect_known_entries(slug)
     if pin:
         known_entries = pinned_known_entries(pin, known_entries)
-        print(f"  {PIN_FILE}: {items_version} / {section_version}, {len(known_entries)} known_entries, "
+        print(f"  {PIN_FILE}: {items_version} / {section_version} / {details_version}, "
+              f"{len(known_entries)} known_entries, "
               f"{len(pin['known_cefr_levels'])} CEFR ghim")
     known_keys = {lemma_key(e["form"]) for e in known_entries}
     print(f"  known_entries: {len(known_entries)} mục từ bài trước · từ điển CEFR: {len(cefr_dict)} mục")
@@ -1699,12 +1930,12 @@ def cmd_run(args):
         section_id = f"sec_{slug_under}_{order}"
 
         print(f"  [{order}] \"{sec_title}\" ... ", end="", flush=True)
-        tokens = tokenize(body)
+        tokens = tokenize(body, with_tags=True)
         enrichment = enrich_section(
             client, deployment, tokens, sec_title, title, level, body,
             version=section_version,
         )
-        ki_tokens = tokenize(enrichment.key_idea)
+        ki_tokens = tokenize(enrichment.key_idea, with_tags=True)
         wc = count_words(tokens)
         print(f"{wc}w | key: \"{enrichment.key_idea}\"")
         # Gộp mã kiểu R2-D2 SAU lời gọi LLM (prompt giữ nguyên → cache đã duyệt còn dùng được).
@@ -1748,7 +1979,7 @@ def cmd_run(args):
             run_args = {"level": level, "category": category, "source_name": source_name,
                         "source_graded": source_graded, "title": args.title}
             f = write_pin(slug, items_version, run_args, known_entries, levels,
-                          section_version=section_version)
+                          section_version=section_version, details_version=details_version)
             print(f"(ghim → {f}) ", end="", flush=True)
 
     article_items, reused = select_items_and_quiz(
@@ -1784,7 +2015,8 @@ def cmd_run(args):
     print("  Card details ... ", end="", flush=True)
     lex_to_form = {item_to_lex_id(it.canonical_form): it.canonical_form for it in article_items.items}
     originals = pick_originals(occurrences, lex_to_form, overrides)
-    entry_details = describe_entries(client, deployment, article_items.items, originals, level)
+    entry_details = describe_entries(client, deployment, article_items.items, originals, level,
+                                     version=details_version)
     v3_level = v3_floor = None
     if items_version != ITEMS_PROMPT_V2:
         from pipeline.cefr_lexicon import default_lookup
@@ -1809,7 +2041,10 @@ def cmd_run(args):
     bundle_data = build_bundle(
         slug, bundle_title, category, level, source_name, source_graded,
         sections_data, article_items.items, quiz_items, occurrences, details,
+        excerpt=overrides.excerpt,
     )
+    if overrides.excerpt:
+        extra_applied.append(f"Đoạn trích sửa tay: \"{overrides.excerpt}\"")
     bundle = ArticleBundle.model_validate(bundle_data)
     print("OK (model_validate pass)")
 
@@ -1829,7 +2064,8 @@ def cmd_run(args):
                  details, lexicon_applied, reused, glossary_report, extra_applied,
                  items_version=items_version,
                  quiz_evidence=None if items_version == ITEMS_PROMPT_V2 else quiz_evidence,
-                 quiz_edited=set(overrides.quiz), section_version=section_version)
+                 quiz_edited=set(overrides.quiz), section_version=section_version,
+                 details_version=details_version)
     print(f"  -> {review_path}")
 
     # ── Summary ─────────────────────────────────────────────────
@@ -1858,7 +2094,7 @@ def main():
     run.add_argument("--cache-only", action="store_true",
                      help="trượt cache thì dừng (không gọi API, không ghi bundle)")
     run.add_argument("--write-pin", default=None, metavar="ITEMS_VERSION",
-                     choices=[ITEMS_PROMPT_V2, ITEMS_PROMPT_VERSION],
+                     choices=list(ITEMS_VERSIONS),
                      help=f"ghi {PIN_FILE} từ đầu vào hiện tại (bài đã duyệt: items-v2), bỏ qua pin cũ")
     run.add_argument("--title", default=None, help="Override article title")
     run.add_argument("--known-entries", default=None,

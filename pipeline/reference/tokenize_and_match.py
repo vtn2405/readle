@@ -37,8 +37,10 @@ def norm(s: str) -> str:
     return re.sub(r"\s+", " ", s).strip().lower()
 
 
-def tokenize(text: str) -> list[dict]:
-    """Trả về tokens theo contract (chưa có vi). Token khoảng trắng của spaCy được gộp vào ws."""
+def tokenize(text: str, with_tags: bool = False) -> list[dict]:
+    """Trả về tokens theo contract (chưa có vi). Token khoảng trắng của spaCy được gộp vào ws.
+    `with_tags=True` thêm `tag`/`dep` của spaCy (ngoài contract, chỉ dùng trong enrich cho glossary
+    bị động, BE-06i); bundle đi qua `ArticleBundle` nên 2 trường này bị bỏ khi ghi file."""
     doc = get_nlp()(text)
     out: list[dict] = []
     for t in doc:
@@ -47,7 +49,7 @@ def tokenize(text: str) -> list[dict]:
                 out[-1]["ws"] += t.text + t.whitespace_
             continue
         is_word = not t.is_punct
-        out.append({
+        tok = {
             "i": len(out),
             "text": t.text,
             "ws": t.whitespace_,
@@ -56,7 +58,10 @@ def tokenize(text: str) -> list[dict]:
             "is_word": is_word,
             "is_fn": is_word and t.pos_ in FN_POS,
             "vi": None,
-        })
+        }
+        if with_tags:
+            tok["tag"], tok["dep"] = t.tag_, t.dep_
+        out.append(tok)
     return out
 
 
@@ -174,6 +179,29 @@ def sentence_cloze(tokens: list[dict], start: int, end: int) -> dict:
     answer = surface(tokens, start, end)
     sep_after = tokens[end]["ws"]
     return {"text_before": before, "answer": answer, "text_after": sep_after + after if after else ""}
+
+
+EXCERPT_MAX_CHARS = 160
+
+
+def clip_excerpt(text: str, max_chars: int = EXCERPT_MAX_CHARS) -> str:
+    """Gộp khoảng trắng; dài quá `max_chars` thì cắt ở ranh giới từ + "…" (tính cả "…")."""
+    text = " ".join(text.split())
+    if len(text) <= max_chars:
+        return text
+    cut = text[:max_chars - 1]
+    if " " in cut:
+        cut = cut[:cut.rfind(" ")]
+    return cut.rstrip(" ,;:-–—") + "…"
+
+
+def article_excerpt(tokens: list[dict], max_chars: int = EXCERPT_MAX_CHARS) -> str | None:
+    """Đoạn trích (ADR-024 điểm 2): câu đầu của card đầu, chép nguyên văn từ tokens, không gọi LLM."""
+    words = [t["i"] for t in tokens if t["is_word"]]
+    if not words:
+        return None
+    s, e = sentence_bounds(tokens, words[0], words[0])
+    return clip_excerpt(surface(tokens, s, e), max_chars) or None
 
 
 if __name__ == "__main__":

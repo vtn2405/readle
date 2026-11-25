@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "slug": "paris",
+  "title": "PARIS",
+  "sections": [
+    {
+      "order": 0,
+      "title": "The City of Light",
+      "body": "Home to the Eiffel Tower, the Louvre and many wonderful historic buildings, the capital city of France has a wealth of history, beauty and romance.\n\nParis is located on the Seine River, in the north of France.\n\nMuch of Paris has an open feeling, created by wide boulevards and parks.",
+      "icon_hint": "city"
+    },
+    {
+      "order": 1,
+      "title": "What's in a name?",
+      "body": "The name Paris can trace its roots to the 3rd century B.C. and the Celtic settlers of the area, who were known as the \"Parisii.\" Today the people of Paris are called Parisians.\n\nParis earned its nickname \"The City of Light\" when the city installed more than 50,000 gas lamps in the 1860s. Paris was also one of the first cities to have electricity.\n\nParis is sometimes referred to as \"The City of Love,\" probably because of its long history as a romantic tourist destination.\n\nThe French language is understood and spoken by just about everyone in Paris.",
+      "icon_hint": "name"
+    },
+    {
+      "order": 2,
+      "title": "Just the facts",
+      "body": "Country France\n\nPopulation 2.34 million\n\nArea 40.7 sq. mi. (105.4 sq. km)\n\nTourists (annually) 15.6 million\n\nThe flag of Paris displays the traditional colors of the French Revolution, blue and red.\n\nThe coat of arms of Paris dates back to 1358.",
+      "icon_hint": "facts"
+    },
+    {
+      "order": 3,
+      "title": "Parisians",
+      "body": "The people of Paris love life and good living, but living in the city can be expensive, so many (about 10 million) live in the suburbs and commute into town for jobs and recreation. More than half of all city dwellers live in studio and two-room apartments. The apartments are old, but cherished for their ornate fireplaces and historic charm.\n\nFashion and fine dining are very important to Parisians. Dressing down in public just isn't done.\n\nThe people of Paris are courteous and polite, but they also like to speak their minds, which is sometimes misunderstood as rudeness.\n\nParisians are very fond of their pet dogs, and dogs can be seen everywhere — even in fancy restaurants.",
+      "icon_hint": "people"
+    },
+    {
+      "order": 4,
+      "title": "The Eiffel Tower",
+      "body": "Construction on the Eiffel Tower, began in 1887 and finished in 1889.\n\nThis iconic landmark weighs about 10,000 tons and requires 60 tons of paint every seven years.\n\nThe tower has been repainted 18 times.\n\nThere are 704 steps leading to the second floor of the tower, but the top is accessible only by elevator.\n\nThe Eiffel Tower is 1,063 feet (324 m) tall, with the top antenna.\n\nThe tower was built to sway in the wind, but when the sun heats it up, the top of the tower bends as much as 7 inches (18 cm) away from the sun. The sun also causes the tower to grow about 6 inches (15.24 cm).",
+      "icon_hint": "tower"
+    },
+    {
+      "order": 5,
+      "title": "Notre-Dame",
+      "body": "Notre-Dame de Paris is French for \"Our Lady of Paris.\" It took almost 200 years to build this cathedral. It was finished around 1345. It is one of the first buildings in the world to use the flying buttress to distribute stress and weight. It has 10 bells, the largest weighing more than 13 tons. Hundreds of statues and gargoyles decorate the building, many serving as water spouts.",
+      "icon_hint": "cathedral"
+    },
+    {
+      "order": 6,
+      "title": "The Bastille",
+      "body": "The Bastille was a stone fortress built in the 14th century to defend Paris against the English. It became a state prison in 1417. The Bastille fell and became a symbol of royal tyranny and freedom for the revolutionists on July 14th, 1789. Although the building was destroyed in 1789, Bastille Day has been celebrated ever since.",
+      "icon_hint": "fortress"
+    },
+    {
+      "order": 7,
+      "title": "The Louvre",
+      "body": "The Musée du Louvre is one of the world's largest art museums. It opened its doors to the public in 1793, and many additions have been added over the centuries. Today the Louvre displays about 35,000 pieces of art and has more than 650,000 square feet (60,600 square meters) of gallery space. The Louvre pyramid was completed in 1989 and serves as an entrance to the museum.\n\nThe Louvre is home to Leonardo da Vinci's famous Mona Lisa.",
+      "icon_hint": "museum"
+    },
+    {
+      "order": 8,
+      "title": "Pont Neuf",
+      "body": "Pont Neuf means \"New Bridge.\" When it was built in 1578, this bridge was celebrated for its modern features. It was one of the only bridges that did not have houses built on it, and for many years it was the widest bridge in Paris. Today, it is the oldest existing bridge in the city.",
+      "icon_hint": "bridge"
+    },
+    {
+      "order": 9,
+      "title": "Bon appetit",
+      "body": "Since the late 18th century, Paris has been famous for its restaurants and haute cuisine, food meticulously prepared and artfully presented.\n\nFrench food and wine are considered some of the very best in the world, and cooking is considered an art in Paris. Amateur and professional chefs flock to the city to learn about gourmet cooking (haute cuisine), the highest form of French cooking.\n\nA typical Parisian meal might begin with an appetizer or soup. Delicious, warm bread is served at most meals. Steaks, chops and poultry are popular main dishes, often served with fried potatoes. Salad, fruit and cheese follow.\n\nDessert is served on special occasions and might consist of pastry, fruit tarts or crepes with whipped cream.",
+      "icon_hint": "food"
+    },
+    {
+      "order": 10,
+      "title": "Did you know?",
+      "body": "Paris has approximately 140 theaters, 100 nightclubs, 96 cabarets, 90 movie theaters, 3 opera houses, 62,000 shops and more than 9,000 restaurants.\n\nMost Parisians take about 10 weeks of vacation a year.\n\nMore than half of employees in the city work in commerce, transportation and services.\n\nDirections in Paris often include which bank of the Seine River a place is on, the \"rive droit\" (right bank) or the \"rive gauche\" (left bank). The right bank is the commercial heart of the city, while the left bank is home to the University and the intellectual and art communities.\n\nParisians are proud of their language and are pleased when non-French speakers make an effort to learn some French.\n\nParis is divided into 20 arrondissements (neighborhoods). Each arrondissement has a unique and special character.",
+      "icon_hint": "stats"
+    }
+  ]
+}

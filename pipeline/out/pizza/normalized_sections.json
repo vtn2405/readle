@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "slug": "pizza",
+  "title": "PIZZA",
+  "sections": [
+    {
+      "order": 0,
+      "title": "A Favorite Food",
+      "body": "No matter the topping — extra cheese, mushrooms or pepperoni — this pie has become a favorite food around the world. Enjoyed for its variety, simplicity and affordability, pizza has a long and delicious history.",
+      "icon_hint": "pizza"
+    },
+    {
+      "order": 1,
+      "title": "A great idea",
+      "body": "No one knows who invented pizza. Many people think pizza originated in Italy, but it has been around for a long, long time. Early versions of baked flat bread topped with a variety of ingredients were enjoyed by the ancient Greeks, the ancient Egyptians and other Mediterranean peoples. Adding flavorful ingredients to baked bread is probably one of the oldest cooking traditions — which gives pizza an impressive legacy.",
+      "icon_hint": "idea"
+    },
+    {
+      "order": 2,
+      "title": "Italian origins",
+      "body": "Pizza in 18th-century Italy was a baked flat bread served warm without any toppings. Filling and inexpensive, it was popular with the poor and sold by street vendors and from open-air stands.",
+      "icon_hint": "history"
+    },
+    {
+      "order": 3,
+      "title": "You say tomato ...",
+      "body": "The arrival and acceptance of tomatoes marked the beginning of modern pizza as we know it. Most Europeans thought tomatoes (a fruit of the Americas discovered in the 16th century) were poisonous. But the peasants of Naples, Italy, were hungry enough to disregard popular opinion of the day. The use of tomatoes on pizza probably began in 17th-century Naples. The idea seems to have caught on, and Naples became famous for a specialty dish called \"pizzaiola.\"",
+      "icon_hint": "tomato"
+    },
+    {
+      "order": 4,
+      "title": "Neapolitan pizza",
+      "body": "Authentic and traditional Neapolitan pizza comes in two forms — the \"Marinara\" and the \"Margherita.\" The Marinara owes its name to its popularity with fishermen and sailors. It is topped with tomato, oregano, garlic, extra-virgin olive oil and fresh basil. The Margherita is topped with basil, mozzarella and tomatoes.",
+      "icon_hint": "pizza"
+    },
+    {
+      "order": 5,
+      "title": "A love story",
+      "body": "In 1889, Raffaele Esposito of Naples baked a \"pizza\" for the visit of Italian King Umberto I and Queen Margherita. To honor the queen, Esposito topped his pizza with tomatoes, mozzarella cheese and fresh basil (red, white and green, representing the colors of the Italian flag). The queen loved the pizza, and her enthusiasm contributed to the popularity and success of pizza topped with tomatoes.",
+      "icon_hint": "story"
+    },
+    {
+      "order": 6,
+      "title": "On the move",
+      "body": "Pizza arrived in North America with Italian immigrants in the late 19th century, and small family-owned pizzerias were easy to find in the big cities. In the 1950s, pizza became popular with mainstream America (not just Italian-Americans). In fact, during this time, many large pizza chains were established. Frozen pizza also made its way to market in the 1950s.",
+      "icon_hint": "travel"
+    },
+    {
+      "order": 7,
+      "title": "Tomato pies",
+      "body": "In the northeastern United States, pizza is often called tomato pie. Tomato pies are generally topped with the cheese first, then other ingredients and then the sauce.",
+      "icon_hint": "pie"
+    },
+    {
+      "order": 8,
+      "title": "Any way you top it",
+      "body": "Where you live has a lot to do with what kind of pizza toppings you enjoy. While pepperoni tops the list of popular pizza toppings in North America, anchovies swim at the bottom of the list. In India, pickled ginger and paneer cheese are the most prevalent toppings. In Japan, eel and squid are popular. Pizza covered with \"mockba,\" a combination of sardines, tuna, mackerel, salmon and onions, is a hit in Russia; red herring is another favorite. Brazilians like green peas on their pizzas. Curry is a common ingredient in Pakistan. Australians enjoy shrimp and pineapple on their pies. Coconut is a popular topping in Costa Rica.",
+      "icon_hint": "world"
+    },
+    {
+      "order": 9,
+      "title": "Variety, the spice of life",
+      "body": "There are many kinds of pizza.\n\nCalzone (ripieno) is stuffed with ricotta, salami and mozzarella. It is baked or fried.\n\nChicago deep dish is filled with toppings and baked in a deep pan.\n\nHawaiian pizza is topped with ham and pineapple.\n\nNew York style is hand tossed and is traditionally folded when eaten.\n\nWhite pizza does not use tomato sauce.",
+      "icon_hint": "variety"
+    },
+    {
+      "order": 10,
+      "title": "Healthy choices",
+      "body": "A pizza topped with extra cheese and meat can be high in salt, fat and calories and should be eaten in moderation. But if you choose healthy toppings like vegetables and avoid or use less cheese, pizza can be nutritious and good for you.\n\nPeople prefer different kinds of pizza dough or pizza crust. Some like it thick and chewy, while others want it thin and crispy. A crust made with whole-wheat flour is healthier than one made with white flour.",
+      "icon_hint": "health"
+    },
+    {
+      "order": 11,
+      "title": "Did you know?",
+      "body": "Gennaro Lombardi is often credited with opening the first pizzeria in North America (New York City) in 1905.\n\nPizza is a $30 billion-per-year industry in the United States.\n\nAccording to a Gallup Poll, kids ages 3 to 11 prefer pizza over all other foods for lunch and dinner.\n\nCarmela Vitale of Dix Hills, N.Y., invented the plastic \"saver\" that keeps the pizza from hitting the inside of the box top. The U.S. patent was issued in 1985.",
+      "icon_hint": "facts"
+    },
+    {
+      "order": 12,
+      "title": "Make it yourself",
+      "body": "There are many ways to make pizza. This fun, easy, do-it-yourself recipe uses pita bread as a base and can be made with your favorite toppings. If you set the ingredients up as a buffet (in a line of bowls), everyone can create their own unique pizza.\n\nPreheat oven to 375 F. Spoon pizza sauce over pita rounds. Top with mozzarella and desired toppings. Place on baking sheet and cook for seven to 10 minutes, or until cheese has melted. Serve and eat!",
+      "icon_hint": "recipe"
+    }
+  ]
+}

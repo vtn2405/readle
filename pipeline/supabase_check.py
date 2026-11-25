@@ -19,6 +19,7 @@ import pathlib
 
 from supabase import create_client
 
+from pipeline.cover import COVER_FILE
 from pipeline.reference.contract_models import CONTRACT_VERSION, ArticleBundle
 from pipeline.seed import local_env, remote_env, seed_bundle, stable_uuid  # noqa: F401
 
@@ -52,10 +53,11 @@ def check_bundle(env: dict, bundle_path: pathlib.Path, source_type: str) -> None
     def counts() -> dict[str, int]:
         return {tb: service.table(tb).select("id", count="exact").limit(1).execute().count for tb in CONTENT_TABLES}
 
-    res = seed_bundle(service, src, source_type)
+    cover = bundle_path.parent / COVER_FILE
+    res = seed_bundle(service, src, source_type, cover_path=cover)
     art_id, back = res.rows.article_id, res.rows.back
     before = counts()
-    seed_bundle(service, src, source_type)  # lần 2: phải không lỗi, không thêm dòng nào
+    seed_bundle(service, src, source_type, cover_path=cover)  # lần 2: phải không lỗi, không thêm dòng nào
     after = counts()
     assert before == after, f"seed 2 lần làm đổi số dòng: {before} → {after}"
     n = service.table("vocabulary_occurrences").select("id", count="exact").eq("article_id", art_id).execute().count
@@ -70,6 +72,13 @@ def check_bundle(env: dict, bundle_path: pathlib.Path, source_type: str) -> None
     assert not diff, f"bundle từ RPC khác bundle gốc ở: {diff}"
     cards = anon.table("article_cards").select("*").eq("id", art_id).execute().data
     assert len(cards) == 1 and cards[0]["section_count"] == len(src["sections"]), cards
+    # 1.5: view có cover_url + excerpt khớp bundle; ảnh bìa tải được bằng URL công khai.
+    assert cards[0]["excerpt"] == src["article"].get("excerpt"), cards[0]["excerpt"]
+    assert cards[0]["cover_url"] == src["article"].get("cover_url"), cards[0]["cover_url"]
+    if src["article"].get("cover_url"):
+        import httpx
+        r = httpx.get(src["article"]["cover_url"], timeout=30)
+        assert r.status_code == 200 and r.content[8:12] == b"WEBP", (r.status_code, r.content[:12])
     print(f"OK  get_article_bundle({src['article']['id']} → {art_id}): {len(got['sections'])} section, "
           f"{len(got['lexicon'])} mục từ, {len(got['occurrences'])} occurrence; khớp bundle gốc; seed lại không trùng")
     return art_id

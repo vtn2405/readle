@@ -1,0 +1,275 @@
+{
+ "title_lines": [
+  "L004",
+  "L005"
+ ],
+ "sections": [
+  {
+   "title_lines": [],
+   "body_lines": [
+    "L006",
+    "L007",
+    "L008",
+    "L009",
+    "L010",
+    "L011",
+    "L012",
+    "L013"
+   ],
+   "paragraph_starts": [],
+   "icon_hint": "wheat"
+  },
+  {
+   "title_lines": [
+    "L016"
+   ],
+   "body_lines": [
+    "L017",
+    "L020",
+    "L023",
+    "L027",
+    "L029",
+    "L032",
+    "L035",
+    "L038",
+    "L041",
+    "L044",
+    "L048",
+    "L050",
+    "L053",
+    "L056",
+    "L058",
+    "L060",
+    "L063",
+    "L066",
+    "L070",
+    "L073",
+    "L103",
+    "L106",
+    "L109",
+    "L124",
+    "L127",
+    "L130",
+    "L134",
+    "L136",
+    "L138",
+    "L141",
+    "L143",
+    "L145",
+    "L147",
+    "L149"
+   ],
+   "paragraph_starts": [
+    "L041",
+    "L056",
+    "L063",
+    "L103",
+    "L124",
+    "L141"
+   ],
+   "icon_hint": "tractor"
+  },
+  {
+   "title_lines": [
+    "L014"
+   ],
+   "body_lines": [
+    "L018",
+    "L021",
+    "L024",
+    "L026",
+    "L031",
+    "L034",
+    "L037",
+    "L040",
+    "L043",
+    "L046",
+    "L049",
+    "L051",
+    "L054",
+    "L057",
+    "L059",
+    "L061",
+    "L064",
+    "L068",
+    "L071",
+    "L074",
+    "L077",
+    "L079",
+    "L081",
+    "L083",
+    "L085",
+    "L091",
+    "L094",
+    "L097",
+    "L099",
+    "L101",
+    "L104",
+    "L107",
+    "L110",
+    "L112",
+    "L115",
+    "L117",
+    "L120"
+   ],
+   "paragraph_starts": [
+    "L037",
+    "L061",
+    "L077",
+    "L081",
+    "L091",
+    "L099",
+    "L115"
+   ],
+   "icon_hint": "cow"
+  },
+  {
+   "title_lines": [
+    "L122"
+   ],
+   "body_lines": [
+    "L125",
+    "L128",
+    "L131",
+    "L133",
+    "L137",
+    "L140"
+   ],
+   "paragraph_starts": [
+    "L128"
+   ],
+   "icon_hint": "grain"
+  },
+  {
+   "title_lines": [
+    "L015"
+   ],
+   "body_lines": [
+    "L019",
+    "L022",
+    "L025",
+    "L028",
+    "L030",
+    "L033",
+    "L036",
+    "L039"
+   ],
+   "paragraph_starts": [
+    "L028"
+   ],
+   "icon_hint": "insect"
+  },
+  {
+   "title_lines": [
+    "L072"
+   ],
+   "body_lines": [
+    "L075",
+    "L078",
+    "L080",
+    "L082",
+    "L084",
+    "L089",
+    "L092",
+    "L095",
+    "L098",
+    "L100",
+    "L102",
+    "L105",
+    "L108",
+    "L111",
+    "L114",
+    "L116"
+   ],
+   "paragraph_starts": [
+    "L082",
+    "L100",
+    "L108"
+   ],
+   "icon_hint": "soil"
+  },
+  {
+   "title_lines": [
+    "L119"
+   ],
+   "body_lines": [
+    "L121",
+    "L123",
+    "L126",
+    "L129",
+    "L132",
+    "L135"
+   ],
+   "paragraph_starts": [],
+   "icon_hint": "water"
+  },
+  {
+   "title_lines": [
+    "L139"
+   ],
+   "body_lines": [
+    "L142",
+    "L144",
+    "L146",
+    "L148",
+    "L150",
+    "L152"
+   ],
+   "paragraph_starts": [],
+   "icon_hint": "food"
+  }
+ ],
+ "ignore": [
+  "L000",
+  "L001",
+  "L002",
+  "L003",
+  "L052",
+  "L055",
+  "L062",
+  "L065",
+  "L067",
+  "L069",
+  "L086",
+  "L087",
+  "L088",
+  "L113",
+  "L118",
+  "L151",
+  "L153",
+  "L154",
+  "L155",
+  "L156",
+  "L157",
+  "L158",
+  "L159",
+  "L160",
+  "L161",
+  "L162",
+  "L163",
+  "L164",
+  "L165",
+  "L042",
+  "L045",
+  "L047",
+  "L076",
+  "L090",
+  "L093",
+  "L096"
+ ],
+ "line_fixes": {
+  "L010": "and could settle in permanent homes. Centuries later, European explorers",
+  "L011": "brought home new plants such as potatoes and tomatoes, and crops",
+  "L127": "and corn are called combines. A wheat combine cuts the",
+  "L134": "wheat falls onto a conveyor belt where the kernels are",
+  "L120": "llamas, mink, bison and crocodiles.",
+  "L128": "These are grains like wheat, corn, rice, barley,",
+  "L131": "millet and oats. Corn and barley are grown al-",
+  "L075": "Soil is made up of fine rock particles, decayed grass and",
+  "L100": "Soil erosion takes place when topsoil is worn away by",
+  "L066": "resented the amount of land a yoke (a team) of oxen"
+ },
+ "section_titles": {
+  "0": "Introduction"
+ }
+}

@@ -119,6 +119,18 @@
       "text": "stops",
       "nth": 1,
       "vi": "điểm dừng"
+    },
+    {
+      "section_order": 9,
+      "text": "Year",
+      "nth": 1,
+      "vi": "Year (năm)"
+    },
+    {
+      "section_order": 9,
+      "text": "Day",
+      "nth": 1,
+      "vi": "Day (ngày)"
     }
   ],
   "required_items": [
@@ -173,5 +185,6 @@
       "answer_index": 0,
       "explanation": "Bà Cuomo thấy số điện thoại đặt giá vé nhóm của JetBlue (từ 10 người trở lên); gia đình bà 15 người nên mua được vé chỉ hơn 1.000 đô mỗi vé."
     }
-  }
+  },
+  "cover": {"source": "sources/save_money.pdf", "page": 3, "box": [227, 1174, 1480, 2009]}
 }

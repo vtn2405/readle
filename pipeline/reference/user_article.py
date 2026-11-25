@@ -1,5 +1,5 @@
 """
-Bản tham chiếu cho bài người dùng tự tải (ADR-021, bản nháp Contract 1.5 — CHƯA ÁP DỤNG).
+Bản tham chiếu cho bài người dùng tự tải (ADR-021, bản nháp Contract 1.6 — CHƯA ÁP DỤNG).
 
 App Flutter sẽ chuyển các hàm thuần trong file này sang Dart (FE-16). Fixture
 `fixtures/user_article_sample.json` được sinh bằng chính các hàm này, nên bản Dart đúng
@@ -8,7 +8,7 @@ khi tách cùng chữ ra cùng tokens / cards như fixture.
 Không dùng spaCy ở đây: app không có spaCy. Lemma, IPA, is_fn đến từ bảng `dict_entries`
 (BE-15), được điền vào token sau bước tách bằng `apply_dict`.
 
-Các hằng số và luật được mô tả trong docs/CONTRACTS.md mục 6 (bản nháp 1.5).
+Các hằng số và luật được mô tả trong docs/CONTRACTS.md mục 6 (bản nháp 1.6).
 """
 from __future__ import annotations
 
@@ -19,7 +19,7 @@ from typing import Callable, Literal, Optional
 
 from pydantic import BaseModel, Field, model_validator
 
-DRAFT_CONTRACT_VERSION = "1.5"
+DRAFT_CONTRACT_VERSION = "1.6"
 
 # ── Chuẩn hóa + tách đoạn ──────────────────────────────────────
 _INVISIBLE = re.compile(r"[​-‏⁠﻿]")
@@ -303,7 +303,7 @@ def lookup_key(sentence: str, word: str, occurrence: int) -> str:
     return hashlib.sha256(payload.encode("utf-8")).hexdigest()
 
 
-# ── Model bản nháp 1.5 cho bài tự tải ─────────────────────────
+# ── Model bản nháp 1.6 cho bài tự tải ─────────────────────────
 class UserToken(BaseModel):
     i: int = Field(ge=0)
     text: str = Field(min_length=1)
@@ -343,7 +343,7 @@ class UserArticleMeta(BaseModel):
 
 
 class UserArticleBundle(BaseModel):
-    contract_version: Literal["1.5"]
+    contract_version: Literal["1.6"]
     article: UserArticleMeta
     sections: list[UserSection]
     lexicon: list = Field(max_length=0)
@@ -367,7 +367,7 @@ class UserArticleBundle(BaseModel):
             if any(t.is_fn and not t.is_word for t in s.tokens):
                 errors.append(f"{s.id}: is_fn chỉ được true khi is_word")
         if errors:
-            raise ValueError("Bài tự tải vi phạm bản nháp 1.5:\n- " + "\n- ".join(errors))
+            raise ValueError("Bài tự tải vi phạm bản nháp 1.6:\n- " + "\n- ".join(errors))
         return self
 
 

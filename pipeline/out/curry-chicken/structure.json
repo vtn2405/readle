@@ -1,0 +1,172 @@
+{
+ "title_lines": [
+  "L001",
+  "L002",
+  "L003"
+ ],
+ "sections": [
+  {
+   "title_lines": [],
+   "body_lines": [
+    "L004",
+    "L005",
+    "L012",
+    "L013",
+    "L014",
+    "L015",
+    "L016",
+    "L017"
+   ],
+   "paragraph_starts": [
+    "L012"
+   ],
+   "icon_hint": "home"
+  },
+  {
+   "title_lines": [],
+   "body_lines": [
+    "L020",
+    "L021",
+    "L022",
+    "L023",
+    "L024",
+    "L025",
+    "L026"
+   ],
+   "paragraph_starts": [],
+   "icon_hint": "rice"
+  },
+  {
+   "title_lines": [],
+   "body_lines": [
+    "L027",
+    "L028",
+    "L029",
+    "L030",
+    "L031",
+    "L032",
+    "L033",
+    "L034"
+   ],
+   "paragraph_starts": [],
+   "icon_hint": "map"
+  },
+  {
+   "title_lines": [],
+   "body_lines": [
+    "L035",
+    "L036",
+    "L037",
+    "L038",
+    "L039",
+    "L040",
+    "L041"
+   ],
+   "paragraph_starts": [],
+   "icon_hint": "globe"
+  },
+  {
+   "title_lines": [],
+   "body_lines": [
+    "L042",
+    "L043",
+    "L044",
+    "L045",
+    "L046",
+    "L047",
+    "L048",
+    "L049"
+   ],
+   "paragraph_starts": [],
+   "icon_hint": "book"
+  },
+  {
+   "title_lines": [],
+   "body_lines": [
+    "L050",
+    "L051",
+    "L052",
+    "L053",
+    "L054",
+    "L055",
+    "L056",
+    "L057",
+    "L058",
+    "L059",
+    "L060",
+    "L061"
+   ],
+   "paragraph_starts": [
+    "L054"
+   ],
+   "icon_hint": "oven"
+  },
+  {
+   "title_lines": [],
+   "body_lines": [
+    "L062",
+    "L063",
+    "L064",
+    "L065",
+    "L066",
+    "L067",
+    "L068",
+    "L069",
+    "L070",
+    "L071",
+    "L072"
+   ],
+   "paragraph_starts": [
+    "L068"
+   ],
+   "icon_hint": "pot"
+  },
+  {
+   "title_lines": [],
+   "body_lines": [
+    "L073",
+    "L074",
+    "L075",
+    "L076",
+    "L077",
+    "L078",
+    "L079",
+    "L080",
+    "L081",
+    "L082",
+    "L083"
+   ],
+   "paragraph_starts": [
+    "L079"
+   ],
+   "icon_hint": "sparkle"
+  }
+ ],
+ "ignore": [
+  "L000",
+  "L006",
+  "L007",
+  "L008",
+  "L009",
+  "L010",
+  "L011",
+  "L018",
+  "L019",
+  "L084",
+  "L085",
+  "L086"
+ ],
+ "line_fixes": {
+  "L078": "chaan teng.\" What stays the same is the change."
+ },
+ "section_titles": {
+  "0": "A restaurant dish at home",
+  "1": "A high school favorite",
+  "2": "Why Portuguese?",
+  "3": "Global influences",
+  "4": "Nobody knows for sure",
+  "5": "The oven trick",
+  "6": "A lighter sauce",
+  "7": "Always changing"
+ }
+}

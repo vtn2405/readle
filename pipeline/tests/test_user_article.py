@@ -1,4 +1,4 @@
-"""Tests cho bản tham chiếu bài tự tải (ADR-021, bản nháp Contract 1.5) — thuần logic, không gọi mạng,
+"""Tests cho bản tham chiếu bài tự tải (ADR-021, bản nháp Contract 1.6) — thuần logic, không gọi mạng,
 không cần spaCy. Các ca này cũng là danh sách ca Antigravity cần lặp lại bằng Dart (FE-16)."""
 import json
 import pathlib
@@ -165,7 +165,7 @@ class TestFixture:
         rec = json.loads((ROOT / "fixtures" / "user_article_sample.json").read_text(encoding="utf-8"))
         UserArticleRecord.model_validate(rec)
         b = rec["bundle"]
-        assert b["contract_version"] == "1.5" and b["article"]["origin"] == "user"
+        assert b["contract_version"] == "1.6" and b["article"]["origin"] == "user"
         assert all(t["vi"] is None and t["pos"] is None for s in b["sections"] for t in s["tokens"])
 
     def test_fixture_reproducible_without_dict(self):
@@ -192,9 +192,10 @@ class TestFixture:
                 assert s["response"]["body"]["lookup_key"] == lookup_key(r["sentence"], r["word"], r["occurrence"])
                 assert len(s["response"]["body"]["vi"]) <= 80
 
-    def test_main_fixture_untouched(self):
+    def test_main_fixture_not_draft_version(self):
+        # Fixture chính theo contract hiện hành (1.5, BE-17), không phải bản nháp 1.6 của bài tự tải.
         main = json.loads((ROOT / "fixtures" / "article_eating_well.json").read_text(encoding="utf-8"))
-        assert main["contract_version"] == "1.4"
+        assert main["contract_version"] == "1.5" and "origin" not in main["article"]
 
 
 def test_bundle_model_rejects_wrong_ids():

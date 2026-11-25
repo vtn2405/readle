@@ -38,6 +38,12 @@
       "section_order": 7,
       "text": "glycogen",
       "vi": "glycogen (chất dự trữ năng lượng trong cơ)"
+    },
+    {
+      "section_order": 8,
+      "text": "close",
+      "nth": 1,
+      "vi": "gần (quan hệ)"
     }
   ],
   "lexicon": {
@@ -50,5 +56,6 @@
   },
   "drop_items": [
     "nutritional value"
-  ]
+  ],
+  "cover": {"source": "sources/eating_well.jpg", "box": [168, 580, 552, 820]}
 }

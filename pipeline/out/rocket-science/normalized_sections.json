@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "slug": "rocket-science",
+  "title": "ROCKET SCIENCE",
+  "sections": [
+    {
+      "order": 0,
+      "title": "Introduction",
+      "body": "In their simplest form, as fireworks, rockets have been around for centuries. The realm of rocket science has made most of its progress in just the past 100 years. Today, NASA, private companies and nations around the world are working on rockets that will take people and cargo into space more quickly and affordably.",
+      "icon_hint": "rocket"
+    },
+    {
+      "order": 1,
+      "title": "Wan Hu",
+      "body": "According to legend, around 1500, a Chinese official named Wan Hu tried to fly by lighting 47 rockets tied to a large wicker chair. Not surprisingly, after the dust settled, there was no sign of the chair - or of Wan Hu.",
+      "icon_hint": "chair"
+    },
+    {
+      "order": 2,
+      "title": "What is a rocket?",
+      "body": "A rocket is a device that uses the force of ejected matter to propel (drive forward) an object.\n\nFor example, when a balloon is filled with air and released, the balloon is thrust forward as the air is ejected. This action (air leaving the balloon) and the reaction (the balloon moving) demonstrate Newton's law that for every action, there is an equal and opposite reaction. Rockets work in the same way as a released balloon.\n\nRocket engines are used to carry scientific instruments into the atmosphere or into outer space for research. They are also used as weapons to carry explosives to a target, and they can launch satellites or spaceships. Fireworks are also a kind of rocket. For their size, rockets produce more power than any other engine.",
+      "icon_hint": "balloon"
+    },
+    {
+      "order": 3,
+      "title": "Blast off!",
+      "body": "Modern rockets burn fuel to produce energy for liftoff. They are sometimes referred to as chemical rockets because burning is a chemical reaction. Chemical rockets burn huge amounts of fuel very fast and at very high temperatures.\n\nRockets burn fuel in a combustion (burning) chamber, which results in rapidly expanding gas. This pressurized gas is released through a nozzle at the back of the chamber. Engineers discovered that the smaller the throat of the exit, the more the gases accelerate, providing extra thrust.\n\nA cone-shaped nozzle further restricts the gases and accelerates them even more.\n\nThe exhaust of gas through the nozzle is the action described in Newton's law. The reaction is the thrust (pushing force) of the rocket away from the flow of exhaust gas.",
+      "icon_hint": "flame"
+    },
+    {
+      "order": 4,
+      "title": "Hero's engine",
+      "body": "An early Greek engine (A.D. 62), called an aeolipile by its inventor, Hero of Alexandria, was one of the first devices to successfully use the principles of rocket flight. Hero's engine created steam that, when exiting through L-shaped pipes on either side, created thrust, causing the sphere to rotate.",
+      "icon_hint": "steam"
+    },
+    {
+      "order": 5,
+      "title": "Laws of motion",
+      "body": "In 1687, Sir Isaac Newton published the first volume of his \"Philosophiae Naturalis Principia Mathematica,\" a work generally referred to as the \"Principia.\" In this, Newton describes three laws that govern the motion of all objects on Earth or in space:\n\n1. Objects at rest will stay at rest and objects in motion in a straight line will stay in motion in a straight line unless acted upon by an outside force.\n\n2. Force is equal to mass times acceleration.\n\n3. For every action there is an equal and opposite reaction.",
+      "icon_hint": "apple"
+    },
+    {
+      "order": 6,
+      "title": "Propellants",
+      "body": "A propellant is a combination of fuel (such as gasoline, kerosene or liquid hydrogen) and an oxidizer (a substance that supplies oxygen). An oxidizer is needed for the fuel to burn in outer space. Jet engines use the oxygen in the atmosphere, but rocket engines carry their own oxygen.",
+      "icon_hint": "fuel"
+    },
+    {
+      "order": 7,
+      "title": "Solid propellants",
+      "body": "Solid propellants are used in the simplest rockets. Fireworks and model rockets fly using solid fuels.\n\nA dry, plasticlike material called the grain is made up of fuel and an oxidizer. This type of propellant requires ignition; a fuse and small charge of gunpowder are one ignition method. Ignition may also be achieved through a chemical reaction; for example, liquid chlorine sprayed onto the grain will ignite the propellant. Solid propellants burn faster than liquid propellants.",
+      "icon_hint": "firework"
+    },
+    {
+      "order": 8,
+      "title": "Liquid propellants",
+      "body": "Liquid propellants burn a mixture of fuel and oxidizer in liquid form — usually kerosene or hydrogen that has been cooled and turned into liquid.\n\nLiquid propellants require complicated engines. Separate fuel and oxidizer tanks are needed, along with a series of pumps, pipes and valves to mix the fuel and oxidizer into the combustion chamber. Most liquid propellants use an ignition system, but some, called hypergols, ignite when the fuel and oxidizer come into contact with each other. Liquid propellants can easily be turned on or off, allowing for superior thrust control. Liquid-propellant rockets are used for most space launch vehicles.\n\nThe space shuttles used both solid and liquid propellants.",
+      "icon_hint": "tank"
+    },
+    {
+      "order": 9,
+      "title": "New ideas!",
+      "body": "In 1919, Robert H. Goddard published a pamphlet with several theories about rocketry. His experiments with solid- and liquid-propellant rockets between 1909 and 1945 led to the development of powerful boosters for intercontinental missiles and spacecraft.\n\nCritics scoffed at Goddard's ideas, but many of his conclusions were later proved correct.",
+      "icon_hint": "lamp"
+    },
+    {
+      "order": 10,
+      "title": "A weighty issue",
+      "body": "Rockets large enough to carry vehicles into space have serious weight considerations. One way scientists have solved the problem of weight is by making rockets that have several stages. As each stage exhausts its fuel supply, the empty casing falls away. The remaining load is lighter and can pick up speed. When a rocket leaves the atmosphere and enters space, it no longer encounters air friction (drag) and therefore requires less thrust to move.",
+      "icon_hint": "weight"
+    },
+    {
+      "order": 11,
+      "title": "Heavy lift",
+      "body": "Heavy-lift rockets are the most powerful type of rockets. NASA's Saturn V rocket was one of the most powerful heavy-lift launch vehicles to fly successfully. The SpaceX Falcon 9, a super-heavy-lift rocket, exploded at launch in September 2016.",
+      "icon_hint": "rocket"
+    },
+    {
+      "order": 12,
+      "title": "The future",
+      "body": "NASA is working on new nuclear-powered rockets that could dramatically cut the time it takes to travel through the solar system.",
+      "icon_hint": "planet"
+    }
+  ]
+}

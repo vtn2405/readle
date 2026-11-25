@@ -1,0 +1,5469 @@
+{
+  "schema_version": 1,
+  "slug": "paris",
+  "source": "sources/paris.jpg",
+  "engine": "paddleocr",
+  "pages": [],
+  "blocks": [
+    {
+      "block_id": "b0",
+      "order": 0,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        219.0,
+        31.0,
+        552.0,
+        74.0
+      ],
+      "text": "WORLD OF WONDER",
+      "lines": [
+        {
+          "text": "WORLD OF WONDER",
+          "box": [
+            219.0,
+            31.0,
+            552.0,
+            74.0
+          ],
+          "confidence": 0.9989274144172668
+        }
+      ]
+    },
+    {
+      "block_id": "b1",
+      "order": 1,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        27.0,
+        40.0,
+        128.0,
+        53.0
+      ],
+      "text": "SUNDAY, MAY 1, 2016",
+      "lines": [
+        {
+          "text": "SUNDAY, MAY 1, 2016",
+          "box": [
+            27.0,
+            40.0,
+            128.0,
+            53.0
+          ],
+          "confidence": 0.9781196117401123
+        }
+      ]
+    },
+    {
+      "block_id": "b2",
+      "order": 2,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        627.0,
+        47.0,
+        690.0,
+        57.0
+      ],
+      "text": "Since the late 18th",
+      "lines": [
+        {
+          "text": "Since the late 18th",
+          "box": [
+            627.0,
+            47.0,
+            690.0,
+            57.0
+          ],
+          "confidence": 0.9884047508239746
+        }
+      ]
+    },
+    {
+      "block_id": "b3",
+      "order": 3,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        627.0,
+        57.0,
+        687.0,
+        64.0
+      ],
+      "text": "century, Paris has",
+      "lines": [
+        {
+          "text": "century, Paris has",
+          "box": [
+            627.0,
+            57.0,
+            687.0,
+            64.0
+          ],
+          "confidence": 0.9921550750732422
+        }
+      ]
+    },
+    {
+      "block_id": "b4",
+      "order": 4,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        131.0,
+        59.0,
+        216.0,
+        69.0
+      ],
+      "text": "The coat of arms of Paris",
+      "lines": [
+        {
+          "text": "The coat of arms of Paris",
+          "box": [
+            131.0,
+            59.0,
+            216.0,
+            69.0
+          ],
+          "confidence": 0.9998719692230225
+        }
+      ]
+    },
+    {
+      "block_id": "b5",
+      "order": 5,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        626.0,
+        64.0,
+        683.0,
+        74.0
+      ],
+      "text": "been famous for",
+      "lines": [
+        {
+          "text": "been famous for",
+          "box": [
+            626.0,
+            64.0,
+            683.0,
+            74.0
+          ],
+          "confidence": 0.9998389482498169
+        }
+      ]
+    },
+    {
+      "block_id": "b6",
+      "order": 6,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        131.0,
+        68.0,
+        197.0,
+        78.0
+      ],
+      "text": "dates back to 1358.",
+      "lines": [
+        {
+          "text": "dates back to 1358.",
+          "box": [
+            131.0,
+            68.0,
+            197.0,
+            78.0
+          ],
+          "confidence": 0.9985365867614746
+        }
+      ]
+    },
+    {
+      "block_id": "b7",
+      "order": 7,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        250.0,
+        72.0,
+        522.0,
+        85.0
+      ],
+      "text": "Exploring the realms of history, science, nature and technology",
+      "lines": [
+        {
+          "text": "Exploring the realms of history, science, nature and technology",
+          "box": [
+            250.0,
+            72.0,
+            522.0,
+            85.0
+          ],
+          "confidence": 0.9950211048126221
+        }
+      ]
+    },
+    {
+      "block_id": "b8",
+      "order": 8,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        626.0,
+        73.0,
+        676.0,
+        83.0
+      ],
+      "text": "its restaurants",
+      "lines": [
+        {
+          "text": "its restaurants",
+          "box": [
+            626.0,
+            73.0,
+            676.0,
+            83.0
+          ],
+          "confidence": 0.9995952844619751
+        }
+      ]
+    },
+    {
+      "block_id": "b9",
+      "order": 9,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        626.0,
+        82.0,
+        688.0,
+        92.0
+      ],
+      "text": "and haute cuisine,",
+      "lines": [
+        {
+          "text": "and haute cuisine,",
+          "box": [
+            626.0,
+            82.0,
+            688.0,
+            92.0
+          ],
+          "confidence": 0.9728021621704102
+        }
+      ]
+    },
+    {
+      "block_id": "b10",
+      "order": 10,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        272.0,
+        90.0,
+        477.0,
+        158.0
+      ],
+      "text": "PARIS",
+      "lines": [
+        {
+          "text": "PARIS",
+          "box": [
+            272.0,
+            90.0,
+            477.0,
+            158.0
+          ],
+          "confidence": 0.9964798092842102
+        }
+      ]
+    },
+    {
+      "block_id": "b11",
+      "order": 11,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        627.0,
+        90.0,
+        686.0,
+        100.0
+      ],
+      "text": "food meticulously",
+      "lines": [
+        {
+          "text": "food meticulously",
+          "box": [
+            627.0,
+            90.0,
+            686.0,
+            100.0
+          ],
+          "confidence": 0.9994664788246155
+        }
+      ]
+    },
+    {
+      "block_id": "b12",
+      "order": 12,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        626.0,
+        99.0,
+        696.0,
+        110.0
+      ],
+      "text": "prepared and artfully",
+      "lines": [
+        {
+          "text": "prepared and artfully",
+          "box": [
+            626.0,
+            99.0,
+            696.0,
+            110.0
+          ],
+          "confidence": 0.9810404777526855
+        }
+      ]
+    },
+    {
+      "block_id": "b13",
+      "order": 13,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        625.0,
+        106.0,
+        664.0,
+        120.0
+      ],
+      "text": "presented.",
+      "lines": [
+        {
+          "text": "presented.",
+          "box": [
+            625.0,
+            106.0,
+            664.0,
+            120.0
+          ],
+          "confidence": 0.9977904558181763
+        }
+      ]
+    },
+    {
+      "block_id": "b14",
+      "order": 14,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        39.0,
+        151.0,
+        122.0,
+        161.0
+      ],
+      "text": "The flag of Paris displays",
+      "lines": [
+        {
+          "text": "The flag of Paris displays",
+          "box": [
+            39.0,
+            151.0,
+            122.0,
+            161.0
+          ],
+          "confidence": 0.985005795955658
+        }
+      ]
+    },
+    {
+      "block_id": "b15",
+      "order": 15,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        277.0,
+        155.0,
+        487.0,
+        176.0
+      ],
+      "text": "THE CITY OF LIGHT",
+      "lines": [
+        {
+          "text": "THE CITY OF LIGHT",
+          "box": [
+            277.0,
+            155.0,
+            487.0,
+            176.0
+          ],
+          "confidence": 0.989544153213501
+        }
+      ]
+    },
+    {
+      "block_id": "b16",
+      "order": 16,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        38.0,
+        160.0,
+        115.0,
+        170.0
+      ],
+      "text": "the traditional colors of",
+      "lines": [
+        {
+          "text": "the traditional colors of",
+          "box": [
+            38.0,
+            160.0,
+            115.0,
+            170.0
+          ],
+          "confidence": 0.9997708201408386
+        }
+      ]
+    },
+    {
+      "block_id": "b17",
+      "order": 17,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        38.0,
+        169.0,
+        114.0,
+        180.0
+      ],
+      "text": "the French Revolution,",
+      "lines": [
+        {
+          "text": "the French Revolution,",
+          "box": [
+            38.0,
+            169.0,
+            114.0,
+            180.0
+          ],
+          "confidence": 0.9938316345214844
+        }
+      ]
+    },
+    {
+      "block_id": "b18",
+      "order": 18,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        38.0,
+        178.0,
+        83.0,
+        188.0
+      ],
+      "text": "blue and red.",
+      "lines": [
+        {
+          "text": "blue and red.",
+          "box": [
+            38.0,
+            178.0,
+            83.0,
+            188.0
+          ],
+          "confidence": 0.9994694590568542
+        }
+      ]
+    },
+    {
+      "block_id": "b19",
+      "order": 19,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        277.0,
+        179.0,
+        451.0,
+        193.0
+      ],
+      "text": "Home to the Eiffel Tower, the",
+      "lines": [
+        {
+          "text": "Home to the Eiffel Tower, the",
+          "box": [
+            277.0,
+            179.0,
+            451.0,
+            193.0
+          ],
+          "confidence": 0.9994845986366272
+        }
+      ]
+    },
+    {
+      "block_id": "b20",
+      "order": 20,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        27.0,
+        191.0,
+        149.0,
+        207.0
+      ],
+      "text": "What's in a name?",
+      "lines": [
+        {
+          "text": "What's in a name?",
+          "box": [
+            27.0,
+            191.0,
+            149.0,
+            207.0
+          ],
+          "confidence": 0.9999867677688599
+        }
+      ]
+    },
+    {
+      "block_id": "b21",
+      "order": 21,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        175.0,
+        192.0,
+        230.0,
+        202.0
+      ],
+      "text": "Construction on",
+      "lines": [
+        {
+          "text": "Construction on",
+          "box": [
+            175.0,
+            192.0,
+            230.0,
+            202.0
+          ],
+          "confidence": 0.9999573230743408
+        }
+      ]
+    },
+    {
+      "block_id": "b22",
+      "order": 22,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        276.0,
+        196.0,
+        444.0,
+        210.0
+      ],
+      "text": "Louvre and many wonderful",
+      "lines": [
+        {
+          "text": "Louvre and many wonderful",
+          "box": [
+            276.0,
+            196.0,
+            444.0,
+            210.0
+          ],
+          "confidence": 0.9999907612800598
+        }
+      ]
+    },
+    {
+      "block_id": "b23",
+      "order": 23,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        175.0,
+        200.0,
+        229.0,
+        210.0
+      ],
+      "text": "the Eiffel Tower,",
+      "lines": [
+        {
+          "text": "the Eiffel Tower,",
+          "box": [
+            175.0,
+            200.0,
+            229.0,
+            210.0
+          ],
+          "confidence": 0.9836959838867188
+        }
+      ]
+    },
+    {
+      "block_id": "b24",
+      "order": 24,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        621.0,
+        204.0,
+        693.0,
+        214.0
+      ],
+      "text": "Much of Paris has an",
+      "lines": [
+        {
+          "text": "Much of Paris has an",
+          "box": [
+            621.0,
+            204.0,
+            693.0,
+            214.0
+          ],
+          "confidence": 0.9981493949890137
+        }
+      ]
+    },
+    {
+      "block_id": "b25",
+      "order": 25,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        174.0,
+        209.0,
+        223.0,
+        219.0
+      ],
+      "text": "began in 1887",
+      "lines": [
+        {
+          "text": "began in 1887",
+          "box": [
+            174.0,
+            209.0,
+            223.0,
+            219.0
+          ],
+          "confidence": 0.9998498558998108
+        }
+      ]
+    },
+    {
+      "block_id": "b26",
+      "order": 26,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        27.0,
+        210.0,
+        143.0,
+        220.0
+      ],
+      "text": "The name Paris can trace its",
+      "lines": [
+        {
+          "text": "The name Paris can trace its",
+          "box": [
+            27.0,
+            210.0,
+            143.0,
+            220.0
+          ],
+          "confidence": 0.9999779462814331
+        }
+      ]
+    },
+    {
+      "block_id": "b27",
+      "order": 27,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        276.0,
+        211.0,
+        446.0,
+        225.0
+      ],
+      "text": "historic buildings, the capital",
+      "lines": [
+        {
+          "text": "historic buildings, the capital",
+          "box": [
+            276.0,
+            211.0,
+            446.0,
+            225.0
+          ],
+          "confidence": 0.9990097880363464
+        }
+      ]
+    },
+    {
+      "block_id": "b28",
+      "order": 28,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        621.0,
+        213.0,
+        692.0,
+        223.0
+      ],
+      "text": "open feeling, created",
+      "lines": [
+        {
+          "text": "open feeling, created",
+          "box": [
+            621.0,
+            213.0,
+            692.0,
+            223.0
+          ],
+          "confidence": 0.9942188262939453
+        }
+      ]
+    },
+    {
+      "block_id": "b29",
+      "order": 29,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        175.0,
+        217.0,
+        218.0,
+        228.0
+      ],
+      "text": "and finished",
+      "lines": [
+        {
+          "text": "and finished",
+          "box": [
+            175.0,
+            217.0,
+            218.0,
+            228.0
+          ],
+          "confidence": 0.9986290335655212
+        }
+      ]
+    },
+    {
+      "block_id": "b30",
+      "order": 30,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        26.0,
+        218.0,
+        158.0,
+        232.0
+      ],
+      "text": "roots to the 3rd century B.C. and",
+      "lines": [
+        {
+          "text": "roots to the 3rd century B.C. and",
+          "box": [
+            26.0,
+            218.0,
+            158.0,
+            232.0
+          ],
+          "confidence": 0.9803018569946289
+        }
+      ]
+    },
+    {
+      "block_id": "b31",
+      "order": 31,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        620.0,
+        221.0,
+        687.0,
+        231.0
+      ],
+      "text": "by wide boulevards",
+      "lines": [
+        {
+          "text": "by wide boulevards",
+          "box": [
+            620.0,
+            221.0,
+            687.0,
+            231.0
+          ],
+          "confidence": 0.9997552037239075
+        }
+      ]
+    },
+    {
+      "block_id": "b32",
+      "order": 32,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        174.0,
+        226.0,
+        204.0,
+        237.0
+      ],
+      "text": "in 1889.",
+      "lines": [
+        {
+          "text": "in 1889.",
+          "box": [
+            174.0,
+            226.0,
+            204.0,
+            237.0
+          ],
+          "confidence": 0.9987201690673828
+        }
+      ]
+    },
+    {
+      "block_id": "b33",
+      "order": 33,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        276.0,
+        226.0,
+        449.0,
+        240.0
+      ],
+      "text": "city of France has a wealth of",
+      "lines": [
+        {
+          "text": "city of France has a wealth of",
+          "box": [
+            276.0,
+            226.0,
+            449.0,
+            240.0
+          ],
+          "confidence": 0.9999926686286926
+        }
+      ]
+    },
+    {
+      "block_id": "b34",
+      "order": 34,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        620.0,
+        230.0,
+        659.0,
+        240.0
+      ],
+      "text": "and parks.",
+      "lines": [
+        {
+          "text": "and parks.",
+          "box": [
+            620.0,
+            230.0,
+            659.0,
+            240.0
+          ],
+          "confidence": 0.9548471570014954
+        }
+      ]
+    },
+    {
+      "block_id": "b35",
+      "order": 35,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        27.0,
+        231.0,
+        164.0,
+        242.0
+      ],
+      "text": "the Celtic settlers of the area, who",
+      "lines": [
+        {
+          "text": "the Celtic settlers of the area, who",
+          "box": [
+            27.0,
+            231.0,
+            164.0,
+            242.0
+          ],
+          "confidence": 0.9973160624504089
+        }
+      ]
+    },
+    {
+      "block_id": "b36",
+      "order": 36,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        175.0,
+        237.0,
+        213.0,
+        248.0
+      ],
+      "text": "This iconic",
+      "lines": [
+        {
+          "text": "This iconic",
+          "box": [
+            175.0,
+            237.0,
+            213.0,
+            248.0
+          ],
+          "confidence": 0.9955682754516602
+        }
+      ]
+    },
+    {
+      "block_id": "b37",
+      "order": 37,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        500.0,
+        238.0,
+        524.0,
+        250.0
+      ],
+      "text": "Paris",
+      "lines": [
+        {
+          "text": "Paris",
+          "box": [
+            500.0,
+            238.0,
+            524.0,
+            250.0
+          ],
+          "confidence": 0.9999452829360962
+        }
+      ]
+    },
+    {
+      "block_id": "b38",
+      "order": 38,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        26.0,
+        239.0,
+        138.0,
+        254.0
+      ],
+      "text": "were known as the \"Parisii.\"",
+      "lines": [
+        {
+          "text": "were known as the \"Parisii.\"",
+          "box": [
+            26.0,
+            239.0,
+            138.0,
+            254.0
+          ],
+          "confidence": 0.9539522528648376
+        }
+      ]
+    },
+    {
+      "block_id": "b39",
+      "order": 39,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        277.0,
+        243.0,
+        446.0,
+        257.0
+      ],
+      "text": "history, beauty and romance.",
+      "lines": [
+        {
+          "text": "history, beauty and romance.",
+          "box": [
+            277.0,
+            243.0,
+            446.0,
+            257.0
+          ],
+          "confidence": 0.9914584755897522
+        }
+      ]
+    },
+    {
+      "block_id": "b40",
+      "order": 40,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        175.0,
+        247.0,
+        233.0,
+        257.0
+      ],
+      "text": "landmark weighs",
+      "lines": [
+        {
+          "text": "landmark weighs",
+          "box": [
+            175.0,
+            247.0,
+            233.0,
+            257.0
+          ],
+          "confidence": 0.9998880624771118
+        }
+      ]
+    },
+    {
+      "block_id": "b41",
+      "order": 41,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        27.0,
+        252.0,
+        146.0,
+        265.0
+      ],
+      "text": "Today the people of Paris are",
+      "lines": [
+        {
+          "text": "Today the people of Paris are",
+          "box": [
+            27.0,
+            252.0,
+            146.0,
+            265.0
+          ],
+          "confidence": 0.9878312945365906
+        }
+      ]
+    },
+    {
+      "block_id": "b42",
+      "order": 42,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        501.0,
+        252.0,
+        528.0,
+        262.0
+      ],
+      "text": "FRANCE",
+      "lines": [
+        {
+          "text": "FRANCE",
+          "box": [
+            501.0,
+            252.0,
+            528.0,
+            262.0
+          ],
+          "confidence": 0.998589038848877
+        }
+      ]
+    },
+    {
+      "block_id": "b43",
+      "order": 43,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        175.0,
+        256.0,
+        221.0,
+        266.0
+      ],
+      "text": "about 10,000",
+      "lines": [
+        {
+          "text": "about 10,000",
+          "box": [
+            175.0,
+            256.0,
+            221.0,
+            266.0
+          ],
+          "confidence": 0.9970962405204773
+        }
+      ]
+    },
+    {
+      "block_id": "b44",
+      "order": 44,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        568.0,
+        256.0,
+        647.0,
+        273.0
+      ],
+      "text": "Bon appetit",
+      "lines": [
+        {
+          "text": "Bon appetit",
+          "box": [
+            568.0,
+            256.0,
+            647.0,
+            273.0
+          ],
+          "confidence": 0.999989926815033
+        }
+      ]
+    },
+    {
+      "block_id": "b45",
+      "order": 45,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        27.0,
+        263.0,
+        96.0,
+        274.0
+      ],
+      "text": "called Parisians.",
+      "lines": [
+        {
+          "text": "called Parisians.",
+          "box": [
+            27.0,
+            263.0,
+            96.0,
+            274.0
+          ],
+          "confidence": 0.9986270666122437
+        }
+      ]
+    },
+    {
+      "block_id": "b46",
+      "order": 46,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        175.0,
+        264.0,
+        207.0,
+        275.0
+      ],
+      "text": "tons and",
+      "lines": [
+        {
+          "text": "tons and",
+          "box": [
+            175.0,
+            264.0,
+            207.0,
+            275.0
+          ],
+          "confidence": 0.9999275207519531
+        }
+      ]
+    },
+    {
+      "block_id": "b47",
+      "order": 47,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        568.0,
+        272.0,
+        692.0,
+        285.0
+      ],
+      "text": "French food and wine are con-",
+      "lines": [
+        {
+          "text": "French food and wine are con-",
+          "box": [
+            568.0,
+            272.0,
+            692.0,
+            285.0
+          ],
+          "confidence": 0.9995193481445312
+        }
+      ]
+    },
+    {
+      "block_id": "b48",
+      "order": 48,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        175.0,
+        273.0,
+        231.0,
+        283.0
+      ],
+      "text": "requires 60 tons",
+      "lines": [
+        {
+          "text": "requires 60 tons",
+          "box": [
+            175.0,
+            273.0,
+            231.0,
+            283.0
+          ],
+          "confidence": 0.9997367858886719
+        }
+      ]
+    },
+    {
+      "block_id": "b49",
+      "order": 49,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        26.0,
+        275.0,
+        133.0,
+        288.0
+      ],
+      "text": "Paris earned its nickname",
+      "lines": [
+        {
+          "text": "Paris earned its nickname",
+          "box": [
+            26.0,
+            275.0,
+            133.0,
+            288.0
+          ],
+          "confidence": 0.9952040910720825
+        }
+      ]
+    },
+    {
+      "block_id": "b50",
+      "order": 50,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        175.0,
+        282.0,
+        223.0,
+        292.0
+      ],
+      "text": "of paint every",
+      "lines": [
+        {
+          "text": "of paint every",
+          "box": [
+            175.0,
+            282.0,
+            223.0,
+            292.0
+          ],
+          "confidence": 0.9989600777626038
+        }
+      ]
+    },
+    {
+      "block_id": "b51",
+      "order": 51,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        568.0,
+        283.0,
+        696.0,
+        293.0
+      ],
+      "text": "sidered some of the very best in",
+      "lines": [
+        {
+          "text": "sidered some of the very best in",
+          "box": [
+            568.0,
+            283.0,
+            696.0,
+            293.0
+          ],
+          "confidence": 0.9999778866767883
+        }
+      ]
+    },
+    {
+      "block_id": "b52",
+      "order": 52,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        26.0,
+        286.0,
+        163.0,
+        298.0
+      ],
+      "text": "\"The City of Light\" when the city",
+      "lines": [
+        {
+          "text": "\"The City of Light\" when the city",
+          "box": [
+            26.0,
+            286.0,
+            163.0,
+            298.0
+          ],
+          "confidence": 0.9826771020889282
+        }
+      ]
+    },
+    {
+      "block_id": "b53",
+      "order": 53,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        175.0,
+        290.0,
+        220.0,
+        300.0
+      ],
+      "text": "seven years.",
+      "lines": [
+        {
+          "text": "seven years.",
+          "box": [
+            175.0,
+            290.0,
+            220.0,
+            300.0
+          ],
+          "confidence": 0.999561607837677
+        }
+      ]
+    },
+    {
+      "block_id": "b54",
+      "order": 54,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        344.0,
+        292.0,
+        433.0,
+        302.0
+      ],
+      "text": "Arc de Triomphe de l'Étoile",
+      "lines": [
+        {
+          "text": "Arc de Triomphe de l'Étoile",
+          "box": [
+            344.0,
+            292.0,
+            433.0,
+            302.0
+          ],
+          "confidence": 0.989023745059967
+        }
+      ]
+    },
+    {
+      "block_id": "b55",
+      "order": 55,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        567.0,
+        294.0,
+        698.0,
+        304.0
+      ],
+      "text": "the world, and cooking is consid",
+      "lines": [
+        {
+          "text": "the world, and cooking is consid",
+          "box": [
+            567.0,
+            294.0,
+            698.0,
+            304.0
+          ],
+          "confidence": 0.9983316659927368
+        }
+      ]
+    },
+    {
+      "block_id": "b56",
+      "order": 56,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        174.0,
+        297.0,
+        225.0,
+        310.0
+      ],
+      "text": "The tower has",
+      "lines": [
+        {
+          "text": "The tower has",
+          "box": [
+            174.0,
+            297.0,
+            225.0,
+            310.0
+          ],
+          "confidence": 0.9999257326126099
+        }
+      ]
+    },
+    {
+      "block_id": "b57",
+      "order": 57,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        27.0,
+        298.0,
+        151.0,
+        308.0
+      ],
+      "text": "installed more than 50,000 gas",
+      "lines": [
+        {
+          "text": "installed more than 50,000 gas",
+          "box": [
+            27.0,
+            298.0,
+            151.0,
+            308.0
+          ],
+          "confidence": 0.9892701506614685
+        }
+      ]
+    },
+    {
+      "block_id": "b58",
+      "order": 58,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        569.0,
+        305.0,
+        702.0,
+        316.0
+      ],
+      "text": "ered an art in Paris. Amateur and",
+      "lines": [
+        {
+          "text": "ered an art in Paris. Amateur and",
+          "box": [
+            569.0,
+            305.0,
+            702.0,
+            316.0
+          ],
+          "confidence": 0.9976229667663574
+        }
+      ]
+    },
+    {
+      "block_id": "b59",
+      "order": 59,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        26.0,
+        307.0,
+        148.0,
+        320.0
+      ],
+      "text": "lamps in the 1860s. Paris was",
+      "lines": [
+        {
+          "text": "lamps in the 1860s. Paris was",
+          "box": [
+            26.0,
+            307.0,
+            148.0,
+            320.0
+          ],
+          "confidence": 0.9958948493003845
+        }
+      ]
+    },
+    {
+      "block_id": "b60",
+      "order": 60,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        175.0,
+        307.0,
+        227.0,
+        319.0
+      ],
+      "text": "been repainted",
+      "lines": [
+        {
+          "text": "been repainted",
+          "box": [
+            175.0,
+            307.0,
+            227.0,
+            319.0
+          ],
+          "confidence": 0.9998742938041687
+        }
+      ]
+    },
+    {
+      "block_id": "b61",
+      "order": 61,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        175.0,
+        317.0,
+        207.0,
+        327.0
+      ],
+      "text": "18 times.",
+      "lines": [
+        {
+          "text": "18 times.",
+          "box": [
+            175.0,
+            317.0,
+            207.0,
+            327.0
+          ],
+          "confidence": 0.9966360926628113
+        }
+      ]
+    },
+    {
+      "block_id": "b62",
+      "order": 62,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        569.0,
+        317.0,
+        704.0,
+        327.0
+      ],
+      "text": "professional chefs flock to the city",
+      "lines": [
+        {
+          "text": "professional chefs flock to the city",
+          "box": [
+            569.0,
+            317.0,
+            704.0,
+            327.0
+          ],
+          "confidence": 0.9781324863433838
+        }
+      ]
+    },
+    {
+      "block_id": "b63",
+      "order": 63,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        397.0,
+        318.0,
+        438.0,
+        329.0
+      ],
+      "text": "The Louvre",
+      "lines": [
+        {
+          "text": "The Louvre",
+          "box": [
+            397.0,
+            318.0,
+            438.0,
+            329.0
+          ],
+          "confidence": 0.9999045133590698
+        }
+      ]
+    },
+    {
+      "block_id": "b64",
+      "order": 64,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        27.0,
+        320.0,
+        159.0,
+        330.0
+      ],
+      "text": "also one of the first cities to have",
+      "lines": [
+        {
+          "text": "also one of the first cities to have",
+          "box": [
+            27.0,
+            320.0,
+            159.0,
+            330.0
+          ],
+          "confidence": 0.99106764793396
+        }
+      ]
+    },
+    {
+      "block_id": "b65",
+      "order": 65,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        567.0,
+        326.0,
+        694.0,
+        338.0
+      ],
+      "text": "to learn about gourmet cooking",
+      "lines": [
+        {
+          "text": "to learn about gourmet cooking",
+          "box": [
+            567.0,
+            326.0,
+            694.0,
+            338.0
+          ],
+          "confidence": 0.9999324679374695
+        }
+      ]
+    },
+    {
+      "block_id": "b66",
+      "order": 66,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        175.0,
+        328.0,
+        224.0,
+        338.0
+      ],
+      "text": "There are 704",
+      "lines": [
+        {
+          "text": "There are 704",
+          "box": [
+            175.0,
+            328.0,
+            224.0,
+            338.0
+          ],
+          "confidence": 0.9663099646568298
+        }
+      ]
+    },
+    {
+      "block_id": "b67",
+      "order": 67,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        439.0,
+        328.0,
+        483.0,
+        339.0
+      ],
+      "text": "Notre Dame",
+      "lines": [
+        {
+          "text": "Notre Dame",
+          "box": [
+            439.0,
+            328.0,
+            483.0,
+            339.0
+          ],
+          "confidence": 0.9998920559883118
+        }
+      ]
+    },
+    {
+      "block_id": "b68",
+      "order": 68,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        27.0,
+        330.0,
+        68.0,
+        341.0
+      ],
+      "text": "electricity.",
+      "lines": [
+        {
+          "text": "electricity.",
+          "box": [
+            27.0,
+            330.0,
+            68.0,
+            341.0
+          ],
+          "confidence": 0.9996932148933411
+        }
+      ]
+    },
+    {
+      "block_id": "b69",
+      "order": 69,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        175.0,
+        336.0,
+        230.0,
+        346.0
+      ],
+      "text": "steps leading to",
+      "lines": [
+        {
+          "text": "steps leading to",
+          "box": [
+            175.0,
+            336.0,
+            230.0,
+            346.0
+          ],
+          "confidence": 0.9998350143432617
+        }
+      ]
+    },
+    {
+      "block_id": "b70",
+      "order": 70,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        568.0,
+        337.0,
+        697.0,
+        347.0
+      ],
+      "text": "(haute cuisine), the highest form",
+      "lines": [
+        {
+          "text": "(haute cuisine), the highest form",
+          "box": [
+            568.0,
+            337.0,
+            697.0,
+            347.0
+          ],
+          "confidence": 0.9977689981460571
+        }
+      ]
+    },
+    {
+      "block_id": "b71",
+      "order": 71,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        26.0,
+        342.0,
+        149.0,
+        355.0
+      ],
+      "text": "Paris is sometimes referred to",
+      "lines": [
+        {
+          "text": "Paris is sometimes referred to",
+          "box": [
+            26.0,
+            342.0,
+            149.0,
+            355.0
+          ],
+          "confidence": 0.9999062418937683
+        }
+      ]
+    },
+    {
+      "block_id": "b72",
+      "order": 72,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        175.0,
+        345.0,
+        230.0,
+        355.0
+      ],
+      "text": "the second floor",
+      "lines": [
+        {
+          "text": "the second floor",
+          "box": [
+            175.0,
+            345.0,
+            230.0,
+            355.0
+          ],
+          "confidence": 0.9998946189880371
+        }
+      ]
+    },
+    {
+      "block_id": "b73",
+      "order": 73,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        568.0,
+        348.0,
+        642.0,
+        359.0
+      ],
+      "text": "of French cooking",
+      "lines": [
+        {
+          "text": "of French cooking",
+          "box": [
+            568.0,
+            348.0,
+            642.0,
+            359.0
+          ],
+          "confidence": 0.9999895691871643
+        }
+      ]
+    },
+    {
+      "block_id": "b74",
+      "order": 74,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        26.0,
+        353.0,
+        159.0,
+        366.0
+      ],
+      "text": "as \"The City of Love,\" probably",
+      "lines": [
+        {
+          "text": "as \"The City of Love,\" probably",
+          "box": [
+            26.0,
+            353.0,
+            159.0,
+            366.0
+          ],
+          "confidence": 0.9856079816818237
+        }
+      ]
+    },
+    {
+      "block_id": "b75",
+      "order": 75,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        175.0,
+        354.0,
+        230.0,
+        365.0
+      ],
+      "text": "of the tower, but",
+      "lines": [
+        {
+          "text": "of the tower, but",
+          "box": [
+            175.0,
+            354.0,
+            230.0,
+            365.0
+          ],
+          "confidence": 0.9998793005943298
+        }
+      ]
+    },
+    {
+      "block_id": "b76",
+      "order": 76,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        344.0,
+        356.0,
+        399.0,
+        366.0
+      ],
+      "text": "The Eiffel Tower",
+      "lines": [
+        {
+          "text": "The Eiffel Tower",
+          "box": [
+            344.0,
+            356.0,
+            399.0,
+            366.0
+          ],
+          "confidence": 0.999194860458374
+        }
+      ]
+    },
+    {
+      "block_id": "b77",
+      "order": 77,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        567.0,
+        360.0,
+        685.0,
+        372.0
+      ],
+      "text": "A typical Parisian meal might",
+      "lines": [
+        {
+          "text": "A typical Parisian meal might",
+          "box": [
+            567.0,
+            360.0,
+            685.0,
+            372.0
+          ],
+          "confidence": 0.9999034404754639
+        }
+      ]
+    },
+    {
+      "block_id": "b78",
+      "order": 78,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        175.0,
+        363.0,
+        219.0,
+        373.0
+      ],
+      "text": "the top is ac-",
+      "lines": [
+        {
+          "text": "the top is ac-",
+          "box": [
+            175.0,
+            363.0,
+            219.0,
+            373.0
+          ],
+          "confidence": 0.9637030363082886
+        }
+      ]
+    },
+    {
+      "block_id": "b79",
+      "order": 79,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        412.0,
+        364.0,
+        450.0,
+        375.0
+      ],
+      "text": "Pont Neuf",
+      "lines": [
+        {
+          "text": "Pont Neuf",
+          "box": [
+            412.0,
+            364.0,
+            450.0,
+            375.0
+          ],
+          "confidence": 0.9884936213493347
+        }
+      ]
+    },
+    {
+      "block_id": "b80",
+      "order": 80,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        27.0,
+        365.0,
+        152.0,
+        375.0
+      ],
+      "text": "because of its long history as a",
+      "lines": [
+        {
+          "text": "because of its long history as a",
+          "box": [
+            27.0,
+            365.0,
+            152.0,
+            375.0
+          ],
+          "confidence": 0.998542070388794
+        }
+      ]
+    },
+    {
+      "block_id": "b81",
+      "order": 81,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        174.0,
+        370.0,
+        229.0,
+        382.0
+      ],
+      "text": "cessible only by",
+      "lines": [
+        {
+          "text": "cessible only by",
+          "box": [
+            174.0,
+            370.0,
+            229.0,
+            382.0
+          ],
+          "confidence": 0.9992455840110779
+        }
+      ]
+    },
+    {
+      "block_id": "b82",
+      "order": 82,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        567.0,
+        371.0,
+        696.0,
+        384.0
+      ],
+      "text": "begin with an appetizer or soup.",
+      "lines": [
+        {
+          "text": "begin with an appetizer or soup.",
+          "box": [
+            567.0,
+            371.0,
+            696.0,
+            384.0
+          ],
+          "confidence": 0.9999042749404907
+        }
+      ]
+    },
+    {
+      "block_id": "b83",
+      "order": 83,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        27.0,
+        376.0,
+        138.0,
+        387.0
+      ],
+      "text": "romantic tourist destination.",
+      "lines": [
+        {
+          "text": "romantic tourist destination.",
+          "box": [
+            27.0,
+            376.0,
+            138.0,
+            387.0
+          ],
+          "confidence": 0.9999896883964539
+        }
+      ]
+    },
+    {
+      "block_id": "b84",
+      "order": 84,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        175.0,
+        381.0,
+        206.0,
+        392.0
+      ],
+      "text": "elevator.",
+      "lines": [
+        {
+          "text": "elevator.",
+          "box": [
+            175.0,
+            381.0,
+            206.0,
+            392.0
+          ],
+          "confidence": 0.9995831251144409
+        }
+      ]
+    },
+    {
+      "block_id": "b85",
+      "order": 85,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        569.0,
+        384.0,
+        697.0,
+        394.0
+      ],
+      "text": "Delicious, warm bread is served",
+      "lines": [
+        {
+          "text": "Delicious, warm bread is served",
+          "box": [
+            569.0,
+            384.0,
+            697.0,
+            394.0
+          ],
+          "confidence": 0.9899084568023682
+        }
+      ]
+    },
+    {
+      "block_id": "b86",
+      "order": 86,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        26.0,
+        388.0,
+        151.0,
+        400.0
+      ],
+      "text": "The French language is under-",
+      "lines": [
+        {
+          "text": "The French language is under-",
+          "box": [
+            26.0,
+            388.0,
+            151.0,
+            400.0
+          ],
+          "confidence": 0.9947065711021423
+        }
+      ]
+    },
+    {
+      "block_id": "b87",
+      "order": 87,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        568.0,
+        394.0,
+        704.0,
+        404.0
+      ],
+      "text": "at most meals. Steaks, chops and",
+      "lines": [
+        {
+          "text": "at most meals. Steaks, chops and",
+          "box": [
+            568.0,
+            394.0,
+            704.0,
+            404.0
+          ],
+          "confidence": 0.9699311256408691
+        }
+      ]
+    },
+    {
+      "block_id": "b88",
+      "order": 88,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        26.0,
+        399.0,
+        154.0,
+        412.0
+      ],
+      "text": "stood and spoken by just about",
+      "lines": [
+        {
+          "text": "stood and spoken by just about",
+          "box": [
+            26.0,
+            399.0,
+            154.0,
+            412.0
+          ],
+          "confidence": 0.9999745488166809
+        }
+      ]
+    },
+    {
+      "block_id": "b89",
+      "order": 89,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        175.0,
+        404.0,
+        210.0,
+        415.0
+      ],
+      "text": "The Effel",
+      "lines": [
+        {
+          "text": "The Effel",
+          "box": [
+            175.0,
+            404.0,
+            210.0,
+            415.0
+          ],
+          "confidence": 0.982172429561615
+        }
+      ]
+    },
+    {
+      "block_id": "b90",
+      "order": 90,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        567.0,
+        405.0,
+        696.0,
+        415.0
+      ],
+      "text": "poultry are popular main dishes,",
+      "lines": [
+        {
+          "text": "poultry are popular main dishes,",
+          "box": [
+            567.0,
+            405.0,
+            696.0,
+            415.0
+          ],
+          "confidence": 0.979698657989502
+        }
+      ]
+    },
+    {
+      "block_id": "b91",
+      "order": 91,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        27.0,
+        411.0,
+        99.0,
+        421.0
+      ],
+      "text": "everyone in Paris.",
+      "lines": [
+        {
+          "text": "everyone in Paris.",
+          "box": [
+            27.0,
+            411.0,
+            99.0,
+            421.0
+          ],
+          "confidence": 0.9966479539871216
+        }
+      ]
+    },
+    {
+      "block_id": "b92",
+      "order": 92,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        175.0,
+        413.0,
+        207.0,
+        424.0
+      ],
+      "text": "Tower is",
+      "lines": [
+        {
+          "text": "Tower is",
+          "box": [
+            175.0,
+            413.0,
+            207.0,
+            424.0
+          ],
+          "confidence": 0.9995466470718384
+        }
+      ]
+    },
+    {
+      "block_id": "b93",
+      "order": 93,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        568.0,
+        415.0,
+        696.0,
+        425.0
+      ],
+      "text": "often served with fried potatoes.",
+      "lines": [
+        {
+          "text": "often served with fried potatoes.",
+          "box": [
+            568.0,
+            415.0,
+            696.0,
+            425.0
+          ],
+          "confidence": 0.9998741149902344
+        }
+      ]
+    },
+    {
+      "block_id": "b94",
+      "order": 94,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        175.0,
+        422.0,
+        211.0,
+        432.0
+      ],
+      "text": "1,063 feet",
+      "lines": [
+        {
+          "text": "1,063 feet",
+          "box": [
+            175.0,
+            422.0,
+            211.0,
+            432.0
+          ],
+          "confidence": 0.9601551294326782
+        }
+      ]
+    },
+    {
+      "block_id": "b95",
+      "order": 95,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        569.0,
+        426.0,
+        689.0,
+        436.0
+      ],
+      "text": "Salad, fruit and cheese follow.",
+      "lines": [
+        {
+          "text": "Salad, fruit and cheese follow.",
+          "box": [
+            569.0,
+            426.0,
+            689.0,
+            436.0
+          ],
+          "confidence": 0.9999219179153442
+        }
+      ]
+    },
+    {
+      "block_id": "b96",
+      "order": 96,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        27.0,
+        429.0,
+        112.0,
+        443.0
+      ],
+      "text": "Just the facts",
+      "lines": [
+        {
+          "text": "Just the facts",
+          "box": [
+            27.0,
+            429.0,
+            112.0,
+            443.0
+          ],
+          "confidence": 0.9999960064888
+        }
+      ]
+    },
+    {
+      "block_id": "b97",
+      "order": 97,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        175.0,
+        430.0,
+        204.0,
+        441.0
+      ],
+      "text": "(324 m)",
+      "lines": [
+        {
+          "text": "(324 m)",
+          "box": [
+            175.0,
+            430.0,
+            204.0,
+            441.0
+          ],
+          "confidence": 0.9893662333488464
+        }
+      ]
+    },
+    {
+      "block_id": "b98",
+      "order": 98,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        297.0,
+        436.0,
+        482.0,
+        443.0
+      ],
+      "text": "Paris is located on the Seine River, in the north of France.",
+      "lines": [
+        {
+          "text": "Paris is located on the Seine River, in the north of France.",
+          "box": [
+            297.0,
+            436.0,
+            482.0,
+            443.0
+          ],
+          "confidence": 0.9901604056358337
+        }
+      ]
+    },
+    {
+      "block_id": "b99",
+      "order": 99,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        568.0,
+        436.0,
+        681.0,
+        446.0
+      ],
+      "text": "Dessert is served on special",
+      "lines": [
+        {
+          "text": "Dessert is served on special",
+          "box": [
+            568.0,
+            436.0,
+            681.0,
+            446.0
+          ],
+          "confidence": 0.9930809140205383
+        }
+      ]
+    },
+    {
+      "block_id": "b100",
+      "order": 100,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        175.0,
+        439.0,
+        205.0,
+        451.0
+      ],
+      "text": "tall, with",
+      "lines": [
+        {
+          "text": "tall, with",
+          "box": [
+            175.0,
+            439.0,
+            205.0,
+            451.0
+          ],
+          "confidence": 0.9970491528511047
+        }
+      ]
+    },
+    {
+      "block_id": "b101",
+      "order": 101,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        129.0,
+        443.0,
+        165.0,
+        460.0
+      ],
+      "text": "France",
+      "lines": [
+        {
+          "text": "France",
+          "box": [
+            129.0,
+            443.0,
+            165.0,
+            460.0
+          ],
+          "confidence": 0.9999526143074036
+        }
+      ]
+    },
+    {
+      "block_id": "b102",
+      "order": 102,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        26.0,
+        444.0,
+        62.0,
+        459.0
+      ],
+      "text": "Country",
+      "lines": [
+        {
+          "text": "Country",
+          "box": [
+            26.0,
+            444.0,
+            62.0,
+            459.0
+          ],
+          "confidence": 0.9999853372573853
+        }
+      ]
+    },
+    {
+      "block_id": "b103",
+      "order": 103,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        567.0,
+        447.0,
+        692.0,
+        458.0
+      ],
+      "text": "occasions and might consist of",
+      "lines": [
+        {
+          "text": "occasions and might consist of",
+          "box": [
+            567.0,
+            447.0,
+            692.0,
+            458.0
+          ],
+          "confidence": 0.9874317646026611
+        }
+      ]
+    },
+    {
+      "block_id": "b104",
+      "order": 104,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        175.0,
+        448.0,
+        202.0,
+        460.0
+      ],
+      "text": "the top",
+      "lines": [
+        {
+          "text": "the top",
+          "box": [
+            175.0,
+            448.0,
+            202.0,
+            460.0
+          ],
+          "confidence": 0.9999513626098633
+        }
+      ]
+    },
+    {
+      "block_id": "b105",
+      "order": 105,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        410.0,
+        455.0,
+        463.0,
+        465.0
+      ],
+      "text": "Notre Dame",
+      "lines": [
+        {
+          "text": "Notre Dame",
+          "box": [
+            410.0,
+            455.0,
+            463.0,
+            465.0
+          ],
+          "confidence": 0.9999901652336121
+        }
+      ]
+    },
+    {
+      "block_id": "b106",
+      "order": 106,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        175.0,
+        458.0,
+        206.0,
+        468.0
+      ],
+      "text": "antenna.",
+      "lines": [
+        {
+          "text": "antenna.",
+          "box": [
+            175.0,
+            458.0,
+            206.0,
+            468.0
+          ],
+          "confidence": 0.975998044013977
+        }
+      ]
+    },
+    {
+      "block_id": "b107",
+      "order": 107,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        568.0,
+        458.0,
+        692.0,
+        468.0
+      ],
+      "text": "pastry, fruit tarts or crepes with",
+      "lines": [
+        {
+          "text": "pastry, fruit tarts or crepes with",
+          "box": [
+            568.0,
+            458.0,
+            692.0,
+            468.0
+          ],
+          "confidence": 0.9896607398986816
+        }
+      ]
+    },
+    {
+      "block_id": "b108",
+      "order": 108,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        27.0,
+        460.0,
+        72.0,
+        471.0
+      ],
+      "text": "Population",
+      "lines": [
+        {
+          "text": "Population",
+          "box": [
+            27.0,
+            460.0,
+            72.0,
+            471.0
+          ],
+          "confidence": 0.9999867677688599
+        }
+      ]
+    },
+    {
+      "block_id": "b109",
+      "order": 109,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        115.0,
+        460.0,
+        164.0,
+        471.0
+      ],
+      "text": "2.34 million",
+      "lines": [
+        {
+          "text": "2.34 million",
+          "box": [
+            115.0,
+            460.0,
+            164.0,
+            471.0
+          ],
+          "confidence": 0.9999549388885498
+        }
+      ]
+    },
+    {
+      "block_id": "b110",
+      "order": 110,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        414.0,
+        465.0,
+        459.0,
+        475.0
+      ],
+      "text": "Cathedral",
+      "lines": [
+        {
+          "text": "Cathedral",
+          "box": [
+            414.0,
+            465.0,
+            459.0,
+            475.0
+          ],
+          "confidence": 0.9999939799308777
+        }
+      ]
+    },
+    {
+      "block_id": "b111",
+      "order": 111,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        568.0,
+        469.0,
+        633.0,
+        479.0
+      ],
+      "text": "whipped cream.",
+      "lines": [
+        {
+          "text": "whipped cream.",
+          "box": [
+            568.0,
+            469.0,
+            633.0,
+            479.0
+          ],
+          "confidence": 0.9999824166297913
+        }
+      ]
+    },
+    {
+      "block_id": "b112",
+      "order": 112,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        26.0,
+        472.0,
+        164.0,
+        485.0
+      ],
+      "text": "Area 40.7 sq. mi. (105.4 sq. km)",
+      "lines": [
+        {
+          "text": "Area 40.7 sq. mi. (105.4 sq. km)",
+          "box": [
+            26.0,
+            472.0,
+            164.0,
+            485.0
+          ],
+          "confidence": 0.9934096336364746
+        }
+      ]
+    },
+    {
+      "block_id": "b113",
+      "order": 113,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        568.0,
+        485.0,
+        671.0,
+        502.0
+      ],
+      "text": "Did you know?",
+      "lines": [
+        {
+          "text": "Did you know?",
+          "box": [
+            568.0,
+            485.0,
+            671.0,
+            502.0
+          ],
+          "confidence": 0.9999936819076538
+        }
+      ]
+    },
+    {
+      "block_id": "b114",
+      "order": 114,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        28.0,
+        486.0,
+        102.0,
+        497.0
+      ],
+      "text": "Tourists (annually)",
+      "lines": [
+        {
+          "text": "Tourists (annually)",
+          "box": [
+            28.0,
+            486.0,
+            102.0,
+            497.0
+          ],
+          "confidence": 0.9999825358390808
+        }
+      ]
+    },
+    {
+      "block_id": "b115",
+      "order": 115,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        115.0,
+        487.0,
+        164.0,
+        497.0
+      ],
+      "text": "15.6 million",
+      "lines": [
+        {
+          "text": "15.6 million",
+          "box": [
+            115.0,
+            487.0,
+            164.0,
+            497.0
+          ],
+          "confidence": 0.9998278021812439
+        }
+      ]
+    },
+    {
+      "block_id": "b116",
+      "order": 116,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        568.0,
+        502.0,
+        667.0,
+        515.0
+      ],
+      "text": "Paris has approximately",
+      "lines": [
+        {
+          "text": "Paris has approximately",
+          "box": [
+            568.0,
+            502.0,
+            667.0,
+            515.0
+          ],
+          "confidence": 0.9998387694358826
+        }
+      ]
+    },
+    {
+      "block_id": "b117",
+      "order": 117,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        246.0,
+        504.0,
+        267.0,
+        516.0
+      ],
+      "text": "The",
+      "lines": [
+        {
+          "text": "The",
+          "box": [
+            246.0,
+            504.0,
+            267.0,
+            516.0
+          ],
+          "confidence": 0.9999988675117493
+        }
+      ]
+    },
+    {
+      "block_id": "b118",
+      "order": 118,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        27.0,
+        505.0,
+        87.0,
+        520.0
+      ],
+      "text": "Parisians",
+      "lines": [
+        {
+          "text": "Parisians",
+          "box": [
+            27.0,
+            505.0,
+            87.0,
+            520.0
+          ],
+          "confidence": 0.9999961853027344
+        }
+      ]
+    },
+    {
+      "block_id": "b119",
+      "order": 119,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        568.0,
+        513.0,
+        685.0,
+        527.0
+      ],
+      "text": "140 theaters, 100 nightclubs,",
+      "lines": [
+        {
+          "text": "140 theaters, 100 nightclubs,",
+          "box": [
+            568.0,
+            513.0,
+            685.0,
+            527.0
+          ],
+          "confidence": 0.9939865469932556
+        }
+      ]
+    },
+    {
+      "block_id": "b120",
+      "order": 120,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        244.0,
+        514.0,
+        269.0,
+        527.0
+      ],
+      "text": "Eiffel",
+      "lines": [
+        {
+          "text": "Eiffel",
+          "box": [
+            244.0,
+            514.0,
+            269.0,
+            527.0
+          ],
+          "confidence": 0.9999460577964783
+        }
+      ]
+    },
+    {
+      "block_id": "b121",
+      "order": 121,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        28.0,
+        523.0,
+        152.0,
+        533.0
+      ],
+      "text": "The people of Paris love life and",
+      "lines": [
+        {
+          "text": "The people of Paris love life and",
+          "box": [
+            28.0,
+            523.0,
+            152.0,
+            533.0
+          ],
+          "confidence": 0.9970742464065552
+        }
+      ]
+    },
+    {
+      "block_id": "b122",
+      "order": 122,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        569.0,
+        526.0,
+        695.0,
+        536.0
+      ],
+      "text": "96 cabarets, 90 movie theaters.",
+      "lines": [
+        {
+          "text": "96 cabarets, 90 movie theaters.",
+          "box": [
+            569.0,
+            526.0,
+            695.0,
+            536.0
+          ],
+          "confidence": 0.9918997287750244
+        }
+      ]
+    },
+    {
+      "block_id": "b123",
+      "order": 123,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        242.0,
+        527.0,
+        271.0,
+        538.0
+      ],
+      "text": "Tower",
+      "lines": [
+        {
+          "text": "Tower",
+          "box": [
+            242.0,
+            527.0,
+            271.0,
+            538.0
+          ],
+          "confidence": 0.9999934434890747
+        }
+      ]
+    },
+    {
+      "block_id": "b124",
+      "order": 124,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        26.0,
+        533.0,
+        148.0,
+        546.0
+      ],
+      "text": "good living, but living in the city",
+      "lines": [
+        {
+          "text": "good living, but living in the city",
+          "box": [
+            26.0,
+            533.0,
+            148.0,
+            546.0
+          ],
+          "confidence": 0.9997847676277161
+        }
+      ]
+    },
+    {
+      "block_id": "b125",
+      "order": 125,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        567.0,
+        535.0,
+        691.0,
+        547.0
+      ],
+      "text": "3 opera houses, 62,000 shops",
+      "lines": [
+        {
+          "text": "3 opera houses, 62,000 shops",
+          "box": [
+            567.0,
+            535.0,
+            691.0,
+            547.0
+          ],
+          "confidence": 0.98593670129776
+        }
+      ]
+    },
+    {
+      "block_id": "b126",
+      "order": 126,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        28.0,
+        545.0,
+        161.0,
+        555.0
+      ],
+      "text": "can be expensive, so many (about",
+      "lines": [
+        {
+          "text": "can be expensive, so many (about",
+          "box": [
+            28.0,
+            545.0,
+            161.0,
+            555.0
+          ],
+          "confidence": 0.9889315962791443
+        }
+      ]
+    },
+    {
+      "block_id": "b127",
+      "order": 127,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        568.0,
+        547.0,
+        702.0,
+        557.0
+      ],
+      "text": "and more than 9,000 restaurants.",
+      "lines": [
+        {
+          "text": "and more than 9,000 restaurants.",
+          "box": [
+            568.0,
+            547.0,
+            702.0,
+            557.0
+          ],
+          "confidence": 0.9996047616004944
+        }
+      ]
+    },
+    {
+      "block_id": "b128",
+      "order": 128,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        28.0,
+        554.0,
+        157.0,
+        564.0
+      ],
+      "text": "10 million) live in the suburbs and",
+      "lines": [
+        {
+          "text": "10 million) live in the suburbs and",
+          "box": [
+            28.0,
+            554.0,
+            157.0,
+            564.0
+          ],
+          "confidence": 0.9987841844558716
+        }
+      ]
+    },
+    {
+      "block_id": "b129",
+      "order": 129,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        568.0,
+        560.0,
+        686.0,
+        570.0
+      ],
+      "text": "Most Parisians take about 10",
+      "lines": [
+        {
+          "text": "Most Parisians take about 10",
+          "box": [
+            568.0,
+            560.0,
+            686.0,
+            570.0
+          ],
+          "confidence": 0.9894039034843445
+        }
+      ]
+    },
+    {
+      "block_id": "b130",
+      "order": 130,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        27.0,
+        566.0,
+        149.0,
+        576.0
+      ],
+      "text": "commute into town for jobs and",
+      "lines": [
+        {
+          "text": "commute into town for jobs and",
+          "box": [
+            27.0,
+            566.0,
+            149.0,
+            576.0
+          ],
+          "confidence": 0.9998124837875366
+        }
+      ]
+    },
+    {
+      "block_id": "b131",
+      "order": 131,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        568.0,
+        571.0,
+        670.0,
+        581.0
+      ],
+      "text": "weeks of vacation a year.",
+      "lines": [
+        {
+          "text": "weeks of vacation a year.",
+          "box": [
+            568.0,
+            571.0,
+            670.0,
+            581.0
+          ],
+          "confidence": 0.9998008608818054
+        }
+      ]
+    },
+    {
+      "block_id": "b132",
+      "order": 132,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        27.0,
+        576.0,
+        162.0,
+        586.0
+      ],
+      "text": "recreation. More than half of all city",
+      "lines": [
+        {
+          "text": "recreation. More than half of all city",
+          "box": [
+            27.0,
+            576.0,
+            162.0,
+            586.0
+          ],
+          "confidence": 0.9948089718818665
+        }
+      ]
+    },
+    {
+      "block_id": "b133",
+      "order": 133,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        568.0,
+        584.0,
+        684.0,
+        595.0
+      ],
+      "text": "More than half of employees",
+      "lines": [
+        {
+          "text": "More than half of employees",
+          "box": [
+            568.0,
+            584.0,
+            684.0,
+            595.0
+          ],
+          "confidence": 0.9999878406524658
+        }
+      ]
+    },
+    {
+      "block_id": "b134",
+      "order": 134,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        26.0,
+        585.0,
+        146.0,
+        598.0
+      ],
+      "text": "dwellers live in studio and two-",
+      "lines": [
+        {
+          "text": "dwellers live in studio and two-",
+          "box": [
+            26.0,
+            585.0,
+            146.0,
+            598.0
+          ],
+          "confidence": 0.9996013641357422
+        }
+      ]
+    },
+    {
+      "block_id": "b135",
+      "order": 135,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        567.0,
+        595.0,
+        684.0,
+        605.0
+      ],
+      "text": "in the city work in commerce,",
+      "lines": [
+        {
+          "text": "in the city work in commerce,",
+          "box": [
+            567.0,
+            595.0,
+            684.0,
+            605.0
+          ],
+          "confidence": 0.994511067867279
+        }
+      ]
+    },
+    {
+      "block_id": "b136",
+      "order": 136,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        27.0,
+        598.0,
+        160.0,
+        608.0
+      ],
+      "text": "room apartments. The apartments",
+      "lines": [
+        {
+          "text": "room apartments. The apartments",
+          "box": [
+            27.0,
+            598.0,
+            160.0,
+            608.0
+          ],
+          "confidence": 0.9996185302734375
+        }
+      ]
+    },
+    {
+      "block_id": "b137",
+      "order": 137,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        568.0,
+        606.0,
+        679.0,
+        616.0
+      ],
+      "text": "transportation and services.",
+      "lines": [
+        {
+          "text": "transportation and services.",
+          "box": [
+            568.0,
+            606.0,
+            679.0,
+            616.0
+          ],
+          "confidence": 0.9997156858444214
+        }
+      ]
+    },
+    {
+      "block_id": "b138",
+      "order": 138,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        221.0,
+        616.0,
+        295.0,
+        626.0
+      ],
+      "text": "The tower was built to",
+      "lines": [
+        {
+          "text": "The tower was built to",
+          "box": [
+            221.0,
+            616.0,
+            295.0,
+            626.0
+          ],
+          "confidence": 0.9998415112495422
+        }
+      ]
+    },
+    {
+      "block_id": "b139",
+      "order": 139,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        27.0,
+        619.0,
+        160.0,
+        629.0
+      ],
+      "text": "nate fireplaces and historic charm.",
+      "lines": [
+        {
+          "text": "nate fireplaces and historic charm.",
+          "box": [
+            27.0,
+            619.0,
+            160.0,
+            629.0
+          ],
+          "confidence": 0.9998967051506042
+        }
+      ]
+    },
+    {
+      "block_id": "b140",
+      "order": 140,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        569.0,
+        619.0,
+        695.0,
+        629.0
+      ],
+      "text": "Directions in Paris often include",
+      "lines": [
+        {
+          "text": "Directions in Paris often include",
+          "box": [
+            569.0,
+            619.0,
+            695.0,
+            629.0
+          ],
+          "confidence": 0.9982501864433289
+        }
+      ]
+    },
+    {
+      "block_id": "b141",
+      "order": 141,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        212.0,
+        624.0,
+        302.0,
+        634.0
+      ],
+      "text": "sway in the wind, but when",
+      "lines": [
+        {
+          "text": "sway in the wind, but when",
+          "box": [
+            212.0,
+            624.0,
+            302.0,
+            634.0
+          ],
+          "confidence": 0.9998568296432495
+        }
+      ]
+    },
+    {
+      "block_id": "b142",
+      "order": 142,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        567.0,
+        629.0,
+        695.0,
+        639.0
+      ],
+      "text": "which bank of the Seine River a",
+      "lines": [
+        {
+          "text": "which bank of the Seine River a",
+          "box": [
+            567.0,
+            629.0,
+            695.0,
+            639.0
+          ],
+          "confidence": 0.9998315572738647
+        }
+      ]
+    },
+    {
+      "block_id": "b143",
+      "order": 143,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        26.0,
+        631.0,
+        156.0,
+        643.0
+      ],
+      "text": "Fashion and fine dining are very",
+      "lines": [
+        {
+          "text": "Fashion and fine dining are very",
+          "box": [
+            26.0,
+            631.0,
+            156.0,
+            643.0
+          ],
+          "confidence": 0.9999397993087769
+        }
+      ]
+    },
+    {
+      "block_id": "b144",
+      "order": 144,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        203.0,
+        635.0,
+        310.0,
+        642.0
+      ],
+      "text": "the sun heats it up, the top of the",
+      "lines": [
+        {
+          "text": "the sun heats it up, the top of the",
+          "box": [
+            203.0,
+            635.0,
+            310.0,
+            642.0
+          ],
+          "confidence": 0.9831436276435852
+        }
+      ]
+    },
+    {
+      "block_id": "b145",
+      "order": 145,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        569.0,
+        641.0,
+        696.0,
+        651.0
+      ],
+      "text": "place is on, the \"rive droit\" (right",
+      "lines": [
+        {
+          "text": "place is on, the \"rive droit\" (right",
+          "box": [
+            569.0,
+            641.0,
+            696.0,
+            651.0
+          ],
+          "confidence": 0.9976621270179749
+        }
+      ]
+    },
+    {
+      "block_id": "b146",
+      "order": 146,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        27.0,
+        643.0,
+        155.0,
+        653.0
+      ],
+      "text": "important to Parisians. Dressing",
+      "lines": [
+        {
+          "text": "important to Parisians. Dressing",
+          "box": [
+            27.0,
+            643.0,
+            155.0,
+            653.0
+          ],
+          "confidence": 0.9867655038833618
+        }
+      ]
+    },
+    {
+      "block_id": "b147",
+      "order": 147,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        202.0,
+        644.0,
+        312.0,
+        651.0
+      ],
+      "text": "tower bends as much as 7 inches",
+      "lines": [
+        {
+          "text": "tower bends as much as 7 inches",
+          "box": [
+            202.0,
+            644.0,
+            312.0,
+            651.0
+          ],
+          "confidence": 0.989285409450531
+        }
+      ]
+    },
+    {
+      "block_id": "b148",
+      "order": 148,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        568.0,
+        650.0,
+        689.0,
+        661.0
+      ],
+      "text": "bank) or the \"rive gauche\" (left",
+      "lines": [
+        {
+          "text": "bank) or the \"rive gauche\" (left",
+          "box": [
+            568.0,
+            650.0,
+            689.0,
+            661.0
+          ],
+          "confidence": 0.9689080715179443
+        }
+      ]
+    },
+    {
+      "block_id": "b149",
+      "order": 149,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        197.0,
+        651.0,
+        316.0,
+        662.0
+      ],
+      "text": "(18 cm) away from the sun. The sun",
+      "lines": [
+        {
+          "text": "(18 cm) away from the sun. The sun",
+          "box": [
+            197.0,
+            651.0,
+            316.0,
+            662.0
+          ],
+          "confidence": 0.999523401260376
+        }
+      ]
+    },
+    {
+      "block_id": "b150",
+      "order": 150,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        26.0,
+        652.0,
+        145.0,
+        666.0
+      ],
+      "text": "down in public just isn't done.",
+      "lines": [
+        {
+          "text": "down in public just isn't done.",
+          "box": [
+            26.0,
+            652.0,
+            145.0,
+            666.0
+          ],
+          "confidence": 0.993622899055481
+        }
+      ]
+    },
+    {
+      "block_id": "b151",
+      "order": 151,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        198.0,
+        662.0,
+        316.0,
+        669.0
+      ],
+      "text": "also causes the tower to grow about",
+      "lines": [
+        {
+          "text": "also causes the tower to grow about",
+          "box": [
+            198.0,
+            662.0,
+            316.0,
+            669.0
+          ],
+          "confidence": 0.9978592991828918
+        }
+      ]
+    },
+    {
+      "block_id": "b152",
+      "order": 152,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        569.0,
+        663.0,
+        701.0,
+        673.0
+      ],
+      "text": "bank). The right bank is the com-",
+      "lines": [
+        {
+          "text": "bank). The right bank is the com-",
+          "box": [
+            569.0,
+            663.0,
+            701.0,
+            673.0
+          ],
+          "confidence": 0.987350583076477
+        }
+      ]
+    },
+    {
+      "block_id": "b153",
+      "order": 153,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        27.0,
+        666.0,
+        123.0,
+        679.0
+      ],
+      "text": "The people of Paris are",
+      "lines": [
+        {
+          "text": "The people of Paris are",
+          "box": [
+            27.0,
+            666.0,
+            123.0,
+            679.0
+          ],
+          "confidence": 0.9906682372093201
+        }
+      ]
+    },
+    {
+      "block_id": "b154",
+      "order": 154,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        222.0,
+        669.0,
+        291.0,
+        679.0
+      ],
+      "text": "6 inches (15.24 cm).",
+      "lines": [
+        {
+          "text": "6 inches (15.24 cm).",
+          "box": [
+            222.0,
+            669.0,
+            291.0,
+            679.0
+          ],
+          "confidence": 0.9997702836990356
+        }
+      ]
+    },
+    {
+      "block_id": "b155",
+      "order": 155,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        568.0,
+        673.0,
+        703.0,
+        683.0
+      ],
+      "text": "mercial heart of the city, while the",
+      "lines": [
+        {
+          "text": "mercial heart of the city, while the",
+          "box": [
+            568.0,
+            673.0,
+            703.0,
+            683.0
+          ],
+          "confidence": 0.9999561309814453
+        }
+      ]
+    },
+    {
+      "block_id": "b156",
+      "order": 156,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        27.0,
+        678.0,
+        146.0,
+        688.0
+      ],
+      "text": "courteous and polite, but they",
+      "lines": [
+        {
+          "text": "courteous and polite, but they",
+          "box": [
+            27.0,
+            678.0,
+            146.0,
+            688.0
+          ],
+          "confidence": 0.9999121427536011
+        }
+      ]
+    },
+    {
+      "block_id": "b157",
+      "order": 157,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        567.0,
+        682.0,
+        704.0,
+        694.0
+      ],
+      "text": "left bank is home to the University",
+      "lines": [
+        {
+          "text": "left bank is home to the University",
+          "box": [
+            567.0,
+            682.0,
+            704.0,
+            694.0
+          ],
+          "confidence": 0.9998651742935181
+        }
+      ]
+    },
+    {
+      "block_id": "b158",
+      "order": 158,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        27.0,
+        688.0,
+        144.0,
+        698.0
+      ],
+      "text": "also like to speak their minds.",
+      "lines": [
+        {
+          "text": "also like to speak their minds.",
+          "box": [
+            27.0,
+            688.0,
+            144.0,
+            698.0
+          ],
+          "confidence": 0.9957916140556335
+        }
+      ]
+    },
+    {
+      "block_id": "b159",
+      "order": 159,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        169.0,
+        688.0,
+        321.0,
+        698.0
+      ],
+      "text": "Notre-Dame de Paris is French for \"Our Lady",
+      "lines": [
+        {
+          "text": "Notre-Dame de Paris is French for \"Our Lady",
+          "box": [
+            169.0,
+            688.0,
+            321.0,
+            698.0
+          ],
+          "confidence": 0.9927313327789307
+        }
+      ]
+    },
+    {
+      "block_id": "b160",
+      "order": 160,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        567.0,
+        693.0,
+        697.0,
+        703.0
+      ],
+      "text": "and the intellectual and art com-",
+      "lines": [
+        {
+          "text": "and the intellectual and art com-",
+          "box": [
+            567.0,
+            693.0,
+            697.0,
+            703.0
+          ],
+          "confidence": 0.992153525352478
+        }
+      ]
+    },
+    {
+      "block_id": "b161",
+      "order": 161,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        171.0,
+        698.0,
+        320.0,
+        705.0
+      ],
+      "text": "of Paris.\" It took almost 200 years to build this",
+      "lines": [
+        {
+          "text": "of Paris.\" It took almost 200 years to build this",
+          "box": [
+            171.0,
+            698.0,
+            320.0,
+            705.0
+          ],
+          "confidence": 0.9913823008537292
+        }
+      ]
+    },
+    {
+      "block_id": "b162",
+      "order": 162,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        27.0,
+        699.0,
+        147.0,
+        709.0
+      ],
+      "text": "which is sometimes misunder-",
+      "lines": [
+        {
+          "text": "which is sometimes misunder-",
+          "box": [
+            27.0,
+            699.0,
+            147.0,
+            709.0
+          ],
+          "confidence": 0.9996250867843628
+        }
+      ]
+    },
+    {
+      "block_id": "b163",
+      "order": 163,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        568.0,
+        705.0,
+        606.0,
+        715.0
+      ],
+      "text": "munities.",
+      "lines": [
+        {
+          "text": "munities.",
+          "box": [
+            568.0,
+            705.0,
+            606.0,
+            715.0
+          ],
+          "confidence": 0.9998482465744019
+        }
+      ]
+    },
+    {
+      "block_id": "b164",
+      "order": 164,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        166.0,
+        707.0,
+        320.0,
+        714.0
+      ],
+      "text": "cathedral. It was finished around 1345, It is one",
+      "lines": [
+        {
+          "text": "cathedral. It was finished around 1345, It is one",
+          "box": [
+            166.0,
+            707.0,
+            320.0,
+            714.0
+          ],
+          "confidence": 0.990057647228241
+        }
+      ]
+    },
+    {
+      "block_id": "b165",
+      "order": 165,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        27.0,
+        710.0,
+        104.0,
+        720.0
+      ],
+      "text": "stood as rudeness.",
+      "lines": [
+        {
+          "text": "stood as rudeness.",
+          "box": [
+            27.0,
+            710.0,
+            104.0,
+            720.0
+          ],
+          "confidence": 0.9999793171882629
+        }
+      ]
+    },
+    {
+      "block_id": "b166",
+      "order": 166,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        163.0,
+        714.0,
+        321.0,
+        724.0
+      ],
+      "text": "of the first buildings in the world to use the flying",
+      "lines": [
+        {
+          "text": "of the first buildings in the world to use the flying",
+          "box": [
+            163.0,
+            714.0,
+            321.0,
+            724.0
+          ],
+          "confidence": 0.9917088747024536
+        }
+      ]
+    },
+    {
+      "block_id": "b167",
+      "order": 167,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        568.0,
+        718.0,
+        695.0,
+        729.0
+      ],
+      "text": "Parisians are proud of their lan-",
+      "lines": [
+        {
+          "text": "Parisians are proud of their lan-",
+          "box": [
+            568.0,
+            718.0,
+            695.0,
+            729.0
+          ],
+          "confidence": 0.9997950196266174
+        }
+      ]
+    },
+    {
+      "block_id": "b168",
+      "order": 168,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        27.0,
+        722.0,
+        150.0,
+        733.0
+      ],
+      "text": "Parisians are very fond of their",
+      "lines": [
+        {
+          "text": "Parisians are very fond of their",
+          "box": [
+            27.0,
+            722.0,
+            150.0,
+            733.0
+          ],
+          "confidence": 0.9999761581420898
+        }
+      ]
+    },
+    {
+      "block_id": "b169",
+      "order": 169,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        163.0,
+        724.0,
+        320.0,
+        732.0
+      ],
+      "text": "buttress to distribute stress and weight. It has 10",
+      "lines": [
+        {
+          "text": "buttress to distribute stress and weight. It has 10",
+          "box": [
+            163.0,
+            724.0,
+            320.0,
+            732.0
+          ],
+          "confidence": 0.9997411966323853
+        }
+      ]
+    },
+    {
+      "block_id": "b170",
+      "order": 170,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        568.0,
+        730.0,
+        687.0,
+        740.0
+      ],
+      "text": "guage and are pleased when",
+      "lines": [
+        {
+          "text": "guage and are pleased when",
+          "box": [
+            568.0,
+            730.0,
+            687.0,
+            740.0
+          ],
+          "confidence": 0.9960067272186279
+        }
+      ]
+    },
+    {
+      "block_id": "b171",
+      "order": 171,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        171.0,
+        732.0,
+        321.0,
+        742.0
+      ],
+      "text": "bells, the largest weighing more than 13 tons.",
+      "lines": [
+        {
+          "text": "bells, the largest weighing more than 13 tons.",
+          "box": [
+            171.0,
+            732.0,
+            321.0,
+            742.0
+          ],
+          "confidence": 0.998807966709137
+        }
+      ]
+    },
+    {
+      "block_id": "b172",
+      "order": 172,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        27.0,
+        734.0,
+        155.0,
+        744.0
+      ],
+      "text": "pet dogs, and dogs can be seen",
+      "lines": [
+        {
+          "text": "pet dogs, and dogs can be seen",
+          "box": [
+            27.0,
+            734.0,
+            155.0,
+            744.0
+          ],
+          "confidence": 0.995866596698761
+        }
+      ]
+    },
+    {
+      "block_id": "b173",
+      "order": 173,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        568.0,
+        740.0,
+        692.0,
+        750.0
+      ],
+      "text": "non-French speakers make an",
+      "lines": [
+        {
+          "text": "non-French speakers make an",
+          "box": [
+            568.0,
+            740.0,
+            692.0,
+            750.0
+          ],
+          "confidence": 0.9999526739120483
+        }
+      ]
+    },
+    {
+      "block_id": "b174",
+      "order": 174,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        162.0,
+        741.0,
+        320.0,
+        751.0
+      ],
+      "text": "Hundreds of statues and gargoyles decorate the",
+      "lines": [
+        {
+          "text": "Hundreds of statues and gargoyles decorate the",
+          "box": [
+            162.0,
+            741.0,
+            320.0,
+            751.0
+          ],
+          "confidence": 0.9999545812606812
+        }
+      ]
+    },
+    {
+      "block_id": "b175",
+      "order": 175,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        26.0,
+        743.0,
+        142.0,
+        757.0
+      ],
+      "text": "everywhere — even in fancy",
+      "lines": [
+        {
+          "text": "everywhere — even in fancy",
+          "box": [
+            26.0,
+            743.0,
+            142.0,
+            757.0
+          ],
+          "confidence": 0.9815301895141602
+        }
+      ]
+    },
+    {
+      "block_id": "b176",
+      "order": 176,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        569.0,
+        750.0,
+        679.0,
+        760.0
+      ],
+      "text": "effort to learn some French.",
+      "lines": [
+        {
+          "text": "effort to learn some French.",
+          "box": [
+            569.0,
+            750.0,
+            679.0,
+            760.0
+          ],
+          "confidence": 0.9943659901618958
+        }
+      ]
+    },
+    {
+      "block_id": "b177",
+      "order": 177,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        27.0,
+        755.0,
+        75.0,
+        766.0
+      ],
+      "text": "restaurants.",
+      "lines": [
+        {
+          "text": "restaurants.",
+          "box": [
+            27.0,
+            755.0,
+            75.0,
+            766.0
+          ],
+          "confidence": 0.9825919270515442
+        }
+      ]
+    },
+    {
+      "block_id": "b178",
+      "order": 178,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        569.0,
+        763.0,
+        659.0,
+        773.0
+      ],
+      "text": "Paris is divided into 20",
+      "lines": [
+        {
+          "text": "Paris is divided into 20",
+          "box": [
+            569.0,
+            763.0,
+            659.0,
+            773.0
+          ],
+          "confidence": 0.9999600052833557
+        }
+      ]
+    },
+    {
+      "block_id": "b179",
+      "order": 179,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        263.0,
+        773.0,
+        476.0,
+        784.0
+      ],
+      "text": "The Musée du Louvre is one of the worid's largest art musoums.",
+      "lines": [
+        {
+          "text": "The Musée du Louvre is one of the worid's largest art musoums.",
+          "box": [
+            263.0,
+            773.0,
+            476.0,
+            784.0
+          ],
+          "confidence": 0.9862362146377563
+        }
+      ]
+    },
+    {
+      "block_id": "b180",
+      "order": 180,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        567.0,
+        773.0,
+        684.0,
+        783.0
+      ],
+      "text": "arrondissements (neighbor-",
+      "lines": [
+        {
+          "text": "arrondissements (neighbor-",
+          "box": [
+            567.0,
+            773.0,
+            684.0,
+            783.0
+          ],
+          "confidence": 0.9981197714805603
+        }
+      ]
+    },
+    {
+      "block_id": "b181",
+      "order": 181,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        34.0,
+        774.0,
+        255.0,
+        784.0
+      ],
+      "text": "The Bastille was a stone fortress built in the 14th century to defend",
+      "lines": [
+        {
+          "text": "The Bastille was a stone fortress built in the 14th century to defend",
+          "box": [
+            34.0,
+            774.0,
+            255.0,
+            784.0
+          ],
+          "confidence": 0.9997999668121338
+        }
+      ]
+    },
+    {
+      "block_id": "b182",
+      "order": 182,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        495.0,
+        779.0,
+        543.0,
+        789.0
+      ],
+      "text": "The Louvre is",
+      "lines": [
+        {
+          "text": "The Louvre is",
+          "box": [
+            495.0,
+            779.0,
+            543.0,
+            789.0
+          ],
+          "confidence": 0.9976756572723389
+        }
+      ]
+    },
+    {
+      "block_id": "b183",
+      "order": 183,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        35.0,
+        784.0,
+        241.0,
+        791.0
+      ],
+      "text": "Paris against the Enolish, It became a state prison in 1417, The",
+      "lines": [
+        {
+          "text": "Paris against the Enolish, It became a state prison in 1417, The",
+          "box": [
+            35.0,
+            784.0,
+            241.0,
+            791.0
+          ],
+          "confidence": 0.9850637912750244
+        }
+      ]
+    },
+    {
+      "block_id": "b184",
+      "order": 184,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        265.0,
+        784.0,
+        476.0,
+        791.0
+      ],
+      "text": "It opened its doors to the public in 1793, and many additions have",
+      "lines": [
+        {
+          "text": "It opened its doors to the public in 1793, and many additions have",
+          "box": [
+            265.0,
+            784.0,
+            476.0,
+            791.0
+          ],
+          "confidence": 0.9931654334068298
+        }
+      ]
+    },
+    {
+      "block_id": "b185",
+      "order": 185,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        568.0,
+        785.0,
+        703.0,
+        796.0
+      ],
+      "text": "hoods). Each arrondissement has",
+      "lines": [
+        {
+          "text": "hoods). Each arrondissement has",
+          "box": [
+            568.0,
+            785.0,
+            703.0,
+            796.0
+          ],
+          "confidence": 0.9942699670791626
+        }
+      ]
+    },
+    {
+      "block_id": "b186",
+      "order": 186,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        503.0,
+        788.0,
+        534.0,
+        799.0
+      ],
+      "text": "home to",
+      "lines": [
+        {
+          "text": "home to",
+          "box": [
+            503.0,
+            788.0,
+            534.0,
+            799.0
+          ],
+          "confidence": 0.9997033476829529
+        }
+      ]
+    },
+    {
+      "block_id": "b187",
+      "order": 187,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        35.0,
+        794.0,
+        249.0,
+        801.0
+      ],
+      "text": "Bastille fell and became a symbol of royal tyranny and freedom for",
+      "lines": [
+        {
+          "text": "Bastille fell and became a symbol of royal tyranny and freedom for",
+          "box": [
+            35.0,
+            794.0,
+            249.0,
+            801.0
+          ],
+          "confidence": 0.9729980826377869
+        }
+      ]
+    },
+    {
+      "block_id": "b188",
+      "order": 188,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        265.0,
+        794.0,
+        471.0,
+        801.0
+      ],
+      "text": "been added over the centuries. Today the Louvre displays about",
+      "lines": [
+        {
+          "text": "been added over the centuries. Today the Louvre displays about",
+          "box": [
+            265.0,
+            794.0,
+            471.0,
+            801.0
+          ],
+          "confidence": 0.9926475286483765
+        }
+      ]
+    },
+    {
+      "block_id": "b189",
+      "order": 189,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        495.0,
+        795.0,
+        541.0,
+        809.0
+      ],
+      "text": "Leonardo da",
+      "lines": [
+        {
+          "text": "Leonardo da",
+          "box": [
+            495.0,
+            795.0,
+            541.0,
+            809.0
+          ],
+          "confidence": 0.9613698720932007
+        }
+      ]
+    },
+    {
+      "block_id": "b190",
+      "order": 190,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        570.0,
+        798.0,
+        692.0,
+        805.0
+      ],
+      "text": "a unique and special character.",
+      "lines": [
+        {
+          "text": "a unique and special character.",
+          "box": [
+            570.0,
+            798.0,
+            692.0,
+            805.0
+          ],
+          "confidence": 0.9839487671852112
+        }
+      ]
+    },
+    {
+      "block_id": "b191",
+      "order": 191,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        34.0,
+        801.0,
+        242.0,
+        811.0
+      ],
+      "text": "the revolutionists on July 14th, 1789. Although the building was",
+      "lines": [
+        {
+          "text": "the revolutionists on July 14th, 1789. Although the building was",
+          "box": [
+            34.0,
+            801.0,
+            242.0,
+            811.0
+          ],
+          "confidence": 0.9919594526290894
+        }
+      ]
+    },
+    {
+      "block_id": "b192",
+      "order": 192,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        265.0,
+        802.0,
+        459.0,
+        809.0
+      ],
+      "text": "35,000 pieces of art and has more than 650,000 square feet",
+      "lines": [
+        {
+          "text": "35,000 pieces of art and has more than 650,000 square feet",
+          "box": [
+            265.0,
+            802.0,
+            459.0,
+            809.0
+          ],
+          "confidence": 0.9992673993110657
+        }
+      ]
+    },
+    {
+      "block_id": "b193",
+      "order": 193,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        494.0,
+        806.0,
+        544.0,
+        816.0
+      ],
+      "text": "Vinci's famous",
+      "lines": [
+        {
+          "text": "Vinci's famous",
+          "box": [
+            494.0,
+            806.0,
+            544.0,
+            816.0
+          ],
+          "confidence": 0.9997569918632507
+        }
+      ]
+    },
+    {
+      "block_id": "b194",
+      "order": 194,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        264.0,
+        809.0,
+        478.0,
+        819.0
+      ],
+      "text": "(60,600 square meters) of gallery space. The Louvre pyramid was",
+      "lines": [
+        {
+          "text": "(60,600 square meters) of gallery space. The Louvre pyramid was",
+          "box": [
+            264.0,
+            809.0,
+            478.0,
+            819.0
+          ],
+          "confidence": 0.9945130348205566
+        }
+      ]
+    },
+    {
+      "block_id": "b195",
+      "order": 195,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        35.0,
+        811.0,
+        241.0,
+        818.0
+      ],
+      "text": "destroyed in 1789, Bastille Day has been celebrated ever since.",
+      "lines": [
+        {
+          "text": "destroyed in 1789, Bastille Day has been celebrated ever since.",
+          "box": [
+            35.0,
+            811.0,
+            241.0,
+            818.0
+          ],
+          "confidence": 0.9916333556175232
+        }
+      ]
+    },
+    {
+      "block_id": "b196",
+      "order": 196,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        498.0,
+        815.0,
+        539.0,
+        825.0
+      ],
+      "text": "Mona Lisa.",
+      "lines": [
+        {
+          "text": "Mona Lisa.",
+          "box": [
+            498.0,
+            815.0,
+            539.0,
+            825.0
+          ],
+          "confidence": 0.9890357255935669
+        }
+      ]
+    },
+    {
+      "block_id": "b197",
+      "order": 197,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        263.0,
+        817.0,
+        464.0,
+        828.0
+      ],
+      "text": "completed in 1989 and serves as an entrance to the museum.",
+      "lines": [
+        {
+          "text": "completed in 1989 and serves as an entrance to the museum.",
+          "box": [
+            263.0,
+            817.0,
+            464.0,
+            828.0
+          ],
+          "confidence": 0.9814727306365967
+        }
+      ]
+    },
+    {
+      "block_id": "b198",
+      "order": 198,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        513.0,
+        832.0,
+        705.0,
+        842.0
+      ],
+      "text": "Pont Neuf means \"New Bridge.\" When it was built in 1578,",
+      "lines": [
+        {
+          "text": "Pont Neuf means \"New Bridge.\" When it was built in 1578,",
+          "box": [
+            513.0,
+            832.0,
+            705.0,
+            842.0
+          ],
+          "confidence": 0.9872270822525024
+        }
+      ]
+    },
+    {
+      "block_id": "b199",
+      "order": 199,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        514.0,
+        842.0,
+        699.0,
+        849.0
+      ],
+      "text": "this bridoe was celebrated for its modern features. It was",
+      "lines": [
+        {
+          "text": "this bridoe was celebrated for its modern features. It was",
+          "box": [
+            514.0,
+            842.0,
+            699.0,
+            849.0
+          ],
+          "confidence": 0.9699262380599976
+        }
+      ]
+    },
+    {
+      "block_id": "b200",
+      "order": 200,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        513.0,
+        849.0,
+        704.0,
+        859.0
+      ],
+      "text": "one of the only bridges that did not have houses built on it,",
+      "lines": [
+        {
+          "text": "one of the only bridges that did not have houses built on it,",
+          "box": [
+            513.0,
+            849.0,
+            704.0,
+            859.0
+          ],
+          "confidence": 0.9967962503433228
+        }
+      ]
+    },
+    {
+      "block_id": "b201",
+      "order": 201,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        513.0,
+        858.0,
+        707.0,
+        869.0
+      ],
+      "text": "and for many years it was the widest bridge in Paris. Today,",
+      "lines": [
+        {
+          "text": "and for many years it was the widest bridge in Paris. Today,",
+          "box": [
+            513.0,
+            858.0,
+            707.0,
+            869.0
+          ],
+          "confidence": 0.9967529773712158
+        }
+      ]
+    },
+    {
+      "block_id": "b202",
+      "order": 202,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        513.0,
+        868.0,
+        644.0,
+        878.0
+      ],
+      "text": "it is the oldest existing bridge in the city.",
+      "lines": [
+        {
+          "text": "it is the oldest existing bridge in the city.",
+          "box": [
+            513.0,
+            868.0,
+            644.0,
+            878.0
+          ],
+          "confidence": 0.9844973087310791
+        }
+      ]
+    },
+    {
+      "block_id": "b203",
+      "order": 203,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        118.0,
+        954.0,
+        170.0,
+        964.0
+      ],
+      "text": "The Bastille",
+      "lines": [
+        {
+          "text": "The Bastille",
+          "box": [
+            118.0,
+            954.0,
+            170.0,
+            964.0
+          ],
+          "confidence": 0.9999866485595703
+        }
+      ]
+    },
+    {
+      "block_id": "b204",
+      "order": 204,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        359.0,
+        967.0,
+        408.0,
+        977.0
+      ],
+      "text": "The Louvre",
+      "lines": [
+        {
+          "text": "The Louvre",
+          "box": [
+            359.0,
+            967.0,
+            408.0,
+            977.0
+          ],
+          "confidence": 0.9999859929084778
+        }
+      ]
+    },
+    {
+      "block_id": "b205",
+      "order": 205,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        600.0,
+        967.0,
+        646.0,
+        978.0
+      ],
+      "text": "Pont Nuef",
+      "lines": [
+        {
+          "text": "Pont Nuef",
+          "box": [
+            600.0,
+            967.0,
+            646.0,
+            978.0
+          ],
+          "confidence": 0.9945120215415955
+        }
+      ]
+    },
+    {
+      "block_id": "b206",
+      "order": 206,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        181.0,
+        987.0,
+        554.0,
+        997.0
+      ],
+      "text": "Chat with the author and like us on Facebook - www.facebook.com/worldofwonder2014",
+      "lines": [
+        {
+          "text": "Chat with the author and like us on Facebook - www.facebook.com/worldofwonder2014",
+          "box": [
+            181.0,
+            987.0,
+            554.0,
+            997.0
+          ],
+          "confidence": 0.9923508167266846
+        }
+      ]
+    },
+    {
+      "block_id": "b207",
+      "order": 207,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        27.0,
+        1002.0,
+        102.0,
+        1012.0
+      ],
+      "text": "© 2016 Tretedt Studios, In",
+      "lines": [
+        {
+          "text": "© 2016 Tretedt Studios, In",
+          "box": [
+            27.0,
+            1002.0,
+            102.0,
+            1012.0
+          ],
+          "confidence": 0.8254900574684143
+        }
+      ]
+    },
+    {
+      "block_id": "b208",
+      "order": 208,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        202.0,
+        1005.0,
+        534.0,
+        1015.0
+      ],
+      "text": "LEARN ABOUT LEMURS IN THE NEXT INSTALLMENT OF WORLD OF WONDER",
+      "lines": [
+        {
+          "text": "LEARN ABOUT LEMURS IN THE NEXT INSTALLMENT OF WORLD OF WONDER",
+          "box": [
+            202.0,
+            1005.0,
+            534.0,
+            1015.0
+          ],
+          "confidence": 0.9989501237869263
+        }
+      ]
+    },
+    {
+      "block_id": "b209",
+      "order": 209,
+      "page": 0,
+      "label": "text",
+      "role": "body",
+      "box": [
+        26.0,
+        1008.0,
+        106.0,
+        1019.0
+      ],
+      "text": "Distributed by Universal Uclick",
+      "lines": [
+        {
+          "text": "Distributed by Universal Uclick",
+          "box": [
+            26.0,
+            1008.0,
+            106.0,
+            1019.0
+          ],
+          "confidence": 0.94547039270401
+        }
+      ]
+    }
+  ]
+}

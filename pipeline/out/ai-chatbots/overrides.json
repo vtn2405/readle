@@ -113,6 +113,12 @@
       "text": "produced",
       "nth": 1,
       "vi": "tạo ra"
+    },
+    {
+      "section_order": 1,
+      "text": "forth",
+      "nth": 1,
+      "vi": "forth (tiến)"
     }
   ],
   "required_items": [
@@ -169,5 +175,6 @@
       ],
       "answer_index": 0
     }
-  }
+  },
+  "cover": {"source": "sources/chatbotAI.pdf", "page": 1, "box": [100, 1087, 1605, 2091]}
 }

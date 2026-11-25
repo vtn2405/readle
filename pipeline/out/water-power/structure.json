@@ -1,0 +1,313 @@
+{
+ "title_lines": [
+  "L003"
+ ],
+ "sections": [
+  {
+   "title_lines": [],
+   "body_lines": [
+    "L004",
+    "L005",
+    "L006",
+    "L007",
+    "L008"
+   ],
+   "paragraph_starts": [],
+   "icon_hint": "water"
+  },
+  {
+   "title_lines": [],
+   "body_lines": [
+    "L009",
+    "L010",
+    "L011",
+    "L012"
+   ],
+   "paragraph_starts": [],
+   "icon_hint": "plant"
+  },
+  {
+   "title_lines": [
+    "L013"
+   ],
+   "body_lines": [
+    "L014",
+    "L017",
+    "L019",
+    "L021",
+    "L023",
+    "L024",
+    "L026",
+    "L028",
+    "L031",
+    "L034",
+    "L037",
+    "L039",
+    "L042",
+    "L046",
+    "L049",
+    "L052",
+    "L056",
+    "L059",
+    "L063",
+    "L067",
+    "L071",
+    "L075",
+    "L079",
+    "L084",
+    "L089",
+    "L095",
+    "L097",
+    "L100",
+    "L104",
+    "L106"
+   ],
+   "paragraph_starts": [
+    "L042",
+    "L071"
+   ],
+   "icon_hint": "wheel"
+  },
+  {
+   "title_lines": [
+    "L111"
+   ],
+   "body_lines": [
+    "L114",
+    "L118",
+    "L121",
+    "L123",
+    "L126",
+    "L129",
+    "L132",
+    "L134",
+    "L138",
+    "L142",
+    "L144",
+    "L147",
+    "L150",
+    "L153",
+    "L156",
+    "L160",
+    "L164"
+   ],
+   "paragraph_starts": [
+    "L129",
+    "L138",
+    "L147"
+   ],
+   "icon_hint": "fact"
+  },
+  {
+   "title_lines": [],
+   "body_lines": [
+    "L029",
+    "L032",
+    "L035",
+    "L038",
+    "L041",
+    "L044"
+   ],
+   "paragraph_starts": [],
+   "icon_hint": "dam"
+  },
+  {
+   "title_lines": [
+    "L048"
+   ],
+   "body_lines": [
+    "L053",
+    "L057",
+    "L061",
+    "L065",
+    "L069",
+    "L073",
+    "L077",
+    "L081",
+    "L085"
+   ],
+   "paragraph_starts": [
+    "L069"
+   ],
+   "icon_hint": "turbine"
+  },
+  {
+   "title_lines": [
+    "L050"
+   ],
+   "body_lines": [
+    "L055",
+    "L060",
+    "L064",
+    "L068",
+    "L072"
+   ],
+   "paragraph_starts": [],
+   "icon_hint": "plant"
+  },
+  {
+   "title_lines": [],
+   "body_lines": [
+    "L130",
+    "L135",
+    "L136",
+    "L140",
+    "L143",
+    "L146",
+    "L149",
+    "L152",
+    "L155",
+    "L158",
+    "L163"
+   ],
+   "paragraph_starts": [
+    "L152"
+   ],
+   "icon_hint": "lake"
+  },
+  {
+   "title_lines": [
+    "L092"
+   ],
+   "body_lines": [
+    "L098",
+    "L102",
+    "L103",
+    "L107",
+    "L109",
+    "L112",
+    "L116",
+    "L119",
+    "L120",
+    "L122",
+    "L127",
+    "L128"
+   ],
+   "paragraph_starts": [
+    "L112"
+   ],
+   "icon_hint": "electricity"
+  },
+  {
+   "title_lines": [],
+   "body_lines": [
+    "L015",
+    "L016",
+    "L018",
+    "L020",
+    "L022"
+   ],
+   "paragraph_starts": [],
+   "icon_hint": "falls"
+  },
+  {
+   "title_lines": [
+    "L025"
+   ],
+   "body_lines": [
+    "L027",
+    "L030",
+    "L033",
+    "L036",
+    "L040",
+    "L043",
+    "L045",
+    "L047",
+    "L051",
+    "L054",
+    "L058",
+    "L062",
+    "L066",
+    "L070",
+    "L074",
+    "L078",
+    "L082",
+    "L087",
+    "L091",
+    "L096",
+    "L099"
+   ],
+   "paragraph_starts": [
+    "L058",
+    "L087"
+   ],
+   "icon_hint": "mill"
+  },
+  {
+   "title_lines": [
+    "L145"
+   ],
+   "body_lines": [
+    "L148",
+    "L151",
+    "L154",
+    "L157",
+    "L162",
+    "L166",
+    "L169"
+   ],
+   "paragraph_starts": [],
+   "icon_hint": "wheel"
+  }
+ ],
+ "ignore": [
+  "L000",
+  "L001",
+  "L002",
+  "L086",
+  "L088",
+  "L090",
+  "L093",
+  "L094",
+  "L101",
+  "L105",
+  "L108",
+  "L110",
+  "L113",
+  "L115",
+  "L117",
+  "L124",
+  "L125",
+  "L131",
+  "L133",
+  "L137",
+  "L139",
+  "L141",
+  "L159",
+  "L161",
+  "L165",
+  "L167",
+  "L168",
+  "L170",
+  "L171",
+  "L172",
+  "L173",
+  "L174",
+  "L175",
+  "L176",
+  "L177",
+  "L178",
+  "L179",
+  "L180",
+  "L181",
+  "L182",
+  "L183",
+  "L184",
+  "L185",
+  "L186",
+  "L076",
+  "L080",
+  "L083"
+ ],
+ "line_fixes": {
+  "L079": "grind grain and saw timber.",
+  "L047": "wheel uses water flowing from an"
+ },
+ "section_titles": {
+  "0": "Introduction",
+  "1": "Niagara Falls",
+  "4": "The Grand Coulee Dam",
+  "7": "Hydropower and nature",
+  "9": "Angel Falls"
+ }
+}

@@ -36,6 +36,18 @@
       "text": "Hole",
       "nth": 1,
       "vi": "cái lỗ"
+    },
+    {
+      "section_order": 3,
+      "text": "teng",
+      "nth": 1,
+      "vi": "teng (quán ăn nhỏ)"
+    },
+    {
+      "section_order": 3,
+      "text": "teng",
+      "nth": 2,
+      "vi": "teng (quán ăn nhỏ)"
     }
   ],
   "required_items": [
@@ -80,5 +92,6 @@
       "pos": "adjective",
       "definition_en": "small and simple, often with surprisingly good food (about a restaurant or shop)"
     }
-  }
+  },
+  "cover": {"source": "sources/simple_restaurant.pdf", "page": 2, "box": [0, 450, 1700, 1512]}
 }

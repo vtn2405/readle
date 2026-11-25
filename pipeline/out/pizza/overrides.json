@@ -78,11 +78,6 @@
     },
     {
       "section_order": 1,
-      "text": "were",
-      "vi": "được"
-    },
-    {
-      "section_order": 1,
       "text": "Greeks",
       "vi": "người Hy Lạp"
     },
@@ -96,93 +91,6 @@
       "text": "on",
       "nth": 2,
       "vi": "trở nên phổ biến"
-    },
-    {
-      "section_order": 2,
-      "text": "century",
-      "vi": "thế kỷ"
-    },
-    {
-      "section_order": 6,
-      "text": "just",
-      "vi": "chỉ"
-    },
-    {
-      "section_order": 6,
-      "text": "also",
-      "vi": "cũng"
-    },
-    {
-      "section_order": 6,
-      "text": "were",
-      "nth": 2,
-      "vi": "được"
-    },
-    {
-      "section_order": 7,
-      "text": "is",
-      "nth": 1,
-      "vi": "được"
-    },
-    {
-      "section_order": 7,
-      "text": "are",
-      "nth": 1,
-      "vi": "được"
-    },
-    {
-      "section_order": 9,
-      "text": "are",
-      "nth": 1,
-      "vi": "có"
-    },
-    {
-      "section_order": 9,
-      "text": "is",
-      "nth": 1,
-      "vi": "được"
-    },
-    {
-      "section_order": 9,
-      "text": "is",
-      "nth": 2,
-      "vi": "được"
-    },
-    {
-      "section_order": 9,
-      "text": "is",
-      "nth": 3,
-      "vi": "được"
-    },
-    {
-      "section_order": 9,
-      "text": "is",
-      "nth": 4,
-      "vi": "được"
-    },
-    {
-      "section_order": 9,
-      "text": "is",
-      "nth": 5,
-      "vi": "được"
-    },
-    {
-      "section_order": 9,
-      "text": "is",
-      "nth": 6,
-      "vi": "được"
-    },
-    {
-      "section_order": 5,
-      "text": "Italian",
-      "nth": 1,
-      "vi": "Ý"
-    },
-    {
-      "section_order": 5,
-      "text": "Italian",
-      "nth": 2,
-      "vi": "Ý"
     },
     {
       "section_order": 8,
@@ -201,48 +109,13 @@
     },
     {
       "section_order": 8,
-      "text": "eel",
-      "vi": "lươn"
-    },
-    {
-      "section_order": 8,
-      "text": "squid",
-      "vi": "mực"
-    },
-    {
-      "section_order": 8,
       "text": "sardines",
       "vi": "cá mòi"
     },
     {
       "section_order": 8,
-      "text": "tuna",
-      "vi": "cá ngừ"
-    },
-    {
-      "section_order": 8,
-      "text": "mackerel",
-      "vi": "cá thu"
-    },
-    {
-      "section_order": 8,
-      "text": "salmon",
-      "vi": "cá hồi"
-    },
-    {
-      "section_order": 8,
       "text": "herring",
       "vi": "cá trích"
-    },
-    {
-      "section_order": 8,
-      "text": "Curry",
-      "vi": "cà ri"
-    },
-    {
-      "section_order": 8,
-      "text": "Coconut",
-      "vi": "dừa"
     },
     {
       "section_order": 9,
@@ -268,12 +141,6 @@
       "section_order": 9,
       "text": "Hawaiian",
       "vi": "kiểu Hawaii"
-    },
-    {
-      "section_order": 11,
-      "text": "is",
-      "nth": 1,
-      "vi": "được"
     },
     {
       "section_order": 11,
@@ -307,5 +174,6 @@
       "nth": 2,
       "vi": "lớp phủ"
     }
-  ]
+  ],
+  "cover": {"source": "sources/pizza.jpg", "box": [290, 160, 540, 316]}
 }

@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "slug": "curry-chicken",
+  "title": "The Simple Restaurant Trick That Makes an Unforgettable Curry Chicken and Rice",
+  "sections": [
+    {
+      "order": 0,
+      "title": "A restaurant dish at home",
+      "body": "If you have an oven, you're well on your way to this simple, comforting weeknight dinner.\n\nI used to mourn the loss of beloved restaurant dishes, grieve them like they were past purgatory, but lately, I've been bringing them back by figuring out how to make them. That invariably means changing them to some degree, possibly infuriating purists, but the more I dig into the origins of favorite old meals, the more I realize that most are born of reinvention and evolution, if an origin story can be found at all.",
+      "icon_hint": "home"
+    },
+    {
+      "order": 1,
+      "title": "A high school favorite",
+      "body": "Take baked Portuguese chicken rice, my go-to high school order at Hong Kong-style cafes (the Los Angeles reinventions of cha chaan teng, or “tea restaurants”). Fat hunks of chicken, potatoes and carrots are smothered in a thick, sunflower-yellow sauce and baked over egg fried rice until bubbling along the edges of a ceramic dish. Faintly spicy with curry and a touch sweet from coconut milk, it's lush above all, the creamy sauce concentrating in the oven, fusing with the rice into a comfort strong enough for teenage tears.",
+      "icon_hint": "rice"
+    },
+    {
+      "order": 2,
+      "title": "Why Portuguese?",
+      "body": "You may be wondering, as I did, what this dish has to do with Portugal. In his upcoming cookbook, “Cha Chaan Teng: Comfort Food From Hong Kong's Iconic Diners,” the chef Lucas Sin writes about its journey “along Portuguese colonial routes” from Mozambique to Europe to Macau, Hong Kong's neighbor, which was once a colony of Portugal. That thread can't be confirmed through English-language research, but Mr. Sin explained that he had relied on oral tradition in addition to newspaper, government and academic archives. Besides, written history wasn't the point.",
+      "icon_hint": "map"
+    },
+    {
+      "order": 3,
+      "title": "Global influences",
+      "body": "“It speaks to the bigger picture of the cha chaan teng really absorbing a lot of global influences,” he said from his pop-up kitchen in Manhattan's Chinatown. Hole-in-the-wall cha chaan teng sling a unique genre of casual Hong Kong dining that reflects the region's long history as a global port city and stint as a British colony. Portuguese chicken appears on most menus, as do fried French toast, ham and egg sandwiches and Singapore noodles, which aren't from Singapore at all.",
+      "icon_hint": "globe"
+    },
+    {
+      "order": 4,
+      "title": "Nobody knows for sure",
+      "body": "Samuel Dic Sum Lai, a doctoral candidate researching cha chaan teng who wrote the foreword to Mr. Sin's book, took a more careful academic approach. Speaking from Hong Kong, he said that “90 percent of the time, we have no idea” how a dish came to be. In the case of Portuguese chicken rice, he traced at least three possible routes for picking up its spice, roux, coconut and rice influences and noted the common additions of midcentury pantry ingredients like evaporated milk and peanut butter. But both he and Mr. Sin were sure of one thing: Portuguese chicken rice is not meant to be cooked at home.",
+      "icon_hint": "book"
+    },
+    {
+      "order": 5,
+      "title": "The oven trick",
+      "body": "It would take home cooks at least a day to recreate the cha chaan teng version, which was designed to be pulled together from a professional kitchen's tight line of prepped base sauces, rice and wok stations. To capture its highlights in a streamlined meal, I focused on its one defining trick: baking.\n\nThe dry heat of the oven not only deepens the turmeric savoriness of the whole dish, but it can also cook the rice from the start. Classically, fried rice serves as the base because the wok-tossed golden grains stay fluffy and separate under the blanket of sauce. Baking the rice in the casserole dish you'll ultimately serve it in saves you from scrubbing another pot, and it helps the rice stay a bit drier even as it cooks through, all the better to cradle the chicken. This hands-off technique for a portable tray of tender grains is one you'll return to again and again.",
+      "icon_hint": "oven"
+    },
+    {
+      "order": 6,
+      "title": "A lighter sauce",
+      "body": "While the rice bakes, the chicken comes together on the stovetop. Hong Kong-style “Portuguese sauce” typically carries only a whisper of curry, which becomes even quieter when simmered with rich roux and creamy, sweet coconut and evaporated milks. For a punchier yet lighter take at home, I shifted the sauce toward mild curry, naturally sweetened it with red bell pepper and swapped the buttery roux for cornstarch to thicken only coconut milk.\n\nOnce cooked, the curry is good enough to eat on its own, but it becomes utterly glorious when it's blasted in a hot oven over the rice. A final sprinkle of cheese — yes, cheese — is another cross-cultural option for this dish, and dried coconut is a topping I grew up enjoying in Southern California. Both add to the dish's golden charm and reinforce its freewheeling global style.",
+      "icon_hint": "pot"
+    },
+    {
+      "order": 7,
+      "title": "Always changing",
+      "body": "Mr. Sin's cookbook is not only a great, well-designed read, it's a preservation of the midcentury Hong Kong diners still open today, serving classics and innovations with an unselfconscious commingling of global cuisines. He said the food was “the antidote to our sensitivity or fear that traditional things are disappearing because there's a constant evolution, a huge optimism of cha chaan teng.” What stays the same is the change.\n\nThat spirit extends to home kitchens in the diaspora. Even if you can't slip into a cha chaan teng in Hong Kong, you can get a little taste of it with these layers of Chinese rice and South and Southeast Asian-inflected, creamy, European-ish sauce baked like an American casserole, stretchy cheese and all. One bite, and it all makes sense.",
+      "icon_hint": "sparkle"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "slug": "farming",
+  "title": "FARMING Feeding the world",
+  "sections": [
+    {
+      "order": 0,
+      "title": "Introduction",
+      "body": "More than 10,000 years ago people in the Near East and Southwest Asia learned to cultivate wild grasses to produce edible seeds and grain. These first farmers also domesticated herd animals such as cattle, goats and sheep. This meant people no longer needed to be hunter-gathers and could settle in permanent homes. Centuries later, European explorers brought home new plants such as potatoes and tomatoes, and crops became more diversified. Today, with modern air transport, farmers can send their fresh produce almost anywhere in the world.",
+      "icon_hint": "wheat"
+    },
+    {
+      "order": 1,
+      "title": "Tools and machines",
+      "body": "The earliest tools for breaking soil and preparing it for planting probably were large sticks or deer antlers. Then plows were invented. First made of wood and then of iron, the earliest plows were pulled or pushed by people.\n\nThere was little change in farming techniques for thousands of years. However, over the past 300 years many new machines have been invented for planting, sowing and harvesting\n\nAs people began to domesticate animals, they started to harness horses and oxen to plows. This let them prepare more land each day. Although today, we say\n\nan acre is 43,560 square feet, in earlier times it represented the amount of land a yoke (a team) of oxen could plow in a single day. Today, tractors are often used to pull plows and other farm equipment.\n\nPlows break the soil into large chunks. These need to be broken into smaller chunks by a tool called a cultivator or harrow in order for crops to grow well.\n\nHarvesting machines used to reap grains such as wheat and corn are called combines. A wheat combine cuts the wheat with a rotating blade similar to a push mower. The wheat falls onto a conveyor belt where the kernels are separated from the straw. The kernels are then stored in a bin and the straw is returned to the ground.\n\nMany modern farmers use machines that disk, plant and fertilize all in one step. This no-till technique allows them to immediately plant over a field that has been freshly harvested. The combination of plowing and disking saves both time and money. It also helps conserve the soil.",
+      "icon_hint": "tractor"
+    },
+    {
+      "order": 2,
+      "title": "Variety",
+      "body": "Many farms specialize in one kind of crop or livestock. Farms that only grow crops are called arable farms.\n\nPastoral or livestock farms use their fields for grazing animals. Mixed farms combine arable and pastoral farming A ranch is a large farm that raises horses, cattle or sheep. Ranch is from a Spanish word that translates as \"a place where livestock roam\".\n\nPlantations are very large farms that typically grow cotton, sugar cane or pineapples. Usually located in warm climates plantations of the past often used slaves as laborers.\n\nDairy farms specialize in milk products. They use sterilized machines to milk the cows\n\nA poultry farm may raise chickens, ducks, turkeys or geese. There are even poultry farms that breed emus or ostriches.\n\nFarmers that keep just a small plot of land and a few animals to meet their own needs are called subsistence farmers.\n\nFruit farms that grow crops such as apples, peaches and cherries are called orchards.\n\nSome farmers breed exotic animals for their wool, fur or skin, such as llamas, mink, bison and crocodiles.",
+      "icon_hint": "cow"
+    },
+    {
+      "order": 3,
+      "title": "Cereal crops",
+      "body": "The most important foods grown are cereal crops.\n\nThese are grains like wheat, corn, rice, barley, millet and oats. Corn and barley are grown almost everywhere, but farmers usually plant crops that grow well in their particular soil and climate. Grains feed animals as well as people.",
+      "icon_hint": "grain"
+    },
+    {
+      "order": 4,
+      "title": "Pests",
+      "body": "Pests destroy more than a third of the world's food supply. To fight pests, many farmers use chemical-based pesticides, herbicides and insecticides on their crops.\n\nSome farmers and consumers believe these compounds are harmful to man and the environment, and they prefer to combat these problems organically. Farmer-friendly insects that eat pests is one organic solution; using genetically modified plants that resist disease is another.",
+      "icon_hint": "insect"
+    },
+    {
+      "order": 5,
+      "title": "Using soil wisely",
+      "body": "Soil is made up of fine rock particles, decayed grass and wood. Loam is very good for farming because it contains many useful minerals that help plants grow strong. To\n\nimprove the soil, farmers often enrich it with fertilizers containing nitrogen. Fertilizers can be organic such as manure, or made up of a combination of chemicals. In response to the growing demand for organic food, many farmers are choosing not to use chemical pesticides and/or fertilizers in their soil.\n\nSoil erosion takes place when topsoil is worn away by water and wind. Farmers try to prevent erosion by planting grass to hold down the soil in unworked fields.\n\nLand that lies fallow, meaning not plowed and worked is less likely to erode. For this reason, farmers often leave a field unplanted for a year or rotate crops to give the land a rest.",
+      "icon_hint": "soil"
+    },
+    {
+      "order": 6,
+      "title": "Irrigation",
+      "body": "To grow, crops need water. Without rain plants will shrivel and die and orchards will produce few or no fruits. Farmers use irrigation to overcome this problem. They dig shallow ditches or bring water in through movable pipes and hoses. This kind of irrigation requires a major source of water such as a well, or a lake or creek.",
+      "icon_hint": "water"
+    },
+    {
+      "order": 7,
+      "title": "Feast or famine",
+      "body": "Poor soil, erosion, pests, droughts, storms and floods can all cause crop failure and famine, where people and animals go hungry. Many countries are susceptible to famine because they lack the soil or climate to grow plentiful crops. Others, like the U.S. and Canada, grow more food than their populations need.",
+      "icon_hint": "food"
+    }
+  ]
+}

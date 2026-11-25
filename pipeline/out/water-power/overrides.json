@@ -61,5 +61,6 @@
       "vi": "cối xay",
       "nth": 3
     }
-  ]
+  ],
+  "cover": {"source": "sources/water_power.jpg", "box": [70, 835, 300, 979]}
 }

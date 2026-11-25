@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "slug": "robots",
+  "title": "ROBOTS",
+  "sections": [
+    {
+      "order": 0,
+      "title": "Introduction",
+      "body": "Robot technology has been growing in leaps and bounds over the past 60 years. No longer only the stuff of science fiction, today's robots are found in factories, hospitals, outer space, on the streets and even in our homes.",
+      "icon_hint": "robot"
+    },
+    {
+      "order": 1,
+      "title": "By definition",
+      "body": "A robot is a machine that is guided by a computer or electronics. The word \"robot\" was coined in 1921 by Czech writer Karel Čapek, who used the word to describe a fictional humanoid in his play called \"R.U.R.\" (\"Rossum's Universal Robots\").\n\nRobotics is the science and study of robots.",
+      "icon_hint": "book"
+    },
+    {
+      "order": 2,
+      "title": "The first robots",
+      "body": "Robots have been around since ancient times, when automated devices called automatons were designed to look and move like animals or people. These early robots were created to entertain.",
+      "icon_hint": "automaton"
+    },
+    {
+      "order": 3,
+      "title": "Moving forward",
+      "body": "In 1956, the world's first industrial robot company was created, and the first digital, programmable robot was developed. Named Unimate, this robot was purchased in 1960 by General Motors and used to lift hot metal parts.",
+      "icon_hint": "factory"
+    },
+    {
+      "order": 4,
+      "title": "Good or bad",
+      "body": "There can be no question that robots are very useful. They can work in environments that are too toxic or too dangerous for people. They can perform their jobs inside volcanoes, under the ocean or on Mars. Robots can do repetitious work without getting tired or bored. They don't need to eat or sleep, and they don't complain. In some situations, robots are more affordable than paying people.\n\nSome people worry about the growing use of robots. There are concerns that robots will replace people in too many jobs, causing unemployment. Another fear is that human interactions will suffer if robots take over tasks such as caring for the sick or elderly.",
+      "icon_hint": "scale"
+    },
+    {
+      "order": 5,
+      "title": "Science fiction",
+      "body": "Over the years, countless robots have been featured in books, television shows and movies. Some robots are friendly; some are not. Humanlike robot characters have given rise to questions about humanity and the ethics surrounding artificial intelligence.",
+      "icon_hint": "film"
+    },
+    {
+      "order": 6,
+      "title": "ASIMO",
+      "body": "Since 1986, engineers at Honda have been working on and improving a robot known as ASIMO. This robot can walk and run, make turns, climb stairs, and reach for and grasp objects. ASIMO can also understand and respond to basic voice commands.\n\nASIMO visits schools around the world to encourage the study of sciences.",
+      "icon_hint": "robot"
+    },
+    {
+      "order": 7,
+      "title": "Artificial intelligence",
+      "body": "Robots cannot think or make decisions; those with artificial intelligence (AI for short) have computers that are programmed to respond in a particular way. People sometimes attribute robots with emotions and intelligence.\n\nIf robots seem intelligent, emotional or capable of independent thought, it is only because that is how they were programmed to be.\n\nAI robots are able to process information, and some are able to \"learn.\" However, no matter how humanlike a robot may seem, it is limited by the information and the functions it's programmed with.\n\nWatson was a computer system developed by IBM and programmed to answer questions on the quiz show \"Jeopardy.\" Watson defeated the human players and received the first-place prize of $1 million.\n\nIn a London 2014 computer science competition, a computerized conversation program, or chatbot, fooled 33 percent of the judges into thinking it was a human boy.",
+      "icon_hint": "brain"
+    },
+    {
+      "order": 8,
+      "title": "Nanobots",
+      "body": "Nano-robots, or nanobots, are microscopic robots designed to function in tiny spaces. Nanobot technology is still in its infancy, but it is hoped that future nano-bots will prove useful in medicine. Nanobots may be able to navigate the blood stream, carrying medication, performing surgeries, fighting bacteria or killing cancer cells.\n\nAs small as a pinhead, a nanobot might look like this.",
+      "icon_hint": "microscope"
+    },
+    {
+      "order": 9,
+      "title": "Robots at work",
+      "body": "Super fast processors, inexpensive sensors, abundant code and 3-D printing are playing a vital role in industrial robot technology.\n\nThe twin Mars Exploration Rovers, Spirit and Opportunity, landed on Mars in January 2004. Spirit lost communication in 2010, but Opportunity continues its mission on Mars, collecting rocks and soil samples and recording images.\n\nHitchBOT was a Canadian robot and social experiment that talked and tweeted its hitchhiking adventures while traveling across Canada, Europe and the U.S.\n\nStrangers helped hitchBOT travel from place to place while checking items off its bucket list.\n\nBigDog is a military robot designed to work on rough terrain. About the size of a large dog, this robot's computer controls locomotion, sensors, navigation and communications. BigDog can walk, run, climb and carry heavy loads.\n\nRobotic vacuum cleaners are programmed to sweep floors and return to a dock to recharge.",
+      "icon_hint": "gear"
+    },
+    {
+      "order": 10,
+      "title": "Robots on screen",
+      "body": "R2-D2 is a famous robot from the \"Star Wars\" movies.\n\nR2-D2 was inducted into the Robot Hall of Fame in 2003. The Smithsonian Institution included this droid on its list of 101 Objects that Made America.\n\nWall-E is the title robot in a 2008 animated film.\n\nRobot from the 1960s TV show \"Lost in Space.\"",
+      "icon_hint": "movie"
+    }
+  ]
+}

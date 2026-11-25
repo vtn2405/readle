@@ -1,0 +1,357 @@
+{
+  "title_lines": [
+    "L007"
+  ],
+  "sections": [
+    {
+      "title_lines": [],
+      "body_lines": [
+        "L014",
+        "L017",
+        "L020",
+        "L024",
+        "L027",
+        "L030",
+        "L035",
+        "L038",
+        "L042"
+      ],
+      "icon_hint": "pizza",
+      "paragraph_starts": []
+    },
+    {
+      "title_lines": [
+        "L015"
+      ],
+      "body_lines": [
+        "L018",
+        "L021",
+        "L023",
+        "L026",
+        "L029",
+        "L032",
+        "L033",
+        "L037",
+        "L039",
+        "L041",
+        "L044",
+        "L046",
+        "L048",
+        "L050"
+      ],
+      "icon_hint": "idea",
+      "paragraph_starts": []
+    },
+    {
+      "title_lines": [
+        "L053"
+      ],
+      "body_lines": [
+        "L055",
+        "L057",
+        "L060",
+        "L063",
+        "L066",
+        "L069"
+      ],
+      "icon_hint": "history",
+      "paragraph_starts": []
+    },
+    {
+      "title_lines": [
+        "L075"
+      ],
+      "body_lines": [
+        "L080",
+        "L083",
+        "L086",
+        "L089",
+        "L092",
+        "L094",
+        "L095",
+        "L097",
+        "L100",
+        "L103",
+        "L106",
+        "L108",
+        "L113",
+        "L117"
+      ],
+      "icon_hint": "tomato",
+      "paragraph_starts": []
+    },
+    {
+      "title_lines": [
+        "L123"
+      ],
+      "body_lines": [
+        "L129",
+        "L133",
+        "L137",
+        "L140",
+        "L144",
+        "L147",
+        "L149",
+        "L151",
+        "L152",
+        "L155"
+      ],
+      "icon_hint": "pizza",
+      "paragraph_starts": []
+    },
+    {
+      "title_lines": [
+        "L120"
+      ],
+      "body_lines": [
+        "L124",
+        "L127",
+        "L131",
+        "L135",
+        "L138",
+        "L142",
+        "L145",
+        "L148",
+        "L150"
+      ],
+      "icon_hint": "story",
+      "paragraph_starts": []
+    },
+    {
+      "title_lines": [
+        "L158"
+      ],
+      "body_lines": [
+        "L162",
+        "L165",
+        "L167",
+        "L169",
+        "L172",
+        "L176",
+        "L179",
+        "L180",
+        "L183",
+        "L187",
+        "L189"
+      ],
+      "icon_hint": "travel",
+      "paragraph_starts": []
+    },
+    {
+      "title_lines": [
+        "L194"
+      ],
+      "body_lines": [
+        "L199",
+        "L202",
+        "L206",
+        "L210",
+        "L216"
+      ],
+      "icon_hint": "pie",
+      "paragraph_starts": []
+    },
+    {
+      "title_lines": [
+        "L160"
+      ],
+      "body_lines": [
+        "L163",
+        "L166",
+        "L170",
+        "L173",
+        "L175",
+        "L178",
+        "L182",
+        "L184",
+        "L186",
+        "L190",
+        "L192",
+        "L195",
+        "L197",
+        "L198",
+        "L203",
+        "L207",
+        "L211",
+        "L214"
+      ],
+      "icon_hint": "world",
+      "paragraph_starts": []
+    },
+    {
+      "title_lines": [
+        "L098"
+      ],
+      "body_lines": [
+        "L101",
+        "L105",
+        "L109",
+        "L116",
+        "L119",
+        "L122",
+        "L126",
+        "L130",
+        "L134",
+        "L139"
+      ],
+      "icon_hint": "variety",
+      "paragraph_starts": [
+        "L105",
+        "L116",
+        "L122",
+        "L130",
+        "L139"
+      ]
+    },
+    {
+      "title_lines": [
+        "L074"
+      ],
+      "body_lines": [
+        "L079",
+        "L082",
+        "L085",
+        "L088",
+        "L091",
+        "L093",
+        "L059",
+        "L062",
+        "L065",
+        "L068",
+        "L071",
+        "L072",
+        "L077"
+      ],
+      "icon_hint": "health",
+      "paragraph_starts": [
+        "L059"
+      ]
+    },
+    {
+      "title_lines": [
+        "L096"
+      ],
+      "body_lines": [
+        "L099",
+        "L102",
+        "L104",
+        "L107",
+        "L112",
+        "L118",
+        "L121",
+        "L125",
+        "L128",
+        "L132",
+        "L136",
+        "L141",
+        "L143",
+        "L146"
+      ],
+      "icon_hint": "facts",
+      "paragraph_starts": [
+        "L112",
+        "L121",
+        "L132"
+      ]
+    },
+    {
+      "title_lines": [
+        "L002"
+      ],
+      "body_lines": [
+        "L003",
+        "L004",
+        "L006",
+        "L008",
+        "L009",
+        "L010",
+        "L011",
+        "L012",
+        "L049",
+        "L051",
+        "L052",
+        "L054",
+        "L056",
+        "L058",
+        "L061",
+        "L064",
+        "L067",
+        "L070",
+        "L073",
+        "L076",
+        "L078",
+        "L081",
+        "L084",
+        "L087",
+        "L090"
+      ],
+      "icon_hint": "recipe",
+      "paragraph_starts": [
+        "L049"
+      ]
+    }
+  ],
+  "ignore": [
+    "L000",
+    "L001",
+    "L005",
+    "L013",
+    "L016",
+    "L019",
+    "L022",
+    "L025",
+    "L028",
+    "L031",
+    "L034",
+    "L036",
+    "L040",
+    "L043",
+    "L045",
+    "L047",
+    "L110",
+    "L111",
+    "L114",
+    "L115",
+    "L153",
+    "L154",
+    "L156",
+    "L157",
+    "L159",
+    "L161",
+    "L164",
+    "L168",
+    "L171",
+    "L174",
+    "L177",
+    "L181",
+    "L185",
+    "L188",
+    "L191",
+    "L193",
+    "L196",
+    "L200",
+    "L201",
+    "L204",
+    "L205",
+    "L208",
+    "L209",
+    "L212",
+    "L213",
+    "L215",
+    "L217",
+    "L218",
+    "L219",
+    "L220",
+    "L221",
+    "L222"
+  ],
+  "section_titles": {
+    "0": "A Favorite Food"
+  },
+  "line_fixes": {
+    "L095": "But the peasants of Naples, Italy,",
+    "L145": "queen loved the pizza, and her enthusiasm",
+    "L167": "19th century, and small family-"
+  },
+  "extra_lines": []
+}

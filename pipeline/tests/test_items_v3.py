@@ -162,7 +162,7 @@ def test_merge_uses_dictionary_for_v3_only():
 # ── prompt + ghim ──
 
 def test_v3_prompt_has_new_rules_and_v2_unchanged():
-    assert ITEMS_PROMPT_VERSION == "items-v3" and ITEMS_PROMPT_V2 == "items-v2"
+    assert ITEMS_PROMPT_VERSION == "items-v4" and ITEMS_PROMPT_V2 == "items-v2"  # v4: BE-06i
     for s in ("evidence", "read documents", "Not Given", "more general", "legend"):
         assert s in ITEMS_PROMPT_V3
     assert "evidence" not in ITEMS_PROMPT  # prompt v2 của 8 bài đã ghim giữ nguyên

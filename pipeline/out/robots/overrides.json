@@ -32,5 +32,6 @@
   },
   "drop_items": [
     "repetitious work"
-  ]
+  ],
+  "cover": {"source": "sources/robot.jpg", "box": [462, 318, 668, 447]}
 }

@@ -38,5 +38,6 @@
   ],
   "drop_items": [
     "poultry farm"
-  ]
+  ],
+  "cover": {"source": "sources/farming.jpg", "box": [420, 60, 736, 258]}
 }

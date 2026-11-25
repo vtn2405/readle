@@ -336,7 +336,13 @@ class TestBuildBundle:
         data = build_bundle("test", "Test", "Cat", "A2", "Src", False,
                             [sd], items, quiz, occs, details)
         bundle = ArticleBundle.model_validate(data)
-        assert bundle.contract_version == "1.4"
+        assert bundle.contract_version == "1.5"
+        # 1.5: bundle giữ cover_url null (seed điền), excerpt = câu đầu card đầu
+        assert bundle.article.cover_url is None
+        first = "".join(t["text"] + t["ws"] for t in data["sections"][0]["tokens"])
+        assert bundle.article.excerpt and first.startswith(bundle.article.excerpt.rstrip("…"))
+        assert build_bundle("test", "Test", "Cat", "A2", "Src", False, [sd], items, quiz, occs, details,
+                            excerpt="Hand-written.")["article"]["excerpt"] == "Hand-written."
         assert bundle.article.word_count > 0
         assert bundle.article.section_count == 1
         assert all(e.cefr_level == "B1" and e.definition_en == "def" for e in bundle.lexicon)

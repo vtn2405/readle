@@ -10,8 +10,9 @@ from __future__ import annotations
 from typing import Literal, Optional
 from pydantic import BaseModel, Field, model_validator
 
-CONTRACT_VERSION = "1.4"
+CONTRACT_VERSION = "1.5"
 DEFINITION_MAX_WORDS = 15
+EXCERPT_MAX_CHARS = 160
 
 
 class Token(BaseModel):
@@ -61,6 +62,10 @@ class Article(BaseModel):
     source: Source
     word_count: int
     section_count: int
+    # 1.5 (ADR-024): đều tùy chọn, bundle cũ vẫn hợp lệ.
+    cover_url: Optional[str] = Field(default=None, description="ảnh bìa WebP 960×600 (bucket covers); null → bìa chủ đề")
+    excerpt: Optional[str] = Field(default=None, min_length=1, max_length=EXCERPT_MAX_CHARS,
+                                   description="câu đầu card đầu, chép nguyên văn, ≤ 160 ký tự")
 
 
 class LexiconEntry(BaseModel):
@@ -104,8 +109,8 @@ class QuizItem(BaseModel):
 
 class ArticleBundle(BaseModel):
     # 1.2, 1.3 chỉ đổi event audio_played (ADR-013, ADR-014); 1.4 chỉ đổi bảng người dùng + event
-    # word_saved (ADR-019). Dữ liệu bundle giống 1.1 nên chấp nhận cả bốn.
-    contract_version: Literal["1.1", "1.2", "1.3", "1.4"] = CONTRACT_VERSION
+    # word_saved (ADR-019); 1.5 chỉ thêm 2 trường tùy chọn vào article (ADR-024). Chấp nhận cả năm.
+    contract_version: Literal["1.1", "1.2", "1.3", "1.4", "1.5"] = CONTRACT_VERSION
     article: Article
     sections: list[Section]
     lexicon: list[LexiconEntry]
